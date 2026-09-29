@@ -1,0 +1,1639 @@
+{
+  "hypotheses": [
+    {
+      "hyp_id": "grammar:order-1#1",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:order-1"
+      ],
+      "template": "word_order",
+      "params": {
+        "verb_position": "final"
+      },
+      "quote": "Nadi-9 is verb-final. The normal order is **Subject \u2013 Object \u2013 Verb**.",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E01",
+        "examples:E02",
+        "examples:E03",
+        "examples:E04",
+        "examples:E05",
+        "examples:E06",
+        "examples:E07",
+        "examples:E08",
+        "examples:E09",
+        "examples:E11",
+        "examples:E12",
+        "examples:E13",
+        "examples:E14",
+        "examples:E15",
+        "examples:E16",
+        "examples:E17",
+        "examples:E18",
+        "examples:E19",
+        "examples:E20",
+        "interview_01:seg1",
+        "interview_01:seg2",
+        "interview_01:seg3",
+        "interview_01:seg4",
+        "interview_02:seg1",
+        "interview_02:seg2",
+        "interview_02:seg3",
+        "interview_03:seg1",
+        "interview_03:seg2",
+        "interview_03:seg4",
+        "interview_04:seg3"
+      ],
+      "counter": [],
+      "support_w": 28.5,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.967,
+      "status": "supported",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:tense-1#1",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:tense-1"
+      ],
+      "template": "affix",
+      "params": {
+        "kind": "suffix",
+        "form": "a",
+        "feature": "tense=present",
+        "attaches_to": "verb"
+      },
+      "quote": "Present | `-a` | `vela` goes / is going",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E01",
+        "examples:E04",
+        "examples:E13",
+        "examples:E16",
+        "examples:E17",
+        "examples:E20",
+        "interview_01:seg2",
+        "interview_02:seg3"
+      ],
+      "counter": [],
+      "support_w": 7.74,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.897,
+      "status": "supported",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:tense-1#2",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:tense-1"
+      ],
+      "template": "affix",
+      "params": {
+        "kind": "suffix",
+        "form": "en",
+        "feature": "tense=past",
+        "attaches_to": "verb"
+      },
+      "quote": "Past | `-en` | `velen` went",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E02",
+        "examples:E05",
+        "examples:E06",
+        "examples:E07",
+        "examples:E08",
+        "examples:E14",
+        "examples:E15",
+        "examples:E19",
+        "interview_01:seg1",
+        "interview_01:seg2",
+        "interview_02:seg1",
+        "interview_02:seg2",
+        "interview_03:seg1",
+        "interview_03:seg2",
+        "interview_04:seg3"
+      ],
+      "counter": [],
+      "support_w": 13.99,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.937,
+      "status": "supported",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:tense-1#3",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:tense-1"
+      ],
+      "template": "affix",
+      "params": {
+        "kind": "suffix",
+        "form": "iru",
+        "feature": "tense=future",
+        "attaches_to": "verb"
+      },
+      "quote": "Future | `-iru` | `veliru` will go",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E03",
+        "examples:E09",
+        "examples:E11",
+        "examples:E12"
+      ],
+      "counter": [],
+      "support_w": 4.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.833,
+      "status": "supported",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:neg-1#1",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:neg-1"
+      ],
+      "template": "particle_position",
+      "params": {
+        "particle": "na",
+        "relative_to": "verb",
+        "position": "before",
+        "feature": "negation"
+      },
+      "quote": "The particle `na` is placed immediately **before** the verb.",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E05",
+        "examples:E13",
+        "interview_01:seg1",
+        "interview_03:seg2"
+      ],
+      "counter": [],
+      "support_w": 3.83,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.828,
+      "status": "supported",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:q-1#1",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:q-1"
+      ],
+      "template": "particle_position",
+      "params": {
+        "particle": "ko",
+        "relative_to": "clause_end",
+        "position": "at",
+        "feature": "yes_no_question"
+      },
+      "quote": "A yes/no question ends with the particle `ko`. Word order does not change.",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E06",
+        "examples:E09",
+        "examples:E11",
+        "interview_02:seg2"
+      ],
+      "counter": [],
+      "support_w": 3.79,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.827,
+      "status": "supported",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:respect-2#1",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:respect-2"
+      ],
+      "template": "agreement",
+      "params": {
+        "if_word": "tavo",
+        "then_affix": "sa",
+        "on": "verb",
+        "tenses": [
+          "present",
+          "past",
+          "future"
+        ],
+        "affix_by_tense": {
+          "present": "si"
+        }
+      },
+      "quote": "When the subject is `tavo`, the verb takes the honorific suffix `-sa` **after** the tense suffix.",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E08",
+        "examples:E09",
+        "examples:E11",
+        "interview_02:seg2",
+        "interview_04:seg3",
+        "event_01_rule_correction:event"
+      ],
+      "counter": [],
+      "support_w": 5.56,
+      "counter_w": 0.0,
+      "by_feature": {
+        "past": {
+          "support": 2.56,
+          "counter": 0.0
+        },
+        "future": {
+          "support": 2.0,
+          "counter": 0.0
+        },
+        "present": {
+          "support": 1.0,
+          "counter": 0.0
+        }
+      },
+      "confidence": 0.868,
+      "status": "supported",
+      "competes_with": [],
+      "note": "v2: present ending corrected to -si by EV01 (Dr. Leela Varkey)",
+      "version": 2,
+      "history": [
+        {
+          "version": 1,
+          "params": {
+            "if_word": "tavo",
+            "then_affix": "sa",
+            "on": "verb",
+            "tenses": [
+              "present",
+              "past",
+              "future"
+            ]
+          },
+          "changed_by": "EV01"
+        }
+      ],
+      "external_support": {
+        "present": [
+          "event_01_rule_correction:event"
+        ]
+      },
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:respect-1#1",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:respect-1"
+      ],
+      "template": "lexical_choice",
+      "params": {
+        "term": "tu",
+        "condition": "condition: None; allowed status: ['equal', 'lower']",
+        "allowed_status": [
+          "equal",
+          "lower"
+        ]
+      },
+      "quote": "- `tu` \u2014 familiar. Used for friends, equals, younger people, children.",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E06",
+        "examples:E19"
+      ],
+      "counter": [],
+      "support_w": 2.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.75,
+      "status": "supported",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:respect-1#2",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:respect-1"
+      ],
+      "template": "lexical_choice",
+      "params": {
+        "term": "tavo",
+        "condition": "condition: None; allowed status: ['higher']",
+        "allowed_status": [
+          "higher"
+        ]
+      },
+      "quote": "- `tavo` \u2014 respectful. Used for parents, elders, employers, the village headman, and guests.",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E08",
+        "examples:E09",
+        "examples:E11"
+      ],
+      "counter": [],
+      "support_w": 3.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.8,
+      "status": "supported",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:respect-3#1",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:respect-3"
+      ],
+      "template": "lexical_choice",
+      "params": {
+        "term": "tavora",
+        "condition": "condition: None; allowed status: ['higher']",
+        "allowed_status": [
+          "higher"
+        ]
+      },
+      "quote": "\"Your\" is `tura` (familiar) or `tavora` (respectful), matching [respect-1].",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [],
+      "counter": [],
+      "support_w": 0.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.5,
+      "status": "unsupported",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:plural-1#1",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:plural-1"
+      ],
+      "template": "affix",
+      "params": {
+        "kind": "suffix",
+        "form": "li",
+        "feature": "number=plural",
+        "attaches_to": "noun"
+      },
+      "quote": "Nouns take `-li` for plural, also after numbers: `rill savili` \u2014 three days.",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E15",
+        "interview_01:seg1",
+        "interview_03:seg4"
+      ],
+      "counter": [],
+      "support_w": 2.78,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.791,
+      "status": "weak",
+      "competes_with": [],
+      "note": "form attested in 3 place(s); its meaning (number=plural) cannot be checked against the English",
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:loc-1#1",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:loc-1"
+      ],
+      "template": "affix",
+      "params": {
+        "kind": "suffix",
+        "form": "ma",
+        "feature": "case=locative",
+        "attaches_to": "noun"
+      },
+      "quote": "- A static location takes `-ma`: `office-ma` \u2014 in the office.",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E12",
+        "examples:E17",
+        "interview_01:seg3",
+        "interview_01:seg4",
+        "interview_02:seg1"
+      ],
+      "counter": [],
+      "support_w": 4.6,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.848,
+      "status": "weak",
+      "competes_with": [],
+      "note": "form attested in 5 place(s); its meaning (case=locative) cannot be checked against the English",
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:neg-1#2",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:neg-1"
+      ],
+      "template": "gap",
+      "params": {
+        "topic": "negation of future forms, and negative commands"
+      },
+      "quote": "Not yet documented: negation of future forms, and negative commands (\"don't ...\").",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [],
+      "counter": [],
+      "support_w": 0.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.5,
+      "status": "untested",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:q-2#1",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:q-2"
+      ],
+      "template": "gap",
+      "params": {
+        "topic": "whether `ko` is also used with question words"
+      },
+      "quote": "Unclear: whether `ko` is also used with question words. My one speaker omitted it.",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [],
+      "counter": [],
+      "support_w": 0.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.5,
+      "status": "untested",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:kin-1#1",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:kin-1"
+      ],
+      "template": "gap",
+      "params": {
+        "topic": "use of dovanor"
+      },
+      "quote": "A form `dovanor` is also reported for \"elder brother\". I could not determine when it is used.",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [],
+      "counter": [],
+      "support_w": 0.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.5,
+      "status": "untested",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:plural-1#2",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:plural-1"
+      ],
+      "template": "gap",
+      "params": {
+        "topic": "whether English loanwords take `-li`"
+      },
+      "quote": "Unclear: whether English loanwords take `-li`.",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [],
+      "counter": [],
+      "support_w": 0.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.5,
+      "status": "untested",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:num-1#1",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:num-1"
+      ],
+      "template": "gap",
+      "params": {
+        "topic": "numbers 6\u20139 and above 10"
+      },
+      "quote": "Numbers 6\u20139 and above 10 are not documented.",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [],
+      "counter": [],
+      "support_w": 0.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.5,
+      "status": "untested",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:respect-1#3",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:respect-1"
+      ],
+      "template": "gap",
+      "params": {
+        "topic": "address to elder siblings"
+      },
+      "quote": "Address to **elder siblings** varies between families. See [kin-1].",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [],
+      "counter": [],
+      "support_w": 0.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.5,
+      "status": "untested",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:order-2#1",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:order-2"
+      ],
+      "template": "untestable",
+      "params": {},
+      "quote": "Time words (`osa` today, `brem` tomorrow, `nesh` yesterday) normally stand at the start of the clause.",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [],
+      "counter": [],
+      "support_w": 0.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.5,
+      "status": "untested",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:order-3#1",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:order-3"
+      ],
+      "template": "untestable",
+      "params": {},
+      "quote": "Adjectives come before nouns.",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [],
+      "counter": [],
+      "support_w": 0.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.5,
+      "status": "untested",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:imp-1#1",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:imp-1"
+      ],
+      "template": "untestable",
+      "params": {},
+      "quote": "- Familiar command: bare verb root. `dovan, mi ush.` \u2014 Elder brother, forgive me.",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [],
+      "counter": [],
+      "support_w": 0.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.5,
+      "status": "untested",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "grammar:poss-1#1",
+      "origin": "grammar",
+      "source_refs": [
+        "grammar:poss-1"
+      ],
+      "template": "untestable",
+      "params": {},
+      "quote": "`mira` my, `tura` your (familiar), `tavora` your (respectful), `sora` his/her, `masra` our, `solra` their.",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [],
+      "counter": [],
+      "support_w": 0.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.5,
+      "status": "untested",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "induced:verb_position",
+      "origin": "induced",
+      "source_refs": [
+        "examples:E01",
+        "examples:E02",
+        "examples:E03",
+        "examples:E04",
+        "examples:E05"
+      ],
+      "template": "word_order",
+      "params": {
+        "verb_position": "final"
+      },
+      "quote": "measured: verb final in 32/32 clauses",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E01",
+        "examples:E02",
+        "examples:E03",
+        "examples:E04",
+        "examples:E05",
+        "examples:E06",
+        "examples:E07",
+        "examples:E08",
+        "examples:E09",
+        "examples:E11",
+        "examples:E12",
+        "examples:E13",
+        "examples:E14",
+        "examples:E15",
+        "examples:E16",
+        "examples:E17",
+        "examples:E18",
+        "examples:E19",
+        "examples:E20",
+        "interview_01:seg1",
+        "interview_01:seg2",
+        "interview_01:seg3",
+        "interview_01:seg4",
+        "interview_02:seg1",
+        "interview_02:seg2",
+        "interview_02:seg3",
+        "interview_03:seg1",
+        "interview_03:seg2",
+        "interview_03:seg4",
+        "interview_04:seg3"
+      ],
+      "counter": [],
+      "support_w": 28.5,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.967,
+      "status": "supported",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "induced:code_switching",
+      "origin": "induced",
+      "source_refs": [
+        "examples:E08",
+        "examples:E17",
+        "interview_01:seg3",
+        "interview_02:seg1",
+        "interview_02:seg2"
+      ],
+      "template": "code_switching",
+      "params": {
+        "seen": [
+          "meeting",
+          "office",
+          "phone",
+          "report"
+        ]
+      },
+      "quote": "measured: 4 word(s) outside the lexicon in approved material: meeting, office, phone, report",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E08",
+        "examples:E17",
+        "interview_01:seg3",
+        "interview_02:seg1",
+        "interview_02:seg2"
+      ],
+      "counter": [],
+      "support_w": 4.46,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.845,
+      "status": "supported",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "induced:particle:na:before_verb",
+      "origin": "induced",
+      "source_refs": [],
+      "template": "particle_position",
+      "params": {
+        "particle": "na",
+        "relative_to": "verb",
+        "position": "before"
+      },
+      "quote": "measured: 'na' before verb 4 time(s)",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E05",
+        "examples:E13",
+        "interview_01:seg1",
+        "interview_03:seg2"
+      ],
+      "counter": [],
+      "support_w": 3.83,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.828,
+      "status": "supported",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "induced:particle:ko:after_verb",
+      "origin": "induced",
+      "source_refs": [],
+      "template": "particle_position",
+      "params": {
+        "particle": "ko",
+        "relative_to": "verb",
+        "position": "after"
+      },
+      "quote": "measured: 'ko' after verb 4 time(s)",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E06",
+        "examples:E09",
+        "examples:E11",
+        "interview_02:seg2"
+      ],
+      "counter": [],
+      "support_w": 3.79,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.827,
+      "status": "supported",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "induced:particle:ko:clause_end",
+      "origin": "induced",
+      "source_refs": [],
+      "template": "particle_position",
+      "params": {
+        "particle": "ko",
+        "relative_to": "clause_end",
+        "position": "at"
+      },
+      "quote": "measured: 'ko' clause end 4 time(s)",
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E06",
+        "examples:E09",
+        "examples:E11",
+        "interview_02:seg2"
+      ],
+      "counter": [],
+      "support_w": 3.79,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.827,
+      "status": "supported",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "expert_notes:VAR-1#1",
+      "origin": "expert",
+      "source_refs": [
+        "expert_notes:VAR-1"
+      ],
+      "template": "lexical_choice",
+      "params": {
+        "term": "dovanor",
+        "allowed_status": [
+          "elder_sibling"
+        ],
+        "requires_tag": "estranged",
+        "condition": "allowed status: ['elder_sibling']; requires tag: estranged"
+      },
+      "quote": "'dovanor' is a distant, formal way to address an elder brother. Families use it while siblings are estranged or at formal ceremonies. Once they reconcile, they go back to 'dovan'.",
+      "author": "Dr. Leela Varkey",
+      "conflict_of_interest": "Dr. Leela Varkey is the author of interview_01",
+      "support": [
+        "interview_01:seg1"
+      ],
+      "counter": [],
+      "support_w": 0.91,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.656,
+      "status": "weak",
+      "competes_with": [
+        "expert_notes:REH-1#1"
+      ],
+      "note": "condition filled from the other params",
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "expert_notes:REH-1#1",
+      "origin": "expert",
+      "source_refs": [
+        "expert_notes:REH-1"
+      ],
+      "template": "lexical_choice",
+      "params": {
+        "term": "dovanor",
+        "allowed_status": [
+          "elder_sibling"
+        ],
+        "always": true,
+        "condition": "allowed status: ['elder_sibling']; always: True"
+      },
+      "quote": "For broadcast subtitles an elder brother should always be addressed as 'dovanor'. Deference marking is expected on screen regardless of the family situation.",
+      "author": "Tomas Rehn",
+      "conflict_of_interest": "Tomas Rehn works for 'Meridian Lexical Services', author of dictionary_a",
+      "support": [],
+      "counter": [],
+      "support_w": 0.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.5,
+      "status": "unsupported",
+      "competes_with": [
+        "expert_notes:VAR-1#1"
+      ],
+      "note": "condition filled from the other params",
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "expert_notes:REH-3#1",
+      "origin": "expert",
+      "source_refs": [
+        "expert_notes:REH-3"
+      ],
+      "template": "lexical_choice",
+      "params": {
+        "term": "sorai",
+        "allowed_status": [
+          "higher"
+        ],
+        "condition": "allowed status: ['higher']"
+      },
+      "quote": "'sorai' is a polite form of address and is safe to use with elders.",
+      "author": "Tomas Rehn",
+      "conflict_of_interest": "Tomas Rehn works for 'Meridian Lexical Services', author of dictionary_a",
+      "support": [],
+      "counter": [
+        "examples:E10"
+      ],
+      "support_w": 0.0,
+      "counter_w": 1.0,
+      "by_feature": {},
+      "confidence": 0.333,
+      "status": "refuted",
+      "competes_with": [
+        "expert_notes:KIR-4#1",
+        "dictionary_b:B-028#1"
+      ],
+      "note": "condition filled from the other params",
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "expert_notes:KIR-4#1",
+      "origin": "expert",
+      "source_refs": [
+        "expert_notes:KIR-4"
+      ],
+      "template": "lexical_choice",
+      "params": {
+        "term": "sorai",
+        "allowed_status": [
+          "equal"
+        ],
+        "forbidden_status": [
+          "higher"
+        ],
+        "condition": "allowed status: ['equal']; forbidden status: ['higher']"
+      },
+      "quote": "Calling someone of higher status 'sorai' is cheeky at best and rude at worst. Among friends it is warm.",
+      "author": "Asha Kiran",
+      "conflict_of_interest": "Asha Kiran is the author of dictionary_b",
+      "support": [
+        "examples:E10"
+      ],
+      "counter": [],
+      "support_w": 1.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.667,
+      "status": "weak",
+      "competes_with": [
+        "expert_notes:REH-3#1"
+      ],
+      "note": "condition filled from the other params",
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "expert_notes:KIR-1#1",
+      "origin": "expert",
+      "source_refs": [
+        "expert_notes:KIR-1"
+      ],
+      "template": "lexical_choice",
+      "params": {
+        "term": "tu",
+        "forbidden_status": [
+          "higher"
+        ],
+        "condition": "forbidden status: ['higher']"
+      },
+      "quote": "Nobody addresses their boss with 'tu'. I think the honorific was lost in transcription; it should be 'tavo ... tamirusa'.",
+      "author": "Asha Kiran",
+      "conflict_of_interest": "Asha Kiran is the author of dictionary_b",
+      "support": [
+        "examples:E06",
+        "examples:E19"
+      ],
+      "counter": [],
+      "support_w": 2.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.75,
+      "status": "supported",
+      "competes_with": [],
+      "note": "condition filled from the other params",
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "dictionary_b:B-028#1",
+      "origin": "lexicon_note",
+      "source_refs": [
+        "dictionary_b:B-028"
+      ],
+      "template": "lexical_choice",
+      "params": {
+        "term": "sorai",
+        "allowed_status": [
+          "equal"
+        ],
+        "forbidden_status": [
+          "higher"
+        ],
+        "condition": "allowed status: ['equal']; forbidden status: ['higher']"
+      },
+      "quote": "friend. ONLY between equals. Said to a superior it sounds like 'boy' and is cheeky or insulting.",
+      "author": "dictionary_b",
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E10"
+      ],
+      "counter": [],
+      "support_w": 1.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.667,
+      "status": "weak",
+      "competes_with": [
+        "expert_notes:REH-3#1"
+      ],
+      "note": "condition filled from the other params",
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "dictionary_b:B-002#1",
+      "origin": "lexicon_note",
+      "source_refs": [
+        "dictionary_b:B-002"
+      ],
+      "template": "lexical_choice",
+      "params": {
+        "term": "tu",
+        "allowed_status": [
+          "equal",
+          "lower"
+        ],
+        "condition": "allowed status: ['equal', 'lower']"
+      },
+      "quote": "you (familiar: friends, equals, younger people)",
+      "author": "dictionary_b",
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E06",
+        "examples:E19"
+      ],
+      "counter": [],
+      "support_w": 2.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.75,
+      "status": "supported",
+      "competes_with": [],
+      "note": "condition filled from the other params",
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "dictionary_b:B-003#1",
+      "origin": "lexicon_note",
+      "source_refs": [
+        "dictionary_b:B-003"
+      ],
+      "template": "lexical_choice",
+      "params": {
+        "term": "tavo",
+        "allowed_status": [
+          "higher"
+        ],
+        "condition": "allowed status: ['higher']"
+      },
+      "quote": "you (respectful: parents, elders, bosses, headman, guests)",
+      "author": "dictionary_b",
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E08",
+        "examples:E09",
+        "examples:E11"
+      ],
+      "counter": [],
+      "support_w": 3.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.8,
+      "status": "supported",
+      "competes_with": [],
+      "note": "condition filled from the other params",
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "dictionary_b:B-009#1",
+      "origin": "lexicon_note",
+      "source_refs": [
+        "dictionary_b:B-009"
+      ],
+      "template": "lexical_choice",
+      "params": {
+        "term": "tavora",
+        "allowed_status": [
+          "higher"
+        ],
+        "condition": "allowed status: ['higher']"
+      },
+      "quote": "your (respectful)",
+      "author": "dictionary_b",
+      "conflict_of_interest": null,
+      "support": [],
+      "counter": [],
+      "support_w": 0.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.5,
+      "status": "unsupported",
+      "competes_with": [],
+      "note": "condition filled from the other params",
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "dictionary_b:B-022#1",
+      "origin": "lexicon_note",
+      "source_refs": [
+        "dictionary_b:B-022"
+      ],
+      "template": "lexical_choice",
+      "params": {
+        "term": "dovanor",
+        "allowed_status": [
+          "elder_sibling"
+        ],
+        "condition": "allowed status: ['elder_sibling']"
+      },
+      "quote": "elder brother (formal / distant form). Usage disputed, see expert notes.",
+      "author": "dictionary_b",
+      "conflict_of_interest": null,
+      "support": [],
+      "counter": [],
+      "support_w": 0.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.5,
+      "status": "unsupported",
+      "competes_with": [],
+      "note": "condition filled from the other params",
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "expert_notes:VAR-3#1",
+      "origin": "expert",
+      "source_refs": [
+        "expert_notes:VAR-3"
+      ],
+      "template": "gap",
+      "params": {
+        "topic": "pluralization of English nouns with -li"
+      },
+      "quote": "I never heard them take the plural -li.",
+      "author": "Dr. Leela Varkey",
+      "conflict_of_interest": "Dr. Leela Varkey is the author of interview_01",
+      "support": [],
+      "counter": [],
+      "support_w": 0.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.5,
+      "status": "untested",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "expert_notes:KIR-3#1",
+      "origin": "expert",
+      "source_refs": [
+        "expert_notes:KIR-3"
+      ],
+      "template": "gap",
+      "params": {
+        "topic": "future negation forms (na veliru vs velnai)"
+      },
+      "quote": "For future negation I have heard both 'na veliru' and 'velnai'. I do not know which is standard, or whether it depends on the village.",
+      "author": "Asha Kiran",
+      "conflict_of_interest": "Asha Kiran is the author of dictionary_b",
+      "support": [],
+      "counter": [],
+      "support_w": 0.0,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.5,
+      "status": "untested",
+      "competes_with": [],
+      "note": null,
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "model:proposal1",
+      "origin": "model",
+      "source_refs": [],
+      "template": "word_order",
+      "params": {
+        "verb_position": "final"
+      },
+      "quote": null,
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E01",
+        "examples:E02",
+        "examples:E03",
+        "examples:E04",
+        "examples:E05",
+        "examples:E06",
+        "examples:E07",
+        "examples:E08",
+        "examples:E09",
+        "examples:E11",
+        "examples:E12",
+        "examples:E13",
+        "examples:E14",
+        "examples:E15",
+        "examples:E16",
+        "examples:E17",
+        "examples:E18",
+        "examples:E19",
+        "examples:E20",
+        "interview_01:seg1",
+        "interview_01:seg2",
+        "interview_01:seg3",
+        "interview_01:seg4",
+        "interview_02:seg1",
+        "interview_02:seg2",
+        "interview_02:seg3",
+        "interview_03:seg1",
+        "interview_03:seg2",
+        "interview_03:seg4",
+        "interview_04:seg3"
+      ],
+      "counter": [],
+      "support_w": 28.5,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.967,
+      "status": "supported",
+      "competes_with": [],
+      "note": "Verbs appear at the end of clauses (e.g., \u201cmi gedo vela\u201d, \u201cama manu paka\u201d).",
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "model:proposal2",
+      "origin": "model",
+      "source_refs": [],
+      "template": "affix",
+      "params": {
+        "kind": "suffix",
+        "form": "ru",
+        "feature": "tense=future",
+        "attaches_to": "verb"
+      },
+      "quote": null,
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [],
+      "counter": [
+        "examples:E03",
+        "examples:E09",
+        "examples:E11",
+        "examples:E12"
+      ],
+      "support_w": 0.0,
+      "counter_w": 4.0,
+      "by_feature": {},
+      "confidence": 0.167,
+      "status": "refuted",
+      "competes_with": [],
+      "note": "Future verbs end in \u2013ru (e.g., \u201ckhaniru\u201d, \u201ctamiru\u201d).",
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "model:proposal3",
+      "origin": "model",
+      "source_refs": [],
+      "template": "affix",
+      "params": {
+        "kind": "suffix",
+        "form": "en",
+        "feature": "tense=past",
+        "attaches_to": "verb"
+      },
+      "quote": null,
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E02",
+        "examples:E05",
+        "examples:E06",
+        "examples:E07",
+        "examples:E08",
+        "examples:E14",
+        "examples:E15",
+        "examples:E19",
+        "interview_01:seg1",
+        "interview_01:seg2",
+        "interview_02:seg1",
+        "interview_02:seg2",
+        "interview_03:seg1",
+        "interview_03:seg2",
+        "interview_04:seg3"
+      ],
+      "counter": [],
+      "support_w": 13.99,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.937,
+      "status": "supported",
+      "competes_with": [],
+      "note": "Past verbs end in \u2013en (e.g., \u201ckhanen\u201d, \u201craken\u201d).",
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "model:proposal4",
+      "origin": "model",
+      "source_refs": [],
+      "template": "particle_position",
+      "params": {
+        "particle": "na",
+        "relative_to": "verb",
+        "position": "after",
+        "feature": "negation"
+      },
+      "quote": null,
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [],
+      "counter": [
+        "examples:E05",
+        "examples:E13",
+        "interview_01:seg1",
+        "interview_03:seg2"
+      ],
+      "support_w": 0.0,
+      "counter_w": 3.83,
+      "by_feature": {},
+      "confidence": 0.172,
+      "status": "refuted",
+      "competes_with": [],
+      "note": "Negation particle\u202fna follows the verb (e.g., \u201cmi so na deken\u201d, \u201cso chenn na loba\u201d).",
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "model:proposal5",
+      "origin": "model",
+      "source_refs": [],
+      "template": "particle_position",
+      "params": {
+        "particle": "ko",
+        "relative_to": "clause_end",
+        "position": "at",
+        "feature": "yes_no_question"
+      },
+      "quote": null,
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E06",
+        "examples:E09",
+        "examples:E11",
+        "interview_02:seg2"
+      ],
+      "counter": [],
+      "support_w": 3.79,
+      "counter_w": 0.0,
+      "by_feature": {},
+      "confidence": 0.827,
+      "status": "supported",
+      "competes_with": [],
+      "note": "Question particle\u202fko appears at the end of a clause (e.g., \u201ctu manu khanen ko?\u201d, \u201cbrem tu tamiru ko?\u201d).",
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    },
+    {
+      "hyp_id": "model:proposal6",
+      "origin": "model",
+      "source_refs": [],
+      "template": "agreement",
+      "params": {
+        "if_word": "tavo",
+        "then_affix": "sa",
+        "on": "verb",
+        "tenses": [
+          "present",
+          "past",
+          "future"
+        ]
+      },
+      "quote": null,
+      "author": null,
+      "conflict_of_interest": null,
+      "support": [
+        "examples:E08",
+        "examples:E09",
+        "examples:E11",
+        "interview_02:seg2",
+        "interview_04:seg3"
+      ],
+      "counter": [],
+      "support_w": 4.56,
+      "counter_w": 0.0,
+      "by_feature": {
+        "past": {
+          "support": 2.56,
+          "counter": 0.0
+        },
+        "future": {
+          "support": 2.0,
+          "counter": 0.0
+        },
+        "present": {
+          "support": 0.0,
+          "counter": 0.0
+        }
+      },
+      "confidence": 0.848,
+      "status": "supported",
+      "competes_with": [],
+      "note": "no evidence for present: those forms are extrapolated from the grammar note",
+      "version": 1,
+      "history": [],
+      "external_support": {},
+      "resolved_by": null
+    }
+  ],
+  "rejected": [
+    {
+      "ref": "expert_notes:VAR-2",
+      "template": "affix",
+      "params": {
+        "kind": "suffix",
+        "form": "sa",
+        "feature": "tense=past",
+        "attaches_to": "verb"
+      },
+      "quote": "The respect register suffix -sa is well attested in past ...",
+      "reason": "quote not found in the cited item"
+    },
+    {
+      "ref": "expert_notes:VAR-2",
+      "template": "affix",
+      "params": {
+        "kind": "suffix",
+        "form": "sa",
+        "feature": "tense=future",
+        "attaches_to": "verb"
+      },
+      "quote": "The respect register suffix -sa is well attested in ... future forms.",
+      "reason": "quote not found in the cited item"
+    }
+  ]
+}

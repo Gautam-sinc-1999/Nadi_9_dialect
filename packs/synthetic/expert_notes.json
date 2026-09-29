@@ -1,0 +1,37 @@
+{
+  "source_id": "expert_notes",
+  "title": "Notes from language specialists",
+  "experts": [
+    {
+      "expert_id": "EXP-VARKEY",
+      "name": "Dr. Leela Varkey",
+      "role": "Field linguist, recorded the audio interviews",
+      "notes": [
+        {"id": "VAR-1", "date": "2024-11-20", "topic": "kinship", "text": "'dovanor' is a distant, formal way to address an elder brother. Families use it while siblings are estranged or at formal ceremonies. Once they reconcile, they go back to 'dovan'. See interview_01, segments 1-2.", "refs": ["interview:interview_01#seg1", "interview:interview_01#seg2"]},
+        {"id": "VAR-2", "date": "2024-11-20", "topic": "respect register", "text": "The respect register suffix -sa is well attested in past and future forms. Present-tense respect forms are rare in my recordings; I cannot confirm the grammar note's 'tamasa'.", "refs": ["grammar:respect-2"]},
+        {"id": "VAR-3", "date": "2024-11-22", "topic": "code-switching", "text": "English nouns are common in work talk (office, meeting, report, bus). I never heard them take the plural -li.", "refs": ["interview:interview_02", "grammar:plural-1"]}
+      ]
+    },
+    {
+      "expert_id": "EXP-REHN",
+      "name": "Tomas Rehn",
+      "role": "Senior translator at Meridian Lexical Services (the vendor that produced Dictionary A)",
+      "notes": [
+        {"id": "REH-1", "date": "2025-01-10", "topic": "deference marking", "text": "For broadcast subtitles an elder brother should always be addressed as 'dovanor'. Deference marking is expected on screen regardless of the family situation.", "refs": []},
+        {"id": "REH-2", "date": "2025-01-10", "topic": "sources", "text": "Dictionary A is the most complete and authoritative lexicon. Where community lists disagree, prefer Dictionary A.", "refs": ["dictionary:A"]},
+        {"id": "REH-3", "date": "2025-01-12", "topic": "deference marking", "text": "'sorai' is a polite form of address and is safe to use with elders.", "refs": ["dictionary:A:A-053"]}
+      ]
+    },
+    {
+      "expert_id": "EXP-KIRAN",
+      "name": "Asha Kiran",
+      "role": "Community linguist, maintains Dictionary B",
+      "notes": [
+        {"id": "KIR-1", "date": "2025-03-05", "topic": "politeness", "text": "Example E09 looks wrong. Nobody addresses their boss with 'tu'. I think the honorific was lost in transcription; it should be 'tavo ... tamirusa'.", "refs": ["example:E09", "grammar:respect-1"]},
+        {"id": "KIR-2", "date": "2025-03-05", "topic": "lexicon", "text": "Dictionary A gets several common words wrong. 'brem' is tomorrow, not yesterday. 'kelim' is thank you, not please. 'vel' is go, not come. 'hulm' is village.", "refs": ["dictionary:A:A-066", "dictionary:A:A-061", "dictionary:A:A-013", "dictionary:A:A-039"]},
+        {"id": "KIR-3", "date": "2025-03-06", "topic": "negation", "text": "For future negation I have heard both 'na veliru' and 'velnai'. I do not know which is standard, or whether it depends on the village.", "refs": ["grammar:neg-1"]},
+        {"id": "KIR-4", "date": "2025-03-06", "topic": "politeness", "text": "Calling someone of higher status 'sorai' is cheeky at best and rude at worst. Among friends it is warm.", "refs": ["interview:interview_03"]}
+      ]
+    }
+  ]
+}

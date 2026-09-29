@@ -1,0 +1,2002 @@
+[
+  {
+    "line_id": "S001",
+    "status": "checked",
+    "checks": {
+      "V1": "pass",
+      "V2": "pass",
+      "V3": "error",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [
+      {
+        "check": "V3",
+        "severity": "error",
+        "message": "breaks grammar:order-1#1: verb comes final in the clause",
+        "refs": [
+          "grammar:order-1"
+        ],
+        "meta": {
+          "hyp": "grammar:order-1#1",
+          "feature": null,
+          "extrapolated": false,
+          "term": null
+        }
+      },
+      {
+        "check": "V6",
+        "severity": "info",
+        "message": "spelling normalised from 'tavo rov-ensa dovanor ko' to match the approved examples (morpheme boundaries joined); re-verified",
+        "refs": [],
+        "meta": {}
+      }
+    ],
+    "backgloss": "you return+en+sa elder brother question marker for yes/no questions",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "tavo",
+        "kind": "word",
+        "root": "tavo",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "rovensa",
+        "kind": "word",
+        "root": "rov",
+        "prefixes": [],
+        "suffixes": [
+          "en",
+          "sa"
+        ]
+      },
+      {
+        "form": "dovanor",
+        "kind": "word",
+        "root": "dovanor",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "ko",
+        "kind": "word",
+        "root": "ko",
+        "prefixes": [],
+        "suffixes": []
+      }
+    ],
+    "depends_on": [
+      "social:Riya->Arun",
+      "lex:dovanor",
+      "lex:ko",
+      "lex:rov",
+      "lex:tavo",
+      "rule:grammar:order-1#1",
+      "rule:grammar:tense-1#2",
+      "rule:grammar:q-1#1",
+      "rule:grammar:respect-2#1@past",
+      "rule:expert_notes:VAR-1#1"
+    ]
+  },
+  {
+    "line_id": "S002",
+    "status": "checked",
+    "checks": {
+      "V1": "info",
+      "V2": "pass",
+      "V3": "pass",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [
+      {
+        "check": "V1",
+        "severity": "info",
+        "message": "'ha' (ha): agreed_untested - 2 dictionaries agree; the word never appears in usable evidence",
+        "refs": [
+          "dictionary_a:A-064"
+        ],
+        "meta": {}
+      },
+      {
+        "check": "V6",
+        "severity": "info",
+        "message": "spelling normalised from 'ha mi rov-en' to match the approved examples (morpheme boundaries joined); re-verified",
+        "refs": [],
+        "meta": {}
+      }
+    ],
+    "backgloss": "yes I return+en",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "ha",
+        "kind": "word",
+        "root": "ha",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "mi",
+        "kind": "word",
+        "root": "mi",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "roven",
+        "kind": "word",
+        "root": "rov",
+        "prefixes": [],
+        "suffixes": [
+          "en"
+        ]
+      }
+    ],
+    "depends_on": [
+      "social:Arun->Riya",
+      "lex:ha",
+      "lex:mi",
+      "lex:rov",
+      "rule:grammar:order-1#1",
+      "rule:grammar:tense-1#2"
+    ]
+  },
+  {
+    "line_id": "S003",
+    "status": "checked",
+    "checks": {
+      "V1": "warning",
+      "V2": "error",
+      "V3": "error",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [
+      {
+        "check": "V1",
+        "severity": "warning",
+        "message": "'yoru' (yoru): single_source - only dictionary_a:A-042 lists it; not seen in examples, interviews or grammar",
+        "refs": [
+          "dictionary_a:A-042"
+        ],
+        "meta": {}
+      },
+      {
+        "check": "V1",
+        "severity": "warning",
+        "message": "'pal' (pal): single_source - only dictionary_a:A-026 lists it; not seen in examples, interviews or grammar",
+        "refs": [
+          "dictionary_a:A-026"
+        ],
+        "meta": {}
+      },
+      {
+        "check": "V2",
+        "severity": "error",
+        "message": "[?and]: no Nadi-9 evidence for this word",
+        "refs": [],
+        "meta": {}
+      },
+      {
+        "check": "V2",
+        "severity": "error",
+        "message": "structure: token list does not match the text (text ['pavo', 'yoru', '[?and]', 'na', 'yem', 'phone', 'pal'], tokens ['pavo', 'yoru', '?and', 'na', 'yem', 'phone', 'pal'])",
+        "refs": [],
+        "meta": {}
+      },
+      {
+        "check": "V3",
+        "severity": "error",
+        "message": "breaks grammar:neg-1#1: 'na' goes before the verb (negation)",
+        "refs": [
+          "grammar:neg-1"
+        ],
+        "meta": {
+          "hyp": "grammar:neg-1#1",
+          "feature": null,
+          "extrapolated": false,
+          "term": null
+        }
+      }
+    ],
+    "backgloss": "five year [?AND] not one phone call",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "pavo",
+        "kind": "word",
+        "root": "pavo",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "yoru",
+        "kind": "word",
+        "root": "yoru",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "[?and]",
+        "kind": "gap",
+        "root": null
+      },
+      {
+        "form": "na",
+        "kind": "word",
+        "root": "na",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "yem",
+        "kind": "word",
+        "root": "yem",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "phone",
+        "kind": "loanword",
+        "root": "phone",
+        "suffixes": []
+      },
+      {
+        "form": "pal",
+        "kind": "word",
+        "root": "pal",
+        "prefixes": [],
+        "suffixes": []
+      }
+    ],
+    "depends_on": [
+      "social:Riya->Arun",
+      "lex:na",
+      "lex:pal",
+      "lex:pavo",
+      "lex:yem",
+      "lex:yoru",
+      "rule:grammar:order-1#1",
+      "rule:grammar:neg-1#1",
+      "rule:induced:code_switching"
+    ]
+  },
+  {
+    "line_id": "S004",
+    "status": "checked",
+    "checks": {
+      "V1": "pass",
+      "V2": "pass",
+      "V3": "error",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [
+      {
+        "check": "V3",
+        "severity": "error",
+        "message": "breaks grammar:order-1#1: verb comes final in the clause",
+        "refs": [
+          "grammar:order-1"
+        ],
+        "meta": {
+          "hyp": "grammar:order-1#1",
+          "feature": null,
+          "extrapolated": false,
+          "term": null
+        }
+      },
+      {
+        "check": "V6",
+        "severity": "info",
+        "message": "spelling normalised from 'mi esh-a tovar' to match the approved examples (morpheme boundaries joined); re-verified",
+        "refs": [],
+        "meta": {}
+      }
+    ],
+    "backgloss": "I be+a sorry",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "mi",
+        "kind": "word",
+        "root": "mi",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "esha",
+        "kind": "word",
+        "root": "esh",
+        "prefixes": [],
+        "suffixes": [
+          "a"
+        ]
+      },
+      {
+        "form": "tovar",
+        "kind": "word",
+        "root": "tovar",
+        "prefixes": [],
+        "suffixes": []
+      }
+    ],
+    "depends_on": [
+      "social:Arun->Riya",
+      "lex:esh",
+      "lex:mi",
+      "lex:tovar",
+      "rule:grammar:order-1#1",
+      "rule:grammar:tense-1#1"
+    ]
+  },
+  {
+    "line_id": "S005",
+    "status": "checked",
+    "checks": {
+      "V1": "warning",
+      "V2": "pass",
+      "V3": "pass",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [
+      {
+        "check": "V1",
+        "severity": "warning",
+        "message": "'dovar-ma' (dovar): single_source - only dictionary_a:A-055 lists it; not seen in examples, interviews or grammar",
+        "refs": [
+          "dictionary_a:A-055"
+        ],
+        "meta": {}
+      },
+      {
+        "check": "V6",
+        "severity": "info",
+        "message": "spelling normalised from 'riya kiro dovar-ma esh-a ko' to match the approved examples (morpheme boundaries joined); re-verified",
+        "refs": [],
+        "meta": {}
+      }
+    ],
+    "backgloss": "riya who door+ma be+a question marker for yes/no questions",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "riya",
+        "kind": "name",
+        "root": "riya"
+      },
+      {
+        "form": "kiro",
+        "kind": "word",
+        "root": "kiro",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "dovar-ma",
+        "kind": "word",
+        "root": "dovar",
+        "prefixes": [],
+        "suffixes": [
+          "ma"
+        ]
+      },
+      {
+        "form": "esha",
+        "kind": "word",
+        "root": "esh",
+        "prefixes": [],
+        "suffixes": [
+          "a"
+        ]
+      },
+      {
+        "form": "ko",
+        "kind": "word",
+        "root": "ko",
+        "prefixes": [],
+        "suffixes": []
+      }
+    ],
+    "depends_on": [
+      "social:Ama->Riya",
+      "lex:dovar",
+      "lex:esh",
+      "lex:kiro",
+      "lex:ko",
+      "rule:grammar:order-1#1",
+      "rule:grammar:tense-1#1",
+      "rule:grammar:q-1#1",
+      "rule:induced:code_switching"
+    ]
+  },
+  {
+    "line_id": "S006",
+    "status": "checked",
+    "checks": {
+      "V1": "warning",
+      "V2": "pass",
+      "V3": "pass",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [
+      {
+        "check": "V1",
+        "severity": "warning",
+        "message": "'putra' (putra): single_source - only dictionary_a:A-050 lists it; not seen in examples, interviews or grammar",
+        "refs": [
+          "dictionary_a:A-050"
+        ],
+        "meta": {}
+      },
+      {
+        "check": "V6",
+        "severity": "info",
+        "message": "spelling normalised from 'mira putra tu rov-en' to match the approved examples (morpheme boundaries joined); re-verified",
+        "refs": [],
+        "meta": {}
+      }
+    ],
+    "backgloss": "my son you return+en",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "mira",
+        "kind": "word",
+        "root": "mira",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "putra",
+        "kind": "word",
+        "root": "putra",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "tu",
+        "kind": "word",
+        "root": "tu",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "roven",
+        "kind": "word",
+        "root": "rov",
+        "prefixes": [],
+        "suffixes": [
+          "en"
+        ]
+      }
+    ],
+    "depends_on": [
+      "social:Ama->Arun",
+      "lex:mira",
+      "lex:putra",
+      "lex:rov",
+      "lex:tu",
+      "rule:grammar:order-1#1",
+      "rule:grammar:tense-1#2",
+      "rule:grammar:respect-1#1",
+      "rule:expert_notes:KIR-1#1",
+      "rule:dictionary_b:B-002#1"
+    ]
+  },
+  {
+    "line_id": "S007",
+    "status": "checked",
+    "checks": {
+      "V1": "pass",
+      "V2": "pass",
+      "V3": "error",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [
+      {
+        "check": "V3",
+        "severity": "error",
+        "message": "breaks grammar:order-1#1: verb comes final in the clause",
+        "refs": [
+          "grammar:order-1"
+        ],
+        "meta": {
+          "hyp": "grammar:order-1#1",
+          "feature": null,
+          "extrapolated": false,
+          "term": null
+        }
+      }
+    ],
+    "backgloss": "mother forgive I",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "ama",
+        "kind": "word",
+        "root": "ama",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "ush",
+        "kind": "word",
+        "root": "ush",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "mi",
+        "kind": "word",
+        "root": "mi",
+        "prefixes": [],
+        "suffixes": []
+      }
+    ],
+    "depends_on": [
+      "social:Arun->Ama",
+      "lex:ama",
+      "lex:mi",
+      "lex:ush",
+      "rule:grammar:order-1#1"
+    ]
+  },
+  {
+    "line_id": "S008",
+    "status": "checked",
+    "checks": {
+      "V1": "warning",
+      "V2": "pass",
+      "V3": "pass",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [
+      {
+        "check": "V1",
+        "severity": "warning",
+        "message": "'agra' (agra): single_source - only dictionary_a:A-071 lists it; not seen in examples, interviews or grammar",
+        "refs": [
+          "dictionary_a:A-071"
+        ],
+        "meta": {}
+      },
+      {
+        "check": "V6",
+        "severity": "info",
+        "message": "spelling normalised from 'agra khan. mas brem bal-iru' to match the approved examples (morpheme boundaries joined); re-verified",
+        "refs": [],
+        "meta": {}
+      }
+    ],
+    "backgloss": "first eat we tomorrow speak+iru",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "agra",
+        "kind": "word",
+        "root": "agra",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "khan",
+        "kind": "word",
+        "root": "khan",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "mas",
+        "kind": "word",
+        "root": "mas",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "brem",
+        "kind": "word",
+        "root": "brem",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "baliru",
+        "kind": "word",
+        "root": "bal",
+        "prefixes": [],
+        "suffixes": [
+          "iru"
+        ]
+      }
+    ],
+    "depends_on": [
+      "social:Ama->Arun",
+      "lex:agra",
+      "lex:bal",
+      "lex:brem",
+      "lex:khan",
+      "lex:mas",
+      "rule:grammar:order-1#1",
+      "rule:grammar:tense-1#3"
+    ]
+  },
+  {
+    "line_id": "S009",
+    "status": "checked",
+    "checks": {
+      "V1": "info",
+      "V2": "error",
+      "V3": "pass",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [
+      {
+        "check": "V1",
+        "severity": "info",
+        "message": "'salo' (salo): agreed_untested - 2 dictionaries agree; the word never appears in usable evidence",
+        "refs": [
+          "dictionary_a:A-063"
+        ],
+        "meta": {}
+      },
+      {
+        "check": "V2",
+        "severity": "error",
+        "message": "[?boy]: no Nadi-9 evidence for this word",
+        "refs": [],
+        "meta": {}
+      }
+    ],
+    "backgloss": "hello friend city [?BOY] return+en",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "salo",
+        "kind": "word",
+        "root": "salo",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "sorai",
+        "kind": "word",
+        "root": "sorai",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "vessa",
+        "kind": "word",
+        "root": "vessa",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "[?boy]",
+        "kind": "gap",
+        "root": null
+      },
+      {
+        "form": "roven",
+        "kind": "word",
+        "root": "rov",
+        "prefixes": [],
+        "suffixes": [
+          "en"
+        ]
+      }
+    ],
+    "depends_on": [
+      "social:Kabir->Arun",
+      "lex:rov",
+      "lex:salo",
+      "lex:sorai",
+      "lex:vessa",
+      "rule:grammar:order-1#1",
+      "rule:grammar:tense-1#2",
+      "rule:induced:code_switching",
+      "rule:expert_notes:KIR-4#1",
+      "rule:dictionary_b:B-028#1"
+    ]
+  },
+  {
+    "line_id": "S010",
+    "status": "checked",
+    "checks": {
+      "V1": "warning",
+      "V2": "pass",
+      "V3": "error",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [
+      {
+        "check": "V1",
+        "severity": "warning",
+        "message": "'morven' (morv): single_source - only dictionary_a:A-031 lists it; not seen in examples, interviews or grammar",
+        "refs": [
+          "dictionary_a:A-031"
+        ],
+        "meta": {}
+      },
+      {
+        "check": "V3",
+        "severity": "error",
+        "message": "breaks grammar:order-1#1: verb comes final in the clause",
+        "refs": [
+          "grammar:order-1"
+        ],
+        "meta": {
+          "hyp": "grammar:order-1#1",
+          "feature": null,
+          "extrapolated": false,
+          "term": null
+        }
+      }
+    ],
+    "backgloss": "kabir you not change+en all",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "kabir",
+        "kind": "name",
+        "root": "kabir"
+      },
+      {
+        "form": "tu",
+        "kind": "word",
+        "root": "tu",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "na",
+        "kind": "word",
+        "root": "na",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "morven",
+        "kind": "word",
+        "root": "morv",
+        "prefixes": [],
+        "suffixes": [
+          "en"
+        ]
+      },
+      {
+        "form": "sabu",
+        "kind": "word",
+        "root": "sabu",
+        "prefixes": [],
+        "suffixes": []
+      }
+    ],
+    "depends_on": [
+      "social:Arun->Kabir",
+      "lex:morv",
+      "lex:na",
+      "lex:sabu",
+      "lex:tu",
+      "rule:grammar:order-1#1",
+      "rule:grammar:tense-1#2",
+      "rule:grammar:neg-1#1",
+      "rule:grammar:respect-1#1",
+      "rule:induced:code_switching",
+      "rule:expert_notes:KIR-1#1",
+      "rule:dictionary_b:B-002#1"
+    ]
+  },
+  {
+    "line_id": "S011",
+    "status": "checked",
+    "checks": {
+      "V1": "warning",
+      "V2": "error",
+      "V3": "error",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "warning",
+      "V7": "pass"
+    },
+    "issues": [
+      {
+        "check": "V1",
+        "severity": "warning",
+        "message": "'morven' (morv): single_source - only dictionary_a:A-031 lists it; not seen in examples, interviews or grammar",
+        "refs": [
+          "dictionary_a:A-031"
+        ],
+        "meta": {}
+      },
+      {
+        "check": "V1",
+        "severity": "warning",
+        "message": "'tosh-guna' (tosh-guna): single_source - only dictionary_a:A-100 lists it; not seen in examples, interviews or grammar",
+        "refs": [
+          "dictionary_a:A-100"
+        ],
+        "meta": {}
+      },
+      {
+        "check": "V2",
+        "severity": "error",
+        "message": "[?ask]: no Nadi-9 evidence for this word",
+        "refs": [],
+        "meta": {}
+      },
+      {
+        "check": "V3",
+        "severity": "error",
+        "message": "breaks grammar:order-1#1: verb comes final in the clause",
+        "refs": [
+          "grammar:order-1"
+        ],
+        "meta": {
+          "hyp": "grammar:order-1#1",
+          "feature": null,
+          "extrapolated": false,
+          "term": null
+        }
+      },
+      {
+        "check": "V6",
+        "severity": "warning",
+        "message": "on screen 800 ms, minimum is 1000 ms",
+        "refs": [],
+        "meta": {}
+      },
+      {
+        "check": "V6",
+        "severity": "warning",
+        "message": "reading speed 60 chars/s exceeds 17",
+        "refs": [],
+        "meta": {}
+      }
+    ],
+    "backgloss": "I change+en now I eat+a twice my mother [?ASK]",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "mi",
+        "kind": "word",
+        "root": "mi",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "morven",
+        "kind": "word",
+        "root": "morv",
+        "prefixes": [],
+        "suffixes": [
+          "en"
+        ]
+      },
+      {
+        "form": "eno",
+        "kind": "word",
+        "root": "eno",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "mi",
+        "kind": "word",
+        "root": "mi",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "khana",
+        "kind": "word",
+        "root": "khan",
+        "prefixes": [],
+        "suffixes": [
+          "a"
+        ]
+      },
+      {
+        "form": "tosh-guna",
+        "kind": "word",
+        "root": "tosh-guna",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "mira",
+        "kind": "word",
+        "root": "mira",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "ama",
+        "kind": "word",
+        "root": "ama",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "[?ask]",
+        "kind": "gap",
+        "root": null
+      }
+    ],
+    "depends_on": [
+      "social:Kabir->Arun",
+      "lex:ama",
+      "lex:eno",
+      "lex:khan",
+      "lex:mi",
+      "lex:mira",
+      "lex:morv",
+      "lex:tosh-guna",
+      "rule:grammar:order-1#1",
+      "rule:grammar:tense-1#1",
+      "rule:grammar:tense-1#2",
+      "rule:induced:code_switching"
+    ]
+  },
+  {
+    "line_id": "S012",
+    "status": "checked",
+    "checks": {
+      "V1": "warning",
+      "V2": "error",
+      "V3": "error",
+      "V4": "pass",
+      "V5": "warning",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [
+      {
+        "check": "V1",
+        "severity": "info",
+        "message": "'salo' (salo): agreed_untested - 2 dictionaries agree; the word never appears in usable evidence",
+        "refs": [
+          "dictionary_a:A-063"
+        ],
+        "meta": {}
+      },
+      {
+        "check": "V1",
+        "severity": "warning",
+        "message": "'bes' (bes): single_source - only dictionary_a:A-032 lists it; not seen in examples, interviews or grammar",
+        "refs": [
+          "dictionary_a:A-032"
+        ],
+        "meta": {}
+      },
+      {
+        "check": "V1",
+        "severity": "warning",
+        "message": "'sath' (sath): single_source - only dictionary_a:A-099 lists it; not seen in examples, interviews or grammar",
+        "refs": [
+          "dictionary_a:A-099"
+        ],
+        "meta": {}
+      },
+      {
+        "check": "V2",
+        "severity": "error",
+        "message": "[?friend]: no Nadi-9 evidence for this word",
+        "refs": [],
+        "meta": {}
+      },
+      {
+        "check": "V3",
+        "severity": "error",
+        "message": "breaks grammar:order-1#1: verb comes final in the clause",
+        "refs": [
+          "grammar:order-1"
+        ],
+        "meta": {
+          "hyp": "grammar:order-1#1",
+          "feature": null,
+          "extrapolated": false,
+          "term": null
+        }
+      },
+      {
+        "check": "V5",
+        "severity": "warning",
+        "message": "'friend' is not expressed (expected ['sorai'])",
+        "refs": [],
+        "meta": {}
+      }
+    ],
+    "backgloss": "hello [?FRIEND] come sit with we",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "salo",
+        "kind": "word",
+        "root": "salo",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "[?friend]",
+        "kind": "gap",
+        "root": null
+      },
+      {
+        "form": "tam",
+        "kind": "word",
+        "root": "tam",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "bes",
+        "kind": "word",
+        "root": "bes",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "sath",
+        "kind": "word",
+        "root": "sath",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "mas",
+        "kind": "word",
+        "root": "mas",
+        "prefixes": [],
+        "suffixes": []
+      }
+    ],
+    "depends_on": [
+      "social:Kabir->Bhola",
+      "lex:bes",
+      "lex:mas",
+      "lex:salo",
+      "lex:sath",
+      "lex:tam",
+      "rule:grammar:order-1#1",
+      "rule:induced:code_switching"
+    ]
+  },
+  {
+    "line_id": "S013",
+    "status": "checked",
+    "checks": {
+      "V1": "pass",
+      "V2": "pass",
+      "V3": "error",
+      "V4": "pass",
+      "V5": "warning",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [
+      {
+        "check": "V3",
+        "severity": "error",
+        "message": "breaks grammar:order-1#1: verb comes final in the clause",
+        "refs": [
+          "grammar:order-1"
+        ],
+        "meta": {
+          "hyp": "grammar:order-1#1",
+          "feature": null,
+          "extrapolated": false,
+          "term": null
+        }
+      },
+      {
+        "check": "V5",
+        "severity": "warning",
+        "message": "'back' is not expressed (expected ['rov'])",
+        "refs": [],
+        "meta": {}
+      }
+    ],
+    "backgloss": "arun you go+iru city+ma question marker for yes/no questions",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "arun",
+        "kind": "name",
+        "root": "arun"
+      },
+      {
+        "form": "tu",
+        "kind": "word",
+        "root": "tu",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "veliru",
+        "kind": "word",
+        "root": "vel",
+        "prefixes": [],
+        "suffixes": [
+          "iru"
+        ]
+      },
+      {
+        "form": "vessa-ma",
+        "kind": "word",
+        "root": "vessa",
+        "prefixes": [],
+        "suffixes": [
+          "ma"
+        ]
+      },
+      {
+        "form": "ko",
+        "kind": "word",
+        "root": "ko",
+        "prefixes": [],
+        "suffixes": []
+      }
+    ],
+    "depends_on": [
+      "social:Bhola->Arun",
+      "lex:ko",
+      "lex:tu",
+      "lex:vel",
+      "lex:vessa",
+      "rule:grammar:order-1#1",
+      "rule:grammar:tense-1#3",
+      "rule:grammar:q-1#1",
+      "rule:grammar:respect-1#1",
+      "rule:induced:code_switching",
+      "rule:expert_notes:KIR-1#1",
+      "rule:dictionary_b:B-002#1"
+    ]
+  },
+  {
+    "line_id": "S014",
+    "status": "checked",
+    "checks": {
+      "V1": "info",
+      "V2": "pass",
+      "V3": "pass",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [
+      {
+        "check": "V1",
+        "severity": "info",
+        "message": "'jana' (jan): agreed_untested - 2 dictionaries agree; the word never appears in usable evidence",
+        "refs": [
+          "dictionary_a:A-021"
+        ],
+        "meta": {}
+      }
+    ],
+    "backgloss": "village headman I not know+a",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "hulmar",
+        "kind": "word",
+        "root": "hulmar",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "mi",
+        "kind": "word",
+        "root": "mi",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "na",
+        "kind": "word",
+        "root": "na",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "jana",
+        "kind": "word",
+        "root": "jan",
+        "prefixes": [],
+        "suffixes": [
+          "a"
+        ]
+      }
+    ],
+    "depends_on": [
+      "social:Arun->Bhola",
+      "lex:hulmar",
+      "lex:jan",
+      "lex:mi",
+      "lex:na",
+      "rule:grammar:order-1#1",
+      "rule:grammar:tense-1#1",
+      "rule:grammar:neg-1#1"
+    ]
+  },
+  {
+    "line_id": "S015",
+    "status": "checked",
+    "checks": {
+      "V1": "pass",
+      "V2": "pass",
+      "V3": "pass",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [],
+    "backgloss": "arun meeting tomorrow ten be+a",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "arun",
+        "kind": "name",
+        "root": "arun"
+      },
+      {
+        "form": "meeting",
+        "kind": "loanword",
+        "root": "meeting",
+        "suffixes": []
+      },
+      {
+        "form": "brem",
+        "kind": "word",
+        "root": "brem",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "dem",
+        "kind": "word",
+        "root": "dem",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "esha",
+        "kind": "word",
+        "root": "esh",
+        "prefixes": [],
+        "suffixes": [
+          "a"
+        ]
+      }
+    ],
+    "depends_on": [
+      "social:Mr. Dass->Arun",
+      "lex:brem",
+      "lex:dem",
+      "lex:esh",
+      "rule:grammar:order-1#1",
+      "rule:grammar:tense-1#1",
+      "rule:induced:code_switching"
+    ]
+  },
+  {
+    "line_id": "S016",
+    "status": "checked",
+    "checks": {
+      "V1": "pass",
+      "V2": "pass",
+      "V3": "pass",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [],
+    "backgloss": "master I office-ma tomorrow come+iru",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "surat",
+        "kind": "word",
+        "root": "surat",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "mi",
+        "kind": "word",
+        "root": "mi",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "office-ma",
+        "kind": "loanword",
+        "root": "office",
+        "suffixes": [
+          "ma"
+        ]
+      },
+      {
+        "form": "brem",
+        "kind": "word",
+        "root": "brem",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "tamiru",
+        "kind": "word",
+        "root": "tam",
+        "prefixes": [],
+        "suffixes": [
+          "iru"
+        ]
+      }
+    ],
+    "depends_on": [
+      "social:Arun->Mr. Dass",
+      "lex:brem",
+      "lex:mi",
+      "lex:surat",
+      "lex:tam",
+      "rule:grammar:order-1#1",
+      "rule:grammar:tense-1#3",
+      "rule:induced:code_switching"
+    ]
+  },
+  {
+    "line_id": "S017",
+    "status": "checked",
+    "checks": {
+      "V1": "pass",
+      "V2": "error",
+      "V3": "pass",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [
+      {
+        "check": "V2",
+        "severity": "error",
+        "message": "[?late]: no Nadi-9 evidence for this word",
+        "refs": [],
+        "meta": {}
+      },
+      {
+        "check": "V2",
+        "severity": "error",
+        "message": "structure: token list does not match the text (text ['na', 'esha', '[?late]'], tokens ['na', 'esha', '?late'])",
+        "refs": [],
+        "meta": {}
+      }
+    ],
+    "backgloss": "not be+a [?LATE]",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "na",
+        "kind": "word",
+        "root": "na",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "esha",
+        "kind": "word",
+        "root": "esh",
+        "prefixes": [],
+        "suffixes": [
+          "a"
+        ]
+      },
+      {
+        "form": "[?late]",
+        "kind": "gap",
+        "root": null
+      }
+    ],
+    "depends_on": [
+      "social:Mr. Dass->Arun",
+      "lex:esh",
+      "lex:na",
+      "rule:grammar:order-1#1",
+      "rule:grammar:neg-1#1",
+      "rule:induced:code_switching"
+    ]
+  },
+  {
+    "line_id": "S018",
+    "status": "not_translated",
+    "checks": {
+      "V2": "error"
+    },
+    "issues": [
+      {
+        "check": "V2",
+        "severity": "error",
+        "message": "no translation: no model output for this line",
+        "refs": [],
+        "meta": {}
+      }
+    ],
+    "backgloss": "",
+    "fused_form": null,
+    "tokens": [],
+    "depends_on": [
+      "social:Arun->Mr. Dass",
+      "lex:ha",
+      "lex:kelim",
+      "lex:surat"
+    ]
+  },
+  {
+    "line_id": "S019",
+    "status": "checked",
+    "checks": {
+      "V1": "pass",
+      "V2": "pass",
+      "V3": "error",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [
+      {
+        "check": "V3",
+        "severity": "error",
+        "message": "breaks grammar:order-1#1: verb comes final in the clause",
+        "refs": [
+          "grammar:order-1"
+        ],
+        "meta": {
+          "hyp": "grammar:order-1#1",
+          "feature": null,
+          "extrapolated": false,
+          "term": null
+        }
+      }
+    ],
+    "backgloss": "you leave+iru+sa tomorrow elder brother question marker for yes/no questions",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "tavo",
+        "kind": "word",
+        "root": "tavo",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "nasirusa",
+        "kind": "word",
+        "root": "nas",
+        "prefixes": [],
+        "suffixes": [
+          "iru",
+          "sa"
+        ]
+      },
+      {
+        "form": "brem",
+        "kind": "word",
+        "root": "brem",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "dovan",
+        "kind": "word",
+        "root": "dovan",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "ko",
+        "kind": "word",
+        "root": "ko",
+        "prefixes": [],
+        "suffixes": []
+      }
+    ],
+    "depends_on": [
+      "social:Riya->Arun",
+      "lex:brem",
+      "lex:dovan",
+      "lex:ko",
+      "lex:nas",
+      "lex:tavo",
+      "rule:grammar:order-1#1",
+      "rule:grammar:tense-1#3",
+      "rule:grammar:q-1#1",
+      "rule:grammar:respect-2#1@future"
+    ]
+  },
+  {
+    "line_id": "S020",
+    "status": "checked",
+    "checks": {
+      "V1": "warning",
+      "V2": "pass",
+      "V3": "pass",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [
+      {
+        "check": "V1",
+        "severity": "warning",
+        "message": "'nu' (nu): single_source - only dictionary_a:A-065 lists it; not seen in examples, interviews or grammar",
+        "refs": [
+          "dictionary_a:A-065"
+        ],
+        "meta": {}
+      }
+    ],
+    "backgloss": "no I not leave+iru",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "nu",
+        "kind": "word",
+        "root": "nu",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "mi",
+        "kind": "word",
+        "root": "mi",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "na",
+        "kind": "word",
+        "root": "na",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "nasiru",
+        "kind": "word",
+        "root": "nas",
+        "prefixes": [],
+        "suffixes": [
+          "iru"
+        ]
+      }
+    ],
+    "depends_on": [
+      "social:Arun->Riya",
+      "lex:mi",
+      "lex:na",
+      "lex:nas",
+      "lex:nu",
+      "rule:grammar:order-1#1",
+      "rule:grammar:tense-1#3",
+      "rule:grammar:neg-1#1"
+    ]
+  },
+  {
+    "line_id": "S021",
+    "status": "checked",
+    "checks": {
+      "V1": "pass",
+      "V2": "pass",
+      "V3": "pass",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [],
+    "backgloss": "mother your food very good be+a",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "ama",
+        "kind": "word",
+        "root": "ama",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "tavora",
+        "kind": "word",
+        "root": "tavora",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "manu",
+        "kind": "word",
+        "root": "manu",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "gura",
+        "kind": "word",
+        "root": "gura",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "suma",
+        "kind": "word",
+        "root": "suma",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "esha",
+        "kind": "word",
+        "root": "esh",
+        "prefixes": [],
+        "suffixes": [
+          "a"
+        ]
+      }
+    ],
+    "depends_on": [
+      "social:Arun->Ama",
+      "lex:ama",
+      "lex:esh",
+      "lex:gura",
+      "lex:manu",
+      "lex:suma",
+      "lex:tavora",
+      "rule:grammar:order-1#1",
+      "rule:grammar:tense-1#1"
+    ]
+  },
+  {
+    "line_id": "S022",
+    "status": "checked",
+    "checks": {
+      "V1": "pass",
+      "V2": "pass",
+      "V3": "pass",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [],
+    "backgloss": "village headman you eat+a+si question marker for yes/no questions",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "hulmar",
+        "kind": "word",
+        "root": "hulmar",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "tavo",
+        "kind": "word",
+        "root": "tavo",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "khanasi",
+        "kind": "word",
+        "root": "khan",
+        "prefixes": [],
+        "suffixes": [
+          "a",
+          "si"
+        ]
+      },
+      {
+        "form": "ko",
+        "kind": "word",
+        "root": "ko",
+        "prefixes": [],
+        "suffixes": []
+      }
+    ],
+    "depends_on": [
+      "social:Ama->Bhola",
+      "lex:hulmar",
+      "lex:khan",
+      "lex:ko",
+      "lex:tavo",
+      "rule:grammar:order-1#1",
+      "rule:grammar:tense-1#1",
+      "rule:grammar:q-1#1",
+      "rule:grammar:respect-2#1@present",
+      "rule:grammar:respect-1#2",
+      "rule:dictionary_b:B-003#1"
+    ]
+  },
+  {
+    "line_id": "S023",
+    "status": "checked",
+    "checks": {
+      "V1": "warning",
+      "V2": "pass",
+      "V3": "error",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [
+      {
+        "check": "V1",
+        "severity": "info",
+        "message": "'ha' (ha): agreed_untested - 2 dictionaries agree; the word never appears in usable evidence",
+        "refs": [
+          "dictionary_a:A-064"
+        ],
+        "meta": {}
+      },
+      {
+        "check": "V1",
+        "severity": "warning",
+        "message": "'yoru' (yoru): single_source - only dictionary_a:A-042 lists it; not seen in examples, interviews or grammar",
+        "refs": [
+          "dictionary_a:A-042"
+        ],
+        "meta": {}
+      },
+      {
+        "check": "V3",
+        "severity": "error",
+        "message": "'tavora' is respectful (dictionary_a:A-009) but the addressee is lower relative to the speaker",
+        "refs": [
+          "dictionary_a:A-009"
+        ],
+        "meta": {}
+      }
+    ],
+    "backgloss": "yes arun your mother five year wait+en",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "ha",
+        "kind": "word",
+        "root": "ha",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "arun",
+        "kind": "name",
+        "root": "arun"
+      },
+      {
+        "form": "tavora",
+        "kind": "word",
+        "root": "tavora",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "ama",
+        "kind": "word",
+        "root": "ama",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "pavo",
+        "kind": "word",
+        "root": "pavo",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "yoru",
+        "kind": "word",
+        "root": "yoru",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "raken",
+        "kind": "word",
+        "root": "rak",
+        "prefixes": [],
+        "suffixes": [
+          "en"
+        ]
+      }
+    ],
+    "depends_on": [
+      "social:Bhola->Arun",
+      "lex:ama",
+      "lex:ha",
+      "lex:pavo",
+      "lex:rak",
+      "lex:tavora",
+      "lex:yoru",
+      "rule:grammar:order-1#1",
+      "rule:grammar:tense-1#2",
+      "rule:induced:code_switching"
+    ]
+  },
+  {
+    "line_id": "S024",
+    "status": "checked",
+    "checks": {
+      "V1": "warning",
+      "V2": "error",
+      "V3": "error",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [
+      {
+        "check": "V1",
+        "severity": "warning",
+        "message": "'meethu' (meethu): single_source - only dictionary_a:A-059 lists it; not seen in examples, interviews or grammar",
+        "refs": [
+          "dictionary_a:A-059"
+        ],
+        "meta": {}
+      },
+      {
+        "check": "V2",
+        "severity": "error",
+        "message": "[?and]: no Nadi-9 evidence for this word",
+        "refs": [],
+        "meta": {}
+      },
+      {
+        "check": "V3",
+        "severity": "error",
+        "message": "breaks grammar:order-1#1: verb comes final in the clause",
+        "refs": [
+          "grammar:order-1"
+        ],
+        "meta": {
+          "hyp": "grammar:order-1#1",
+          "feature": null,
+          "extrapolated": false,
+          "term": null
+        }
+      }
+    ],
+    "backgloss": "[?AND] I wait+en sweet dish",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "[?and]",
+        "kind": "gap",
+        "root": null
+      },
+      {
+        "form": "mi",
+        "kind": "word",
+        "root": "mi",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "raken",
+        "kind": "word",
+        "root": "rak",
+        "prefixes": [],
+        "suffixes": [
+          "en"
+        ]
+      },
+      {
+        "form": "meethu",
+        "kind": "word",
+        "root": "meethu",
+        "prefixes": [],
+        "suffixes": []
+      }
+    ],
+    "depends_on": [
+      "social:Kabir->everyone",
+      "lex:meethu",
+      "lex:mi",
+      "lex:rak",
+      "rule:grammar:order-1#1",
+      "rule:grammar:tense-1#2",
+      "rule:induced:code_switching"
+    ]
+  },
+  {
+    "line_id": "S025",
+    "status": "checked",
+    "checks": {
+      "V1": "info",
+      "V2": "pass",
+      "V3": "pass",
+      "V4": "pass",
+      "V5": "pass",
+      "V6": "pass",
+      "V7": "pass"
+    },
+    "issues": [
+      {
+        "check": "V1",
+        "severity": "info",
+        "message": "'salo' (salo): agreed_untested - 2 dictionaries agree; the word never appears in usable evidence",
+        "refs": [
+          "dictionary_a:A-063"
+        ],
+        "meta": {}
+      }
+    ],
+    "backgloss": "hello house elder brother",
+    "fused_form": null,
+    "tokens": [
+      {
+        "form": "salo",
+        "kind": "word",
+        "root": "salo",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "gedo",
+        "kind": "word",
+        "root": "gedo",
+        "prefixes": [],
+        "suffixes": []
+      },
+      {
+        "form": "dovan",
+        "kind": "word",
+        "root": "dovan",
+        "prefixes": [],
+        "suffixes": []
+      }
+    ],
+    "depends_on": [
+      "social:Riya->Arun",
+      "lex:dovan",
+      "lex:gedo",
+      "lex:salo"
+    ]
+  }
+]

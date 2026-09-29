@@ -1,0 +1,100 @@
+{
+  "events": [
+    {
+      "event": "EV03",
+      "applied": true,
+      "version": 2,
+      "from": "Localization Review Board",
+      "change": "example E09: 'surat, brem tu tamiru ko?' -> 'surat, brem tavo tamirusa ko?' (already flagged suspect by the example audit before this event)",
+      "changed_keys": [
+        "rule:dictionary_b:B-003#1",
+        "rule:grammar:respect-1#2"
+      ],
+      "lines_already_done": 13,
+      "affected_lines": [
+        "S022"
+      ],
+      "retranslated": [],
+      "rechecked": [
+        "S022"
+      ],
+      "redone": [
+        {
+          "line": "S022",
+          "how": "re-checked",
+          "before": {
+            "text": "hulmar tavo khanasa ko",
+            "decision": "HUMAN_REVIEW",
+            "confidence": 0.54
+          },
+          "after": {
+            "text": "hulmar tavo khanasa ko",
+            "decision": "HUMAN_REVIEW",
+            "confidence": 0.54,
+            "state_version": 2
+          }
+        }
+      ],
+      "unaffected_lines_unchanged": true
+    },
+    {
+      "event": "EV01",
+      "applied": true,
+      "version": 3,
+      "from": "Dr. Leela Varkey",
+      "change": "grammar:respect-2: present ending -sa -> -si",
+      "changed_keys": [
+        "lex:-si",
+        "rule:grammar:respect-2#1@present"
+      ],
+      "lines_already_done": 18,
+      "affected_lines": [
+        "S022"
+      ],
+      "retranslated": [
+        "S022"
+      ],
+      "rechecked": [],
+      "redone": [
+        {
+          "line": "S022",
+          "how": "re-translated",
+          "before": {
+            "text": "hulmar tavo khanasa ko",
+            "decision": "HUMAN_REVIEW",
+            "confidence": 0.54
+          },
+          "after": {
+            "text": "hulmar tavo khanasi ko",
+            "decision": "APPROVE",
+            "confidence": 0.9,
+            "state_version": 3
+          }
+        }
+      ],
+      "unaffected_lines_unchanged": true
+    },
+    {
+      "event": "EV02",
+      "applied": true,
+      "version": 4,
+      "from": "Asha Kiran",
+      "change": "example E14: 'sol hulm nasiru.' -> 'sol hulm nasen.' (already flagged suspect by the example audit before this event)",
+      "changed_keys": [],
+      "lines_already_done": 22,
+      "affected_lines": [],
+      "retranslated": [],
+      "rechecked": [],
+      "redone": [],
+      "unaffected_lines_unchanged": true
+    }
+  ],
+  "not_applied": [],
+  "processing_order": [
+    "v1: scene SC3 (riskiest line S011 (10.5): +3 no evidence for ['ask']; +3 weak words ['changed',)",
+    "v1: scene SC5 (riskiest line S025 (9.5): +1.5 weak words ['welcome']; +2 disputed word choice)",
+    "v2: scene SC1 (riskiest line S001 (8.5): +2 disputed word choice; +0.5 pronoun choice by status)",
+    "v3: scene SC4 (riskiest line S017 (6.0): +3 no evidence for ['late']; +3 documented grammar gap)",
+    "v4: scene SC2 (riskiest line S006 (2.0): +1.5 weak words ['son']; +0.5 pronoun choice by status)"
+  ]
+}

@@ -1,0 +1,4011 @@
+[
+  {
+    "term": "-a",
+    "kind": "affix",
+    "status": "corroborated",
+    "meaning": "present tense",
+    "chosen_entry": "dictionary_a:A-093",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-093",
+        "gloss": "present tense",
+        "head_words": [
+          "present",
+          "tense"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:tense-1"
+        ],
+        "qualifier_hits": [],
+        "score": 0.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "stated in grammar grammar:tense-1; attested on 11 word(s) in usage"
+  },
+  {
+    "term": "-en",
+    "kind": "affix",
+    "status": "corroborated",
+    "meaning": "past tense",
+    "chosen_entry": "dictionary_a:A-094",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-094",
+        "gloss": "past tense",
+        "head_words": [
+          "past",
+          "tense"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:tense-1"
+        ],
+        "qualifier_hits": [],
+        "score": 0.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "stated in grammar grammar:tense-1; attested on 15 word(s) in usage"
+  },
+  {
+    "term": "-iru",
+    "kind": "affix",
+    "status": "corroborated",
+    "meaning": "future tense",
+    "chosen_entry": "dictionary_a:A-095",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-095",
+        "gloss": "future tense",
+        "head_words": [
+          "future",
+          "tense"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:tense-1"
+        ],
+        "qualifier_hits": [],
+        "score": 0.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "stated in grammar grammar:tense-1; attested on 4 word(s) in usage"
+  },
+  {
+    "term": "-li",
+    "kind": "affix",
+    "status": "corroborated",
+    "meaning": "plural marker for nouns",
+    "chosen_entry": "dictionary_a:A-097",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-097",
+        "gloss": "plural marker for nouns",
+        "head_words": [
+          "marker",
+          "plural"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:plural-1"
+        ],
+        "qualifier_hits": [],
+        "score": 0.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [
+      "expert_notes:VAR-3"
+    ],
+    "reason": "stated in grammar grammar:plural-1; attested on 3 word(s) in usage"
+  },
+  {
+    "term": "-ma",
+    "kind": "affix",
+    "status": "corroborated",
+    "meaning": "in, at",
+    "chosen_entry": "dictionary_a:A-098",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-098",
+        "gloss": "in, at",
+        "head_words": [
+          "at",
+          "in"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:loc-1"
+        ],
+        "qualifier_hits": [],
+        "score": 0.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "stated in grammar grammar:loc-1; attested on 5 word(s) in usage"
+  },
+  {
+    "term": "-sa",
+    "kind": "affix",
+    "status": "resolved_conflict",
+    "meaning": "respect suffix on the verb when the subject is tavo (after the tense suffix)",
+    "chosen_entry": "dictionary_b:B-049",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-096",
+        "gloss": "plural marker for verbs (used when several people act)",
+        "head_words": [
+          "marker",
+          "plural"
+        ],
+        "qualifier_words": [
+          "act",
+          "person",
+          "several"
+        ],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "contradicted"
+      },
+      {
+        "entry_ref": "dictionary_b:B-049",
+        "gloss": "respect suffix on the verb when the subject is tavo (after the tense suffix)",
+        "head_words": [
+          "respectful",
+          "suffix",
+          "verb"
+        ],
+        "qualifier_words": [
+          "after",
+          "suffix",
+          "tense"
+        ],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:respect-2"
+        ],
+        "qualifier_hits": [
+          "grammar:respect-2"
+        ],
+        "score": 0.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": "dictionary_b:B-049 'respect suffix on the verb when the subject is tavo (after the tense suffix)' vs dictionary_a:A-096 'plural marker for verbs (used when several people act)'",
+    "discussed_in": [
+      "expert_notes:VAR-2"
+    ],
+    "reason": "not used in examples; grammar ['grammar:respect-2'] states 'respect suffix on the verb when the subject is tavo (after the tense suffix)'; attested on 5 word(s) in usage"
+  },
+  {
+    "term": "-si",
+    "kind": "affix",
+    "status": "single_source",
+    "meaning": "respect suffix, present tense (EV01: Dr. Leela Varkey)",
+    "chosen_entry": "event_01_rule_correction:event:-si",
+    "senses": [
+      {
+        "entry_ref": "event_01_rule_correction:event:-si",
+        "gloss": "respect suffix, present tense (EV01: Dr. Leela Varkey)",
+        "head_words": [
+          "present",
+          "respectful",
+          "suffix",
+          "tense"
+        ],
+        "qualifier_words": [
+          "01",
+          "dr",
+          "ev",
+          "leela",
+          "varkey"
+        ],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only event_01_rule_correction:event:-si lists it; not seen in examples, interviews or grammar; never attested in usage"
+  },
+  {
+    "term": "agra",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "first, before",
+    "chosen_entry": "dictionary_a:A-071",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-071",
+        "gloss": "first, before",
+        "head_words": [
+          "before",
+          "first"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-071 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "ama",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "mother",
+    "chosen_entry": "dictionary_a:A-048",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-048",
+        "gloss": "mother",
+        "head_words": [
+          "mother"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E04",
+          "interview_01:seg4"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:order-1",
+          "grammar:kin-1"
+        ],
+        "qualifier_hits": [],
+        "score": 2.53,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-024",
+        "gloss": "mother",
+        "head_words": [
+          "mother"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E04",
+          "interview_01:seg4"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:order-1",
+          "grammar:kin-1"
+        ],
+        "qualifier_hits": [],
+        "score": 2.53,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 2 place(s): examples:E04, interview_01:seg4; stated in grammar grammar:kin-1, grammar:order-1"
+  },
+  {
+    "term": "bado",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "big",
+    "chosen_entry": "dictionary_a:A-077",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-077",
+        "gloss": "big",
+        "head_words": [
+          "big"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-077 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "bal",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "speak, talk, say",
+    "chosen_entry": "dictionary_a:A-017",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-017",
+        "gloss": "speak, talk, say",
+        "head_words": [
+          "say",
+          "speak",
+          "talk"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E19",
+          "interview_01:seg2",
+          "interview_01:seg3"
+        ],
+        "usage_misses": [
+          "interview_03:seg1"
+        ],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 2.73,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-014",
+        "gloss": "say, speak, talk",
+        "head_words": [
+          "say",
+          "speak",
+          "talk"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E19",
+          "interview_01:seg2",
+          "interview_01:seg3"
+        ],
+        "usage_misses": [
+          "interview_03:seg1"
+        ],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 2.73,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 3 place(s): examples:E19, interview_01:seg2, interview_01:seg3"
+  },
+  {
+    "term": "baro",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "father",
+    "chosen_entry": "dictionary_a:A-049",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-049",
+        "gloss": "father",
+        "head_words": [
+          "father"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E12"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:kin-1"
+        ],
+        "qualifier_hits": [],
+        "score": 1.6,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-025",
+        "gloss": "father",
+        "head_words": [
+          "father"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E12"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:kin-1"
+        ],
+        "qualifier_hits": [],
+        "score": 1.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): examples:E12; stated in grammar grammar:kin-1"
+  },
+  {
+    "term": "bes",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "sit",
+    "chosen_entry": "dictionary_a:A-032",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-032",
+        "gloss": "sit",
+        "head_words": [
+          "sit"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-032 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "brem",
+    "kind": "word",
+    "status": "resolved_conflict",
+    "meaning": "tomorrow",
+    "chosen_entry": "dictionary_b:B-032",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-066",
+        "gloss": "yesterday",
+        "head_words": [
+          "yesterday"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [
+          "examples:E03",
+          "examples:E09"
+        ],
+        "grammar_hits": [
+          "grammar:order-2"
+        ],
+        "qualifier_hits": [],
+        "score": 0.6,
+        "outcome": "contradicted"
+      },
+      {
+        "entry_ref": "dictionary_b:B-032",
+        "gloss": "tomorrow",
+        "head_words": [
+          "tomorrow"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E03",
+          "examples:E09"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:order-2"
+        ],
+        "qualifier_hits": [],
+        "score": 2.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": "dictionary_b:B-032 'tomorrow' vs dictionary_a:A-066 'yesterday'",
+    "discussed_in": [
+      "expert_notes:KIR-2",
+      "viewer_feedback:VF-06"
+    ],
+    "reason": "usage supports 'tomorrow' (examples:E03, examples:E09); rival meaning never fits"
+  },
+  {
+    "term": "chenn",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "money",
+    "chosen_entry": "dictionary_a:A-038",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-038",
+        "gloss": "money",
+        "head_words": [
+          "money"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E13"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:neg-1"
+        ],
+        "qualifier_hits": [],
+        "score": 1.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): examples:E13; stated in grammar grammar:neg-1"
+  },
+  {
+    "term": "chit",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "small, little",
+    "chosen_entry": "dictionary_a:A-078",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-078",
+        "gloss": "small, little",
+        "head_words": [
+          "little",
+          "small"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-078 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "dar",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "give",
+    "chosen_entry": "dictionary_a:A-024",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-024",
+        "gloss": "give",
+        "head_words": [
+          "give"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-024 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "davakhana",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "hospital",
+    "chosen_entry": "dictionary_a:A-057",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-057",
+        "gloss": "hospital",
+        "head_words": [
+          "hospital"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-057 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "dek",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "see, look",
+    "chosen_entry": "dictionary_a:A-018",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-018",
+        "gloss": "see, look",
+        "head_words": [
+          "look",
+          "see"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E05",
+          "interview_02:seg2"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 1.79,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-015",
+        "gloss": "see",
+        "head_words": [
+          "see"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E05",
+          "interview_02:seg2"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 1.79,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 2 place(s): examples:E05, interview_02:seg2"
+  },
+  {
+    "term": "dem",
+    "kind": "word",
+    "status": "resolved_conflict",
+    "meaning": "ten",
+    "chosen_entry": "dictionary_b:B-046",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-090",
+        "gloss": "twelve",
+        "head_words": [
+          "12"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "contradicted"
+      },
+      {
+        "entry_ref": "dictionary_b:B-046",
+        "gloss": "ten",
+        "head_words": [
+          "10"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:num-1"
+        ],
+        "qualifier_hits": [],
+        "score": 0.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": "dictionary_b:B-046 'ten' vs dictionary_a:A-090 'twelve'",
+    "discussed_in": [],
+    "reason": "not used in examples; grammar ['grammar:num-1'] states 'ten'"
+  },
+  {
+    "term": "dovan",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "elder brother (everyday form)",
+    "chosen_entry": "dictionary_b:B-021",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-044",
+        "gloss": "brother",
+        "head_words": [
+          "brother"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E07",
+          "examples:E18"
+        ],
+        "usage_misses": [
+          "interview_01:seg2"
+        ],
+        "grammar_hits": [
+          "grammar:imp-1",
+          "grammar:kin-1"
+        ],
+        "qualifier_hits": [],
+        "score": 2.6,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-021",
+        "gloss": "elder brother (everyday form)",
+        "head_words": [
+          "brother",
+          "elder"
+        ],
+        "qualifier_words": [
+          "everyday"
+        ],
+        "usage_hits": [
+          "examples:E07",
+          "examples:E18"
+        ],
+        "usage_misses": [
+          "interview_01:seg2"
+        ],
+        "grammar_hits": [
+          "grammar:imp-1",
+          "grammar:kin-1"
+        ],
+        "qualifier_hits": [],
+        "score": 2.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [
+      "expert_notes:VAR-1",
+      "viewer_feedback:VF-10"
+    ],
+    "reason": "fits usage in 2 place(s): examples:E07, examples:E18; stated in grammar grammar:imp-1, grammar:kin-1"
+  },
+  {
+    "term": "dovanor",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "elder brother (formal / distant form). Usage disputed, see expert notes.",
+    "chosen_entry": "dictionary_b:B-022",
+    "senses": [
+      {
+        "entry_ref": "dictionary_b:B-022",
+        "gloss": "elder brother (formal / distant form). Usage disputed, see expert notes.",
+        "head_words": [
+          "brother",
+          "elder"
+        ],
+        "qualifier_words": [
+          "disput",
+          "distant",
+          "expert",
+          "formal",
+          "not",
+          "see",
+          "usage"
+        ],
+        "usage_hits": [
+          "interview_01:seg1"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:kin-1"
+        ],
+        "qualifier_hits": [
+          "grammar:kin-1"
+        ],
+        "score": 1.51,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [
+      "expert_notes:VAR-1",
+      "expert_notes:REH-1",
+      "viewer_feedback:VF-10",
+      "viewer_feedback:VF-12"
+    ],
+    "reason": "fits usage in 1 place(s): interview_01:seg1; stated in grammar grammar:kin-1"
+  },
+  {
+    "term": "dovar",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "door",
+    "chosen_entry": "dictionary_a:A-055",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-055",
+        "gloss": "door",
+        "head_words": [
+          "door"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-055 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "dovi",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "younger brother",
+    "chosen_entry": "dictionary_a:A-045",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-045",
+        "gloss": "younger brother",
+        "head_words": [
+          "brother",
+          "younger"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "interview_01:seg3"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:kin-1"
+        ],
+        "qualifier_hits": [],
+        "score": 1.45,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): interview_01:seg3; stated in grammar grammar:kin-1"
+  },
+  {
+    "term": "eno",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "now",
+    "chosen_entry": "dictionary_a:A-069",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-069",
+        "gloss": "now",
+        "head_words": [
+          "now"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "interview_01:seg2"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.88,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-035",
+        "gloss": "now",
+        "head_words": [
+          "now"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "interview_01:seg2"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.88,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): interview_01:seg2"
+  },
+  {
+    "term": "esh",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "be",
+    "chosen_entry": "dictionary_a:A-030",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-030",
+        "gloss": "be",
+        "head_words": [
+          "be"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E20",
+          "interview_01:seg2",
+          "interview_02:seg3"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:tense-2"
+        ],
+        "qualifier_hits": [],
+        "score": 3.34,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 3 place(s): examples:E20, interview_01:seg2, interview_02:seg3; stated in grammar grammar:tense-2"
+  },
+  {
+    "term": "fen",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "again",
+    "chosen_entry": "dictionary_a:A-070",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-070",
+        "gloss": "again",
+        "head_words": [
+          "again"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-070 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "gamra",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "wedding",
+    "chosen_entry": "dictionary_a:A-056",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-056",
+        "gloss": "wedding",
+        "head_words": [
+          "wed"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-056 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "gedo",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "house, home",
+    "chosen_entry": "dictionary_a:A-033",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-033",
+        "gloss": "house, home",
+        "head_words": [
+          "home",
+          "house"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E01",
+          "interview_01:seg4"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:order-1",
+          "grammar:loc-1"
+        ],
+        "qualifier_hits": [],
+        "score": 2.53,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-039",
+        "gloss": "home, house",
+        "head_words": [
+          "home",
+          "house"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E01",
+          "interview_01:seg4"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:order-1",
+          "grammar:loc-1"
+        ],
+        "qualifier_hits": [],
+        "score": 2.53,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 2 place(s): examples:E01, interview_01:seg4; stated in grammar grammar:loc-1, grammar:order-1"
+  },
+  {
+    "term": "gura",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "very, a lot",
+    "chosen_entry": "dictionary_b:B-036",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-074",
+        "gloss": "very, much",
+        "head_words": [
+          "much",
+          "very"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E20",
+          "interview_02:seg3"
+        ],
+        "usage_misses": [
+          "interview_01:seg3",
+          "interview_03:seg4"
+        ],
+        "grammar_hits": [
+          "grammar:order-3"
+        ],
+        "qualifier_hits": [],
+        "score": 2.46,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-036",
+        "gloss": "very, a lot",
+        "head_words": [
+          "lot",
+          "very"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E20",
+          "interview_01:seg3",
+          "interview_02:seg3",
+          "interview_03:seg4"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:order-3"
+        ],
+        "qualifier_hits": [],
+        "score": 4.18,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 4 place(s): examples:E20, interview_02:seg3, interview_01:seg3; stated in grammar grammar:order-3"
+  },
+  {
+    "term": "ha",
+    "kind": "word",
+    "status": "agreed_untested",
+    "meaning": "yes",
+    "chosen_entry": "dictionary_a:A-064",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-064",
+        "gloss": "yes",
+        "head_words": [
+          "yes"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      },
+      {
+        "entry_ref": "dictionary_b:B-050",
+        "gloss": "yes",
+        "head_words": [
+          "yes"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "2 dictionaries agree; the word never appears in usable evidence"
+  },
+  {
+    "term": "hasko",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "joke",
+    "chosen_entry": "dictionary_a:A-054",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-054",
+        "gloss": "joke",
+        "head_words": [
+          "joke"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-054 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "hes",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "laugh",
+    "chosen_entry": "dictionary_a:A-029",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-029",
+        "gloss": "laugh",
+        "head_words": [
+          "laugh"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E16",
+          "interview_03:seg2",
+          "interview_03:seg4"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 2.79,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 3 place(s): examples:E16, interview_03:seg2, interview_03:seg4"
+  },
+  {
+    "term": "hulm",
+    "kind": "word",
+    "status": "resolved_conflict",
+    "meaning": "village",
+    "chosen_entry": "dictionary_b:B-037",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-039",
+        "gloss": "city, town",
+        "head_words": [
+          "city",
+          "town"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [
+          "examples:E14"
+        ],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "contradicted"
+      },
+      {
+        "entry_ref": "dictionary_b:B-037",
+        "gloss": "village",
+        "head_words": [
+          "village"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E14"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 1.0,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": "dictionary_b:B-037 'village' vs dictionary_a:A-039 'city, town'",
+    "discussed_in": [
+      "expert_notes:KIR-2"
+    ],
+    "reason": "usage supports 'village' (examples:E14); rival meaning never fits"
+  },
+  {
+    "term": "hulmar",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "village headman",
+    "chosen_entry": "dictionary_b:B-027",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-052",
+        "gloss": "headman",
+        "head_words": [
+          "headman"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E11",
+          "interview_03:seg1",
+          "interview_03:seg2"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 2.82,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-027",
+        "gloss": "village headman",
+        "head_words": [
+          "headman",
+          "village"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E11",
+          "interview_03:seg1",
+          "interview_03:seg2"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 2.82,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 3 place(s): examples:E11, interview_03:seg1, interview_03:seg2"
+  },
+  {
+    "term": "ita",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "here",
+    "chosen_entry": "dictionary_a:A-072",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-072",
+        "gloss": "here",
+        "head_words": [
+          "here"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-072 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "jan",
+    "kind": "word",
+    "status": "agreed_untested",
+    "meaning": "know",
+    "chosen_entry": "dictionary_a:A-021",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-021",
+        "gloss": "know",
+        "head_words": [
+          "know"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      },
+      {
+        "entry_ref": "dictionary_b:B-017",
+        "gloss": "know",
+        "head_words": [
+          "know"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "2 dictionaries agree; the word never appears in usable evidence"
+  },
+  {
+    "term": "kanu",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "four",
+    "chosen_entry": "dictionary_a:A-088",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-088",
+        "gloss": "four",
+        "head_words": [
+          "4"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:num-1"
+        ],
+        "qualifier_hits": [],
+        "score": 0.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "stated in grammar grammar:num-1"
+  },
+  {
+    "term": "kedi",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "when",
+    "chosen_entry": "dictionary_a:A-084",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-084",
+        "gloss": "when",
+        "head_words": [],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-084 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "kelim",
+    "kind": "word",
+    "status": "resolved_conflict",
+    "meaning": "thank you",
+    "chosen_entry": "dictionary_b:B-029",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-061",
+        "gloss": "please",
+        "head_words": [
+          "please"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [
+          "examples:E10",
+          "interview_04:seg3"
+        ],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "contradicted"
+      },
+      {
+        "entry_ref": "dictionary_b:B-029",
+        "gloss": "thank you",
+        "head_words": [
+          "thank"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E10",
+          "interview_04:seg3"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 1.77,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": "dictionary_b:B-029 'thank you' vs dictionary_a:A-061 'please'",
+    "discussed_in": [
+      "expert_notes:KIR-2",
+      "viewer_feedback:VF-14"
+    ],
+    "reason": "usage supports 'thank you' (examples:E10, interview_04:seg3); rival meaning never fits"
+  },
+  {
+    "term": "kesu",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "why",
+    "chosen_entry": "dictionary_a:A-082",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-082",
+        "gloss": "why",
+        "head_words": [
+          "why"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:q-2"
+        ],
+        "qualifier_hits": [],
+        "score": 0.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "stated in grammar grammar:q-2"
+  },
+  {
+    "term": "keth",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "what",
+    "chosen_entry": "dictionary_a:A-080",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-080",
+        "gloss": "what",
+        "head_words": [
+          "what"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E19"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:q-2"
+        ],
+        "qualifier_hits": [],
+        "score": 1.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): examples:E19; stated in grammar grammar:q-2"
+  },
+  {
+    "term": "ketr",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "bad",
+    "chosen_entry": "dictionary_a:A-076",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-076",
+        "gloss": "bad",
+        "head_words": [
+          "bad"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-076 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "khan",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "eat",
+    "chosen_entry": "dictionary_a:A-019",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-019",
+        "gloss": "eat",
+        "head_words": [
+          "eat"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E03",
+          "examples:E06",
+          "examples:E11"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 3.0,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-016",
+        "gloss": "eat",
+        "head_words": [
+          "eat"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E03",
+          "examples:E06",
+          "examples:E11"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 3.0,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 3 place(s): examples:E03, examples:E06, examples:E11"
+  },
+  {
+    "term": "kiro",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "who",
+    "chosen_entry": "dictionary_a:A-083",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-083",
+        "gloss": "who",
+        "head_words": [
+          "who"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:q-2"
+        ],
+        "qualifier_hits": [],
+        "score": 0.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "stated in grammar grammar:q-2"
+  },
+  {
+    "term": "ko",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "question marker for yes/no questions (end of sentence)",
+    "chosen_entry": "dictionary_b:B-048",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-092",
+        "gloss": "question marker",
+        "head_words": [
+          "marker",
+          "question"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [
+          "examples:E06",
+          "examples:E09",
+          "examples:E11",
+          "interview_02:seg2"
+        ],
+        "grammar_hits": [
+          "grammar:q-1",
+          "grammar:q-2"
+        ],
+        "qualifier_hits": [],
+        "score": 0.6,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-048",
+        "gloss": "question marker for yes/no questions (end of sentence)",
+        "head_words": [
+          "marker",
+          "no",
+          "question"
+        ],
+        "qualifier_words": [
+          "end",
+          "sentence"
+        ],
+        "usage_hits": [],
+        "usage_misses": [
+          "examples:E06",
+          "examples:E09",
+          "examples:E11",
+          "interview_02:seg2"
+        ],
+        "grammar_hits": [
+          "grammar:q-1",
+          "grammar:q-2"
+        ],
+        "qualifier_hits": [
+          "grammar:q-1"
+        ],
+        "score": 0.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "stated in grammar grammar:q-1, grammar:q-2"
+  },
+  {
+    "term": "kor",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "do, make, work",
+    "chosen_entry": "dictionary_a:A-016",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-016",
+        "gloss": "do, make, work",
+        "head_words": [
+          "do",
+          "make",
+          "work"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E12"
+        ],
+        "usage_misses": [
+          "examples:E17",
+          "interview_02:seg1"
+        ],
+        "grammar_hits": [
+          "grammar:cs-1"
+        ],
+        "qualifier_hits": [],
+        "score": 1.6,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-013",
+        "gloss": "do, work",
+        "head_words": [
+          "do",
+          "work"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E12"
+        ],
+        "usage_misses": [
+          "examples:E17",
+          "interview_02:seg1"
+        ],
+        "grammar_hits": [
+          "grammar:cs-1"
+        ],
+        "qualifier_hits": [],
+        "score": 1.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): examples:E12; stated in grammar grammar:cs-1"
+  },
+  {
+    "term": "kuv",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "where",
+    "chosen_entry": "dictionary_a:A-081",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-081",
+        "gloss": "where",
+        "head_words": [
+          "where"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:q-2"
+        ],
+        "qualifier_hits": [],
+        "score": 0.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "stated in grammar grammar:q-2"
+  },
+  {
+    "term": "lira",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "water",
+    "chosen_entry": "dictionary_a:A-036",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-036",
+        "gloss": "water",
+        "head_words": [
+          "water"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-036 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "lob",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "want",
+    "chosen_entry": "dictionary_a:A-020",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-020",
+        "gloss": "want",
+        "head_words": [
+          "want"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E13"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 1.0,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): examples:E13"
+  },
+  {
+    "term": "maira",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "elder sister",
+    "chosen_entry": "dictionary_a:A-046",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-046",
+        "gloss": "elder sister",
+        "head_words": [
+          "elder",
+          "sister"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E16"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:kin-1",
+          "grammar:poss-1"
+        ],
+        "qualifier_hits": [],
+        "score": 1.6,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-023",
+        "gloss": "elder sister",
+        "head_words": [
+          "elder",
+          "sister"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E16"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:kin-1",
+          "grammar:poss-1"
+        ],
+        "qualifier_hits": [],
+        "score": 1.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): examples:E16; stated in grammar grammar:kin-1, grammar:poss-1"
+  },
+  {
+    "term": "mairi",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "younger sister",
+    "chosen_entry": "dictionary_a:A-047",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-047",
+        "gloss": "younger sister",
+        "head_words": [
+          "sister",
+          "younger"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:kin-1"
+        ],
+        "qualifier_hits": [],
+        "score": 0.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "stated in grammar grammar:kin-1"
+  },
+  {
+    "term": "manu",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "food, meal",
+    "chosen_entry": "dictionary_a:A-035",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-035",
+        "gloss": "food, meal",
+        "head_words": [
+          "food",
+          "meal"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E03",
+          "examples:E04",
+          "examples:E11",
+          "examples:E20",
+          "interview_01:seg4"
+        ],
+        "usage_misses": [
+          "examples:E06"
+        ],
+        "grammar_hits": [
+          "grammar:order-1",
+          "grammar:order-3"
+        ],
+        "qualifier_hits": [],
+        "score": 5.53,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-040",
+        "gloss": "food",
+        "head_words": [
+          "food"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E03",
+          "examples:E04",
+          "examples:E11",
+          "examples:E20",
+          "interview_01:seg4"
+        ],
+        "usage_misses": [
+          "examples:E06"
+        ],
+        "grammar_hits": [
+          "grammar:order-1",
+          "grammar:order-3"
+        ],
+        "qualifier_hits": [],
+        "score": 5.53,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 5 place(s): examples:E03, examples:E04, examples:E11; stated in grammar grammar:order-1, grammar:order-3"
+  },
+  {
+    "term": "mas",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "we, us",
+    "chosen_entry": "dictionary_b:B-005",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-005",
+        "gloss": "we",
+        "head_words": [
+          "we"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E03"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 1.0,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-005",
+        "gloss": "we, us",
+        "head_words": [
+          "us",
+          "we"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E03"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 1.0,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): examples:E03"
+  },
+  {
+    "term": "masra",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "our",
+    "chosen_entry": "dictionary_a:A-011",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-011",
+        "gloss": "our",
+        "head_words": [
+          "our"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:poss-1"
+        ],
+        "qualifier_hits": [],
+        "score": 0.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "stated in grammar grammar:poss-1"
+  },
+  {
+    "term": "meethu",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "sweet dish, dessert",
+    "chosen_entry": "dictionary_a:A-059",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-059",
+        "gloss": "sweet dish, dessert",
+        "head_words": [
+          "dessert",
+          "dish",
+          "sweet"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-059 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "mi",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "I, me",
+    "chosen_entry": "dictionary_a:A-001",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-001",
+        "gloss": "I, me",
+        "head_words": [
+          "i",
+          "me"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E01",
+          "examples:E02",
+          "examples:E05",
+          "examples:E12",
+          "examples:E15",
+          "examples:E17",
+          "examples:E18",
+          "interview_02:seg1",
+          "interview_03:seg1"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:order-1",
+          "grammar:order-2",
+          "grammar:neg-1",
+          "grammar:imp-1",
+          "grammar:loc-1"
+        ],
+        "qualifier_hits": [],
+        "score": 9.32,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-001",
+        "gloss": "I, me",
+        "head_words": [
+          "i",
+          "me"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E01",
+          "examples:E02",
+          "examples:E05",
+          "examples:E12",
+          "examples:E15",
+          "examples:E17",
+          "examples:E18",
+          "interview_02:seg1",
+          "interview_03:seg1"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:order-1",
+          "grammar:order-2",
+          "grammar:neg-1",
+          "grammar:imp-1",
+          "grammar:loc-1"
+        ],
+        "qualifier_hits": [],
+        "score": 9.32,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 9 place(s): examples:E01, examples:E02, examples:E05; stated in grammar grammar:imp-1, grammar:loc-1"
+  },
+  {
+    "term": "mira",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "my",
+    "chosen_entry": "dictionary_a:A-007",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-007",
+        "gloss": "my",
+        "head_words": [
+          "my"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E16",
+          "interview_01:seg1",
+          "interview_01:seg2",
+          "interview_01:seg3",
+          "interview_02:seg3"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:poss-1"
+        ],
+        "qualifier_hits": [],
+        "score": 5.1,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-007",
+        "gloss": "my",
+        "head_words": [
+          "my"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E16",
+          "interview_01:seg1",
+          "interview_01:seg2",
+          "interview_01:seg3",
+          "interview_02:seg3"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:poss-1"
+        ],
+        "qualifier_hits": [],
+        "score": 5.1,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 5 place(s): examples:E16, interview_01:seg1, interview_01:seg2; stated in grammar grammar:poss-1"
+  },
+  {
+    "term": "morv",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "change",
+    "chosen_entry": "dictionary_a:A-031",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-031",
+        "gloss": "change",
+        "head_words": [
+          "change"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-031 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "na",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "not (placed before the verb)",
+    "chosen_entry": "dictionary_b:B-047",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-091",
+        "gloss": "not",
+        "head_words": [
+          "not"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E05",
+          "examples:E13",
+          "interview_01:seg1",
+          "interview_03:seg2"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:neg-1"
+        ],
+        "qualifier_hits": [],
+        "score": 4.43,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-047",
+        "gloss": "not (placed before the verb)",
+        "head_words": [
+          "not"
+        ],
+        "qualifier_words": [
+          "before",
+          "plac",
+          "verb"
+        ],
+        "usage_hits": [
+          "examples:E05",
+          "examples:E13",
+          "interview_01:seg1",
+          "interview_03:seg2"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:neg-1"
+        ],
+        "qualifier_hits": [
+          "grammar:neg-1"
+        ],
+        "score": 4.43,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 4 place(s): examples:E05, examples:E13, interview_01:seg1; stated in grammar grammar:neg-1"
+  },
+  {
+    "term": "nas",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "leave, go away",
+    "chosen_entry": "dictionary_b:B-020",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-028",
+        "gloss": "leave",
+        "head_words": [
+          "leave"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E14"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 1.0,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-020",
+        "gloss": "leave, go away",
+        "head_words": [
+          "away",
+          "go",
+          "leave"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E14"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 1.0,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): examples:E14"
+  },
+  {
+    "term": "nesh",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "yesterday",
+    "chosen_entry": "dictionary_a:A-067",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-067",
+        "gloss": "yesterday",
+        "head_words": [
+          "yesterday"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E02"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:order-2"
+        ],
+        "qualifier_hits": [],
+        "score": 1.6,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-033",
+        "gloss": "yesterday",
+        "head_words": [
+          "yesterday"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E02"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:order-2"
+        ],
+        "qualifier_hits": [],
+        "score": 1.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): examples:E02; stated in grammar grammar:order-2"
+  },
+  {
+    "term": "nim",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "bring, take",
+    "chosen_entry": "dictionary_a:A-025",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-025",
+        "gloss": "bring, take",
+        "head_words": [
+          "bring",
+          "take"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-025 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "nu",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "no",
+    "chosen_entry": "dictionary_a:A-065",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-065",
+        "gloss": "no",
+        "head_words": [
+          "no"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-065 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "osa",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "today",
+    "chosen_entry": "dictionary_a:A-068",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-068",
+        "gloss": "today",
+        "head_words": [
+          "today"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E17",
+          "interview_02:seg1"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:order-2"
+        ],
+        "qualifier_hits": [],
+        "score": 2.42,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-034",
+        "gloss": "today",
+        "head_words": [
+          "today"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E17",
+          "interview_02:seg1"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:order-2"
+        ],
+        "qualifier_hits": [],
+        "score": 2.42,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 2 place(s): examples:E17, interview_02:seg1; stated in grammar grammar:order-2"
+  },
+  {
+    "term": "pak",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "cook",
+    "chosen_entry": "dictionary_a:A-023",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-023",
+        "gloss": "cook",
+        "head_words": [
+          "cook"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E04",
+          "interview_01:seg4"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 1.93,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 2 place(s): examples:E04, interview_01:seg4"
+  },
+  {
+    "term": "pal",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "call",
+    "chosen_entry": "dictionary_a:A-026",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-026",
+        "gloss": "call",
+        "head_words": [
+          "call"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-026 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "pavo",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "five",
+    "chosen_entry": "dictionary_a:A-089",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-089",
+        "gloss": "five",
+        "head_words": [
+          "5"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "interview_01:seg1"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:num-1"
+        ],
+        "qualifier_hits": [],
+        "score": 1.51,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-045",
+        "gloss": "five",
+        "head_words": [
+          "5"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "interview_01:seg1"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:num-1"
+        ],
+        "qualifier_hits": [],
+        "score": 1.51,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): interview_01:seg1; stated in grammar grammar:num-1"
+  },
+  {
+    "term": "pulosh",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "police",
+    "chosen_entry": "dictionary_a:A-058",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-058",
+        "gloss": "police",
+        "head_words": [
+          "police"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-058 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "putra",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "son",
+    "chosen_entry": "dictionary_a:A-050",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-050",
+        "gloss": "son",
+        "head_words": [
+          "son"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-050 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "rak",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "wait, stay",
+    "chosen_entry": "dictionary_a:A-022",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-022",
+        "gloss": "wait, stay",
+        "head_words": [
+          "stay",
+          "wait"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E15"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 1.0,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-018",
+        "gloss": "wait",
+        "head_words": [
+          "wait"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E15"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 1.0,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): examples:E15"
+  },
+  {
+    "term": "rati",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "night",
+    "chosen_entry": "dictionary_a:A-043",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-043",
+        "gloss": "night",
+        "head_words": [
+          "night"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-043 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "rill",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "three",
+    "chosen_entry": "dictionary_a:A-087",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-087",
+        "gloss": "three",
+        "head_words": [
+          "3"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E15"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:plural-1",
+          "grammar:num-1"
+        ],
+        "qualifier_hits": [],
+        "score": 1.6,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-044",
+        "gloss": "three",
+        "head_words": [
+          "3"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E15"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:plural-1",
+          "grammar:num-1"
+        ],
+        "qualifier_hits": [],
+        "score": 1.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): examples:E15; stated in grammar grammar:num-1, grammar:plural-1"
+  },
+  {
+    "term": "rov",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "return, come back",
+    "chosen_entry": "dictionary_b:B-011",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-014",
+        "gloss": "return",
+        "head_words": [
+          "return"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [
+          "examples:E07"
+        ],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-011",
+        "gloss": "return, come back",
+        "head_words": [
+          "back",
+          "come",
+          "return"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E07"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 1.0,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): examples:E07"
+  },
+  {
+    "term": "sabo",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "work, job",
+    "chosen_entry": "dictionary_a:A-034",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-034",
+        "gloss": "work, job",
+        "head_words": [
+          "job",
+          "work"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E12"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 1.0,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): examples:E12"
+  },
+  {
+    "term": "sabu",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "all, everyone",
+    "chosen_entry": "dictionary_a:A-079",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-079",
+        "gloss": "all, everyone",
+        "head_words": [
+          "all",
+          "everyone"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "interview_03:seg2"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.92,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-043",
+        "gloss": "everyone, all",
+        "head_words": [
+          "all",
+          "everyone"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "interview_03:seg2"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.92,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): interview_03:seg2"
+  },
+  {
+    "term": "salo",
+    "kind": "word",
+    "status": "agreed_untested",
+    "meaning": "hello, welcome",
+    "chosen_entry": "dictionary_a:A-063",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-063",
+        "gloss": "hello, welcome",
+        "head_words": [
+          "hello",
+          "welcome"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      },
+      {
+        "entry_ref": "dictionary_b:B-031",
+        "gloss": "hello, welcome",
+        "head_words": [
+          "hello",
+          "welcome"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "2 dictionaries agree; the word never appears in usable evidence"
+  },
+  {
+    "term": "sath",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "with",
+    "chosen_entry": "dictionary_a:A-099",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-099",
+        "gloss": "with",
+        "head_words": [
+          "with"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-099 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "savi",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "day",
+    "chosen_entry": "dictionary_a:A-041",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-041",
+        "gloss": "day",
+        "head_words": [
+          "day"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E15",
+          "interview_01:seg1",
+          "interview_03:seg1"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 2.81,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-041",
+        "gloss": "day",
+        "head_words": [
+          "day"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E15",
+          "interview_01:seg1",
+          "interview_03:seg1"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 2.81,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 3 place(s): examples:E15, interview_01:seg1, interview_03:seg1"
+  },
+  {
+    "term": "so",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "he, she, him, her",
+    "chosen_entry": "dictionary_b:B-004",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-004",
+        "gloss": "he, she",
+        "head_words": [
+          "he",
+          "she"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E13",
+          "interview_01:seg2"
+        ],
+        "usage_misses": [
+          "examples:E05"
+        ],
+        "grammar_hits": [
+          "grammar:neg-1"
+        ],
+        "qualifier_hits": [],
+        "score": 2.48,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-004",
+        "gloss": "he, she, him, her",
+        "head_words": [
+          "he",
+          "her",
+          "him",
+          "she"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E05",
+          "examples:E13",
+          "interview_01:seg2"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:neg-1"
+        ],
+        "qualifier_hits": [],
+        "score": 3.48,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 3 place(s): examples:E13, interview_01:seg2, examples:E05; stated in grammar grammar:neg-1"
+  },
+  {
+    "term": "sol",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "they, them",
+    "chosen_entry": "dictionary_b:B-006",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-006",
+        "gloss": "they",
+        "head_words": [
+          "they"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E14"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 1.0,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-006",
+        "gloss": "they, them",
+        "head_words": [
+          "them",
+          "they"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E14"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 1.0,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): examples:E14"
+  },
+  {
+    "term": "solra",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "their",
+    "chosen_entry": "dictionary_a:A-012",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-012",
+        "gloss": "their",
+        "head_words": [
+          "their"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:poss-1"
+        ],
+        "qualifier_hits": [],
+        "score": 0.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "stated in grammar grammar:poss-1"
+  },
+  {
+    "term": "sora",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "his, her",
+    "chosen_entry": "dictionary_a:A-010",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-010",
+        "gloss": "his, her",
+        "head_words": [
+          "her",
+          "his"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:poss-1"
+        ],
+        "qualifier_hits": [],
+        "score": 0.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "stated in grammar grammar:poss-1"
+  },
+  {
+    "term": "sorai",
+    "kind": "word",
+    "status": "resolved_conflict",
+    "meaning": "friend. ONLY between equals. Said to a superior it sounds like 'boy' and is cheeky or insulting.",
+    "chosen_entry": "dictionary_b:B-028",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-053",
+        "gloss": "respected elder; sir. Polite address for superiors and elders.",
+        "head_words": [
+          "elder",
+          "respectful",
+          "sir"
+        ],
+        "qualifier_words": [
+          "address",
+          "elder",
+          "respectful",
+          "superior"
+        ],
+        "usage_hits": [],
+        "usage_misses": [
+          "examples:E10",
+          "interview_03:seg1",
+          "interview_03:seg4"
+        ],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "contradicted"
+      },
+      {
+        "entry_ref": "dictionary_b:B-028",
+        "gloss": "friend. ONLY between equals. Said to a superior it sounds like 'boy' and is cheeky or insulting.",
+        "head_words": [
+          "friend"
+        ],
+        "qualifier_words": [
+          "between",
+          "boy",
+          "cheeky",
+          "equal",
+          "insult",
+          "like",
+          "say",
+          "sound",
+          "superior"
+        ],
+        "usage_hits": [
+          "examples:E10",
+          "interview_03:seg4"
+        ],
+        "usage_misses": [
+          "interview_03:seg1"
+        ],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 1.87,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": "dictionary_b:B-028 'friend. ONLY between equals. Said to a superior it sounds like 'boy' and is cheeky or insulting.' vs dictionary_a:A-053 'respected elder; sir. Polite address for superiors and elders.'",
+    "discussed_in": [
+      "expert_notes:REH-3",
+      "expert_notes:KIR-4",
+      "viewer_feedback:VF-01"
+    ],
+    "reason": "usage supports 'friend. ONLY between equals. Said to a superior it sounds like 'boy' and is cheeky or insulting.' (examples:E10, interview_03:seg4); rival meaning never fits"
+  },
+  {
+    "term": "suma",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "good",
+    "chosen_entry": "dictionary_a:A-075",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-075",
+        "gloss": "good",
+        "head_words": [
+          "good"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E20",
+          "interview_02:seg3"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:order-3"
+        ],
+        "qualifier_hits": [],
+        "score": 2.46,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-042",
+        "gloss": "good",
+        "head_words": [
+          "good"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E20",
+          "interview_02:seg3"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:order-3"
+        ],
+        "qualifier_hits": [],
+        "score": 2.46,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 2 place(s): examples:E20, interview_02:seg3; stated in grammar grammar:order-3"
+  },
+  {
+    "term": "surat",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "master, boss, sir",
+    "chosen_entry": "dictionary_a:A-051",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-051",
+        "gloss": "master, boss, sir",
+        "head_words": [
+          "boss",
+          "master",
+          "sir"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E08",
+          "examples:E09",
+          "interview_02:seg2",
+          "interview_02:seg3"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:order-2",
+          "grammar:respect-2"
+        ],
+        "qualifier_hits": [],
+        "score": 4.25,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-026",
+        "gloss": "boss; 'sir' when speaking to an employer",
+        "head_words": [
+          "boss",
+          "sir"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E08",
+          "examples:E09",
+          "interview_02:seg2",
+          "interview_02:seg3"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:order-2",
+          "grammar:respect-2"
+        ],
+        "qualifier_hits": [],
+        "score": 4.25,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 4 place(s): examples:E08, examples:E09, interview_02:seg2; stated in grammar grammar:order-2, grammar:respect-2"
+  },
+  {
+    "term": "tam",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "come, arrive",
+    "chosen_entry": "dictionary_a:A-015",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-015",
+        "gloss": "come, arrive",
+        "head_words": [
+          "arrive",
+          "come"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E08",
+          "examples:E09",
+          "interview_01:seg1",
+          "interview_04:seg3"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:respect-2"
+        ],
+        "qualifier_hits": [],
+        "score": 4.28,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-012",
+        "gloss": "come",
+        "head_words": [
+          "come"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E08",
+          "examples:E09",
+          "interview_01:seg1",
+          "interview_04:seg3"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:respect-2"
+        ],
+        "qualifier_hits": [],
+        "score": 4.28,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 4 place(s): examples:E08, examples:E09, interview_01:seg1; stated in grammar grammar:respect-2"
+  },
+  {
+    "term": "tavo",
+    "kind": "word",
+    "status": "resolved_conflict",
+    "meaning": "you (respectful: parents, elders, bosses, headman, guests)",
+    "chosen_entry": "dictionary_b:B-003",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-003",
+        "gloss": "you (plural)",
+        "head_words": [
+          "you"
+        ],
+        "qualifier_words": [
+          "plural"
+        ],
+        "usage_hits": [
+          "examples:E08",
+          "examples:E09",
+          "examples:E11",
+          "interview_02:seg2",
+          "interview_04:seg3"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:respect-2"
+        ],
+        "qualifier_hits": [],
+        "score": 5.16,
+        "outcome": "contradicted"
+      },
+      {
+        "entry_ref": "dictionary_b:B-003",
+        "gloss": "you (respectful: parents, elders, bosses, headman, guests)",
+        "head_words": [
+          "you"
+        ],
+        "qualifier_words": [
+          "boss",
+          "elder",
+          "guest",
+          "headman",
+          "parent",
+          "respectful"
+        ],
+        "usage_hits": [
+          "examples:E08",
+          "examples:E09",
+          "examples:E11",
+          "interview_02:seg2",
+          "interview_04:seg3"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:respect-2"
+        ],
+        "qualifier_hits": [
+          "grammar:respect-1",
+          "grammar:respect-2"
+        ],
+        "score": 5.16,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": "dictionary_a:A-003 'you (plural)' vs dictionary_b:B-003 'you (respectful: parents, elders, bosses, headman, guests)'",
+    "discussed_in": [
+      "expert_notes:KIR-1",
+      "viewer_feedback:VF-05"
+    ],
+    "reason": "same core meaning, conflicting usage notes; grammar ['grammar:respect-1', 'grammar:respect-2'] supports dictionary_b:B-003"
+  },
+  {
+    "term": "tavora",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "your (polite)",
+    "chosen_entry": "dictionary_a:A-009",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-009",
+        "gloss": "your (polite)",
+        "head_words": [
+          "your"
+        ],
+        "qualifier_words": [
+          "respectful"
+        ],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:respect-3",
+          "grammar:poss-1"
+        ],
+        "qualifier_hits": [
+          "grammar:respect-3",
+          "grammar:poss-1"
+        ],
+        "score": 0.6,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-009",
+        "gloss": "your (respectful)",
+        "head_words": [
+          "your"
+        ],
+        "qualifier_words": [
+          "respectful"
+        ],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:respect-3",
+          "grammar:poss-1"
+        ],
+        "qualifier_hits": [
+          "grammar:respect-3",
+          "grammar:poss-1"
+        ],
+        "score": 0.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "stated in grammar grammar:poss-1, grammar:respect-3"
+  },
+  {
+    "term": "tolv",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "market",
+    "chosen_entry": "dictionary_a:A-037",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-037",
+        "gloss": "market",
+        "head_words": [
+          "market"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E02"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:order-2"
+        ],
+        "qualifier_hits": [],
+        "score": 1.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): examples:E02; stated in grammar grammar:order-2"
+  },
+  {
+    "term": "tosh",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "two",
+    "chosen_entry": "dictionary_a:A-086",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-086",
+        "gloss": "two",
+        "head_words": [
+          "2"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:num-1"
+        ],
+        "qualifier_hits": [],
+        "score": 0.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "stated in grammar grammar:num-1"
+  },
+  {
+    "term": "tosh-guna",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "twice, double",
+    "chosen_entry": "dictionary_a:A-100",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-100",
+        "gloss": "twice, double",
+        "head_words": [
+          "double",
+          "twice"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-100 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "tovar",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "sorry, excuse me",
+    "chosen_entry": "dictionary_a:A-062",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-062",
+        "gloss": "sorry, excuse me",
+        "head_words": [
+          "excuse",
+          "sorry"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "interview_01:seg2"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.88,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-030",
+        "gloss": "sorry",
+        "head_words": [
+          "sorry"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "interview_01:seg2"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.88,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): interview_01:seg2"
+  },
+  {
+    "term": "tu",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "you (familiar: friends, equals, younger people)",
+    "chosen_entry": "dictionary_b:B-002",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-002",
+        "gloss": "you",
+        "head_words": [
+          "you"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E06",
+          "examples:E07",
+          "examples:E19"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:q-1",
+          "grammar:q-2"
+        ],
+        "qualifier_hits": [],
+        "score": 3.6,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-002",
+        "gloss": "you (familiar: friends, equals, younger people)",
+        "head_words": [
+          "you"
+        ],
+        "qualifier_words": [
+          "equal",
+          "familiar",
+          "friend",
+          "person",
+          "younger"
+        ],
+        "usage_hits": [
+          "examples:E06",
+          "examples:E07",
+          "examples:E19"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:q-1",
+          "grammar:q-2"
+        ],
+        "qualifier_hits": [
+          "grammar:respect-1"
+        ],
+        "score": 3.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 3 place(s): examples:E06, examples:E07, examples:E19; stated in grammar grammar:q-1, grammar:q-2"
+  },
+  {
+    "term": "tura",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "your (familiar)",
+    "chosen_entry": "dictionary_b:B-008",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-008",
+        "gloss": "your",
+        "head_words": [
+          "your"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:respect-3",
+          "grammar:poss-1"
+        ],
+        "qualifier_hits": [],
+        "score": 0.6,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-008",
+        "gloss": "your (familiar)",
+        "head_words": [
+          "your"
+        ],
+        "qualifier_words": [
+          "familiar"
+        ],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:respect-3",
+          "grammar:poss-1"
+        ],
+        "qualifier_hits": [
+          "grammar:respect-3",
+          "grammar:poss-1"
+        ],
+        "score": 0.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "stated in grammar grammar:poss-1, grammar:respect-3"
+  },
+  {
+    "term": "ush",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "forgive",
+    "chosen_entry": "dictionary_a:A-027",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-027",
+        "gloss": "forgive",
+        "head_words": [
+          "forgive"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E18"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:imp-1"
+        ],
+        "qualifier_hits": [],
+        "score": 1.6,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-019",
+        "gloss": "forgive",
+        "head_words": [
+          "forgive"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E18"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:imp-1"
+        ],
+        "qualifier_hits": [],
+        "score": 1.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): examples:E18; stated in grammar grammar:imp-1"
+  },
+  {
+    "term": "uta",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "there",
+    "chosen_entry": "dictionary_a:A-073",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-073",
+        "gloss": "there",
+        "head_words": [
+          "there"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-073 lists it; not seen in examples, interviews or grammar"
+  },
+  {
+    "term": "vel",
+    "kind": "word",
+    "status": "resolved_conflict",
+    "meaning": "go",
+    "chosen_entry": "dictionary_b:B-010",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-013",
+        "gloss": "come",
+        "head_words": [
+          "come"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [
+          "examples:E01",
+          "examples:E02"
+        ],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "contradicted"
+      },
+      {
+        "entry_ref": "dictionary_b:B-010",
+        "gloss": "go",
+        "head_words": [
+          "go"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E01",
+          "examples:E02"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:tense-1"
+        ],
+        "qualifier_hits": [],
+        "score": 2.6,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": "dictionary_b:B-010 'go' vs dictionary_a:A-013 'come'",
+    "discussed_in": [
+      "expert_notes:KIR-2"
+    ],
+    "reason": "usage supports 'go' (examples:E01, examples:E02); rival meaning never fits"
+  },
+  {
+    "term": "vessa",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "city",
+    "chosen_entry": "dictionary_a:A-040",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-040",
+        "gloss": "city",
+        "head_words": [
+          "city"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E12"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 1.0,
+        "outcome": "supported"
+      },
+      {
+        "entry_ref": "dictionary_b:B-038",
+        "gloss": "city",
+        "head_words": [
+          "city"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "examples:E12"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 1.0,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): examples:E12"
+  },
+  {
+    "term": "yem",
+    "kind": "word",
+    "status": "corroborated",
+    "meaning": "one",
+    "chosen_entry": "dictionary_a:A-085",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-085",
+        "gloss": "one",
+        "head_words": [
+          "1"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [
+          "interview_03:seg1"
+        ],
+        "usage_misses": [],
+        "grammar_hits": [
+          "grammar:num-1"
+        ],
+        "qualifier_hits": [],
+        "score": 1.5,
+        "outcome": "supported"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "fits usage in 1 place(s): interview_03:seg1; stated in grammar grammar:num-1"
+  },
+  {
+    "term": "yoru",
+    "kind": "word",
+    "status": "single_source",
+    "meaning": "year",
+    "chosen_entry": "dictionary_a:A-042",
+    "senses": [
+      {
+        "entry_ref": "dictionary_a:A-042",
+        "gloss": "year",
+        "head_words": [
+          "year"
+        ],
+        "qualifier_words": [],
+        "usage_hits": [],
+        "usage_misses": [],
+        "grammar_hits": [],
+        "qualifier_hits": [],
+        "score": 0.0,
+        "outcome": "untested"
+      }
+    ],
+    "conflict": null,
+    "discussed_in": [],
+    "reason": "only dictionary_a:A-042 lists it; not seen in examples, interviews or grammar"
+  }
+]

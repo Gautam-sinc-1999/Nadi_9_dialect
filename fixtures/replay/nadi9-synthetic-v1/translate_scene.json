@@ -1,0 +1,1027 @@
+{
+  "_provenance": "Hand-authored stand-in for recorded model output on the synthetic episode, one entry per scene. It deliberately contains realistic model mistakes so the independent checks in Stage 5 have something to catch: S012 keeps 'sorai' for the headman and uses familiar commands; S010 invents the word 'hapo'; S008 silently drops 'first'; S016 cites the poisoned entry A-066; S013 cites a rule that does not exist. Replace by recording a real run.",
+  "SC1": {
+    "lines": [
+      {
+        "line_id": "S001",
+        "nadi_9_text": "dovanor, tu roven ko?",
+        "tokens": [
+          {
+            "form": "dovanor",
+            "term": "dovanor",
+            "ref": "dictionary_b:B-022"
+          },
+          {
+            "form": "tu",
+            "term": "tu",
+            "ref": "dictionary_b:B-002"
+          },
+          {
+            "form": "roven",
+            "term": "rov",
+            "affixes": [
+              "en"
+            ],
+            "ref": "dictionary_b:B-011"
+          },
+          {
+            "form": "ko",
+            "term": "ko",
+            "ref": "dictionary_b:B-048"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1",
+          "grammar:tense-1#2@past",
+          "grammar:q-1#1",
+          "expert_notes:VAR-1#1"
+        ],
+        "assumptions": [
+          "Riya and Arun are still estranged in SC1, so the distant form 'dovanor' (VAR-1)",
+          "Riya uses familiar 'tu' to her elder brother; the grammar says this varies"
+        ],
+        "gaps": [],
+        "notes": "REH-1 would use 'dovanor' too, for a different reason."
+      },
+      {
+        "line_id": "S002",
+        "nadi_9_text": "ha. mi roven.",
+        "tokens": [
+          {
+            "form": "ha",
+            "term": "ha",
+            "ref": "dictionary_b:B-050"
+          },
+          {
+            "form": "mi",
+            "term": "mi",
+            "ref": "dictionary_b:B-001"
+          },
+          {
+            "form": "roven",
+            "term": "rov",
+            "affixes": [
+              "en"
+            ],
+            "ref": "dictionary_b:B-011"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1",
+          "grammar:tense-1#2@past"
+        ],
+        "assumptions": [],
+        "gaps": []
+      },
+      {
+        "line_id": "S003",
+        "nadi_9_text": "pavo yoruli, tu yem phone na palen.",
+        "tokens": [
+          {
+            "form": "pavo",
+            "term": "pavo",
+            "ref": "dictionary_b:B-045"
+          },
+          {
+            "form": "yoruli",
+            "term": "yoru",
+            "affixes": [
+              "li"
+            ],
+            "ref": "dictionary_a:A-042"
+          },
+          {
+            "form": "tu",
+            "term": "tu",
+            "ref": "dictionary_b:B-002"
+          },
+          {
+            "form": "yem",
+            "term": "yem",
+            "ref": "dictionary_a:A-085"
+          },
+          {
+            "form": "phone",
+            "term": null
+          },
+          {
+            "form": "na",
+            "term": "na",
+            "ref": "dictionary_b:B-047"
+          },
+          {
+            "form": "palen",
+            "term": "pal",
+            "affixes": [
+              "en"
+            ],
+            "ref": "dictionary_a:A-026"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1",
+          "grammar:neg-1#1",
+          "grammar:tense-1#2@past",
+          "grammar:plural-1#1"
+        ],
+        "assumptions": [
+          "the verbless 'not one phone call' is rendered as 'you did not call once'"
+        ],
+        "gaps": []
+      },
+      {
+        "line_id": "S004",
+        "nadi_9_text": "tovar.",
+        "tokens": [
+          {
+            "form": "tovar",
+            "term": "tovar",
+            "ref": "dictionary_b:B-030"
+          }
+        ],
+        "rules_used": [],
+        "assumptions": [],
+        "gaps": []
+      },
+      {
+        "line_id": "S005",
+        "nadi_9_text": "riya, dovar-ma kiro esha?",
+        "tokens": [
+          {
+            "form": "riya",
+            "term": null
+          },
+          {
+            "form": "dovar-ma",
+            "term": "dovar",
+            "affixes": [
+              "ma"
+            ],
+            "ref": "dictionary_a:A-055"
+          },
+          {
+            "form": "kiro",
+            "term": "kiro",
+            "ref": "dictionary_a:A-083"
+          },
+          {
+            "form": "esha",
+            "term": "esh",
+            "affixes": [
+              "a"
+            ],
+            "ref": "dictionary_a:A-030"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1",
+          "grammar:loc-1#1",
+          "grammar:tense-1#1@present"
+        ],
+        "assumptions": [
+          "no 'ko' with a question word (the grammar is unsure)"
+        ],
+        "gaps": []
+      }
+    ]
+  },
+  "SC2": {
+    "lines": [
+      {
+        "line_id": "S006",
+        "nadi_9_text": "mira putra... tu roven.",
+        "tokens": [
+          {
+            "form": "mira",
+            "term": "mira",
+            "ref": "dictionary_b:B-007"
+          },
+          {
+            "form": "putra",
+            "term": "putra",
+            "ref": "dictionary_a:A-050"
+          },
+          {
+            "form": "tu",
+            "term": "tu",
+            "ref": "dictionary_b:B-002"
+          },
+          {
+            "form": "roven",
+            "term": "rov",
+            "affixes": [
+              "en"
+            ],
+            "ref": "dictionary_b:B-011"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1",
+          "grammar:tense-1#2@past",
+          "grammar:respect-1#2"
+        ],
+        "assumptions": [
+          "a mother uses familiar 'tu' to her son"
+        ],
+        "gaps": []
+      },
+      {
+        "line_id": "S007",
+        "nadi_9_text": "ama, mi ushsa.",
+        "tokens": [
+          {
+            "form": "ama",
+            "term": "ama",
+            "ref": "dictionary_b:B-024"
+          },
+          {
+            "form": "mi",
+            "term": "mi",
+            "ref": "dictionary_b:B-001"
+          },
+          {
+            "form": "ushsa",
+            "term": "ush",
+            "affixes": [
+              "sa"
+            ],
+            "ref": "dictionary_b:B-019"
+          }
+        ],
+        "rules_used": [
+          "grammar:imp-1#1"
+        ],
+        "assumptions": [
+          "a respectful command to his mother (root + -sa)"
+        ],
+        "gaps": []
+      },
+      {
+        "line_id": "S008",
+        "nadi_9_text": "manu khan. brem mas baliru.",
+        "tokens": [
+          {
+            "form": "manu",
+            "term": "manu",
+            "ref": "dictionary_b:B-040"
+          },
+          {
+            "form": "khan",
+            "term": "khan",
+            "ref": "dictionary_b:B-016"
+          },
+          {
+            "form": "brem",
+            "term": "brem",
+            "ref": "dictionary_b:B-032"
+          },
+          {
+            "form": "mas",
+            "term": "mas",
+            "ref": "dictionary_b:B-005"
+          },
+          {
+            "form": "baliru",
+            "term": "bal",
+            "affixes": [
+              "iru"
+            ],
+            "ref": "dictionary_b:B-014"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1",
+          "grammar:order-2#1",
+          "grammar:tense-1#3@future"
+        ],
+        "assumptions": [
+          "a mother gives her son a familiar command"
+        ],
+        "gaps": []
+      }
+    ]
+  },
+  "SC3": {
+    "lines": [
+      {
+        "line_id": "S009",
+        "nadi_9_text": "salo, sorai! vessa [?boy] roven!",
+        "tokens": [
+          {
+            "form": "salo",
+            "term": "salo",
+            "ref": "dictionary_b:B-031"
+          },
+          {
+            "form": "sorai",
+            "term": "sorai",
+            "ref": "dictionary_b:B-028"
+          },
+          {
+            "form": "vessa",
+            "term": "vessa",
+            "ref": "dictionary_b:B-038"
+          },
+          {
+            "form": "[?boy]"
+          },
+          {
+            "form": "roven",
+            "term": "rov",
+            "affixes": [
+              "en"
+            ],
+            "ref": "dictionary_b:B-011"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1",
+          "grammar:tense-1#2@past",
+          "dictionary_b:B-028#1"
+        ],
+        "assumptions": [
+          "Kabir and Arun are equals, so 'sorai' is warm here"
+        ],
+        "gaps": [
+          "boy"
+        ]
+      },
+      {
+        "line_id": "S010",
+        "nadi_9_text": "kabir! tu hapo na morven.",
+        "tokens": [
+          {
+            "form": "kabir",
+            "term": null
+          },
+          {
+            "form": "tu",
+            "term": "tu",
+            "ref": "dictionary_b:B-002"
+          },
+          {
+            "form": "hapo",
+            "term": "hapo"
+          },
+          {
+            "form": "na",
+            "term": "na",
+            "ref": "dictionary_b:B-047"
+          },
+          {
+            "form": "morven",
+            "term": "morv",
+            "affixes": [
+              "en"
+            ],
+            "ref": "dictionary_a:A-031"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1",
+          "grammar:neg-1#1",
+          "grammar:tense-1#2@past"
+        ],
+        "assumptions": [
+          "'hapo' for 'at all'"
+        ],
+        "gaps": []
+      },
+      {
+        "line_id": "S011",
+        "nadi_9_text": "mi morven. eno mi tosh-guna khana, mira ama [?ask]!",
+        "tokens": [
+          {
+            "form": "mi",
+            "term": "mi"
+          },
+          {
+            "form": "morven",
+            "term": "morv",
+            "affixes": [
+              "en"
+            ],
+            "ref": "dictionary_a:A-031"
+          },
+          {
+            "form": "eno",
+            "term": "eno",
+            "ref": "dictionary_b:B-035"
+          },
+          {
+            "form": "mi",
+            "term": "mi"
+          },
+          {
+            "form": "tosh-guna",
+            "term": "tosh-guna",
+            "ref": "dictionary_a:A-100"
+          },
+          {
+            "form": "khana",
+            "term": "khan",
+            "affixes": [
+              "a"
+            ],
+            "ref": "dictionary_b:B-016"
+          },
+          {
+            "form": "mira",
+            "term": "mira"
+          },
+          {
+            "form": "ama",
+            "term": "ama"
+          },
+          {
+            "form": "[?ask]"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1",
+          "grammar:tense-1#2@past",
+          "grammar:tense-1#1@present"
+        ],
+        "assumptions": [
+          "the joke is kept literal"
+        ],
+        "gaps": [
+          "ask"
+        ]
+      },
+      {
+        "line_id": "S012",
+        "nadi_9_text": "salo, sorai! tam, mas sath bes.",
+        "tokens": [
+          {
+            "form": "salo",
+            "term": "salo",
+            "ref": "dictionary_b:B-031"
+          },
+          {
+            "form": "sorai",
+            "term": "sorai",
+            "ref": "dictionary_b:B-028"
+          },
+          {
+            "form": "tam",
+            "term": "tam",
+            "ref": "dictionary_b:B-012"
+          },
+          {
+            "form": "mas",
+            "term": "mas",
+            "ref": "dictionary_b:B-005"
+          },
+          {
+            "form": "sath",
+            "term": "sath",
+            "ref": "dictionary_a:A-099"
+          },
+          {
+            "form": "bes",
+            "term": "bes",
+            "ref": "dictionary_a:A-032"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1"
+        ],
+        "assumptions": [
+          "keeps Kabir's cheeky 'sorai' from the source",
+          "familiar commands 'tam', 'bes'"
+        ],
+        "gaps": []
+      },
+      {
+        "line_id": "S013",
+        "nadi_9_text": "arun, tu vessa veliru ko?",
+        "tokens": [
+          {
+            "form": "arun",
+            "term": null
+          },
+          {
+            "form": "tu",
+            "term": "tu",
+            "ref": "dictionary_b:B-002"
+          },
+          {
+            "form": "vessa",
+            "term": "vessa",
+            "ref": "dictionary_b:B-038"
+          },
+          {
+            "form": "veliru",
+            "term": "vel",
+            "affixes": [
+              "iru"
+            ],
+            "ref": "dictionary_b:B-010"
+          },
+          {
+            "form": "ko",
+            "term": "ko",
+            "ref": "dictionary_b:B-048"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1",
+          "grammar:tense-1#3@future",
+          "grammar:q-1#1",
+          "grammar:question-order#1"
+        ],
+        "assumptions": [
+          "the headman uses familiar 'tu' to a younger villager"
+        ],
+        "gaps": []
+      },
+      {
+        "line_id": "S014",
+        "nadi_9_text": "hulmar, mi na jana.",
+        "tokens": [
+          {
+            "form": "hulmar",
+            "term": "hulmar",
+            "ref": "dictionary_b:B-027"
+          },
+          {
+            "form": "mi",
+            "term": "mi",
+            "ref": "dictionary_b:B-001"
+          },
+          {
+            "form": "na",
+            "term": "na",
+            "ref": "dictionary_b:B-047"
+          },
+          {
+            "form": "jana",
+            "term": "jan",
+            "affixes": [
+              "a"
+            ],
+            "ref": "dictionary_b:B-017"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1",
+          "grammar:neg-1#1",
+          "grammar:tense-1#1@present"
+        ],
+        "assumptions": [],
+        "gaps": []
+      }
+    ]
+  },
+  "SC4": {
+    "lines": [
+      {
+        "line_id": "S015",
+        "nadi_9_text": "arun, brem dem meeting esha.",
+        "tokens": [
+          {
+            "form": "arun",
+            "term": null
+          },
+          {
+            "form": "brem",
+            "term": "brem",
+            "ref": "dictionary_b:B-032"
+          },
+          {
+            "form": "dem",
+            "term": "dem",
+            "ref": "dictionary_b:B-046"
+          },
+          {
+            "form": "meeting",
+            "term": null
+          },
+          {
+            "form": "esha",
+            "term": "esh",
+            "affixes": [
+              "a"
+            ],
+            "ref": "dictionary_a:A-030"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1",
+          "grammar:tense-1#1@present"
+        ],
+        "assumptions": [
+          "'at ten' rendered with the bare number; clock times are undocumented"
+        ],
+        "gaps": []
+      },
+      {
+        "line_id": "S016",
+        "nadi_9_text": "surat, brem mi office tamiru.",
+        "tokens": [
+          {
+            "form": "surat",
+            "term": "surat",
+            "ref": "dictionary_b:B-026"
+          },
+          {
+            "form": "brem",
+            "term": "brem",
+            "ref": "dictionary_a:A-066"
+          },
+          {
+            "form": "mi",
+            "term": "mi",
+            "ref": "dictionary_b:B-001"
+          },
+          {
+            "form": "office",
+            "term": null
+          },
+          {
+            "form": "tamiru",
+            "term": "tam",
+            "affixes": [
+              "iru"
+            ],
+            "ref": "dictionary_b:B-012"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1",
+          "grammar:order-2#1",
+          "grammar:tense-1#3@future"
+        ],
+        "assumptions": [],
+        "gaps": []
+      },
+      {
+        "line_id": "S017",
+        "nadi_9_text": null,
+        "tokens": [],
+        "rules_used": [],
+        "assumptions": [],
+        "gaps": [
+          "late",
+          "negative command"
+        ],
+        "notes": "No word for 'late' and negative commands are undocumented (grammar:neg-1). Not translated."
+      },
+      {
+        "line_id": "S018",
+        "nadi_9_text": "ha, surat. kelim.",
+        "tokens": [
+          {
+            "form": "ha",
+            "term": "ha",
+            "ref": "dictionary_b:B-050"
+          },
+          {
+            "form": "surat",
+            "term": "surat",
+            "ref": "dictionary_b:B-026"
+          },
+          {
+            "form": "kelim",
+            "term": "kelim",
+            "ref": "dictionary_b:B-029"
+          }
+        ],
+        "rules_used": [],
+        "assumptions": [],
+        "gaps": []
+      }
+    ]
+  },
+  "SC5": {
+    "lines": [
+      {
+        "line_id": "S019",
+        "nadi_9_text": "dovan, brem tu nasiru ko?",
+        "tokens": [
+          {
+            "form": "dovan",
+            "term": "dovan",
+            "ref": "dictionary_b:B-021"
+          },
+          {
+            "form": "brem",
+            "term": "brem",
+            "ref": "dictionary_b:B-032"
+          },
+          {
+            "form": "tu",
+            "term": "tu",
+            "ref": "dictionary_b:B-002"
+          },
+          {
+            "form": "nasiru",
+            "term": "nas",
+            "affixes": [
+              "iru"
+            ],
+            "ref": "dictionary_b:B-020"
+          },
+          {
+            "form": "ko",
+            "term": "ko",
+            "ref": "dictionary_b:B-048"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1",
+          "grammar:tense-1#3@future",
+          "grammar:q-1#1",
+          "expert_notes:VAR-1#2"
+        ],
+        "assumptions": [
+          "the siblings have reconciled, so 'dovan' (VAR-1)"
+        ],
+        "gaps": []
+      },
+      {
+        "line_id": "S020",
+        "nadi_9_text": "nu. mi na nasiru.",
+        "tokens": [
+          {
+            "form": "nu",
+            "term": "nu",
+            "ref": "dictionary_a:A-065"
+          },
+          {
+            "form": "mi",
+            "term": "mi",
+            "ref": "dictionary_b:B-001"
+          },
+          {
+            "form": "na",
+            "term": "na",
+            "ref": "dictionary_b:B-047"
+          },
+          {
+            "form": "nasiru",
+            "term": "nas",
+            "affixes": [
+              "iru"
+            ],
+            "ref": "dictionary_b:B-020"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1",
+          "grammar:neg-1#1",
+          "grammar:tense-1#3@future"
+        ],
+        "assumptions": [
+          "future negation assumed to be 'na' + future verb; KIR-3 reports two patterns"
+        ],
+        "gaps": []
+      },
+      {
+        "line_id": "S021",
+        "nadi_9_text": "ama, tavora manu gura suma esha.",
+        "tokens": [
+          {
+            "form": "ama",
+            "term": "ama",
+            "ref": "dictionary_b:B-024"
+          },
+          {
+            "form": "tavora",
+            "term": "tavora",
+            "ref": "dictionary_a:A-009"
+          },
+          {
+            "form": "manu",
+            "term": "manu",
+            "ref": "dictionary_b:B-040"
+          },
+          {
+            "form": "gura",
+            "term": "gura",
+            "ref": "dictionary_b:B-036"
+          },
+          {
+            "form": "suma",
+            "term": "suma",
+            "ref": "dictionary_b:B-042"
+          },
+          {
+            "form": "esha",
+            "term": "esh",
+            "affixes": [
+              "a"
+            ],
+            "ref": "dictionary_a:A-030"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1",
+          "grammar:order-3#1",
+          "grammar:tense-1#1@present"
+        ],
+        "assumptions": [
+          "respectful 'tavora' for his mother"
+        ],
+        "gaps": []
+      },
+      {
+        "line_id": "S022",
+        "nadi_9_text": "hulmar, tavo khanasa ko?",
+        "tokens": [
+          {
+            "form": "hulmar",
+            "term": "hulmar",
+            "ref": "dictionary_b:B-027"
+          },
+          {
+            "form": "tavo",
+            "term": "tavo",
+            "ref": "dictionary_b:B-003"
+          },
+          {
+            "form": "khanasa",
+            "term": "khan",
+            "affixes": [
+              "a",
+              "sa"
+            ],
+            "ref": "dictionary_b:B-016"
+          },
+          {
+            "form": "ko",
+            "term": "ko",
+            "ref": "dictionary_b:B-048"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1",
+          "grammar:tense-1#1@present",
+          "grammar:respect-2#1@present",
+          "grammar:q-1#1"
+        ],
+        "assumptions": [
+          "respectful 'tavo' to the headman, a guest"
+        ],
+        "gaps": []
+      },
+      {
+        "line_id": "S023",
+        "nadi_9_text": "ha. arun, tura ama pavo yoruli raken.",
+        "tokens": [
+          {
+            "form": "ha",
+            "term": "ha"
+          },
+          {
+            "form": "arun",
+            "term": null
+          },
+          {
+            "form": "tura",
+            "term": "tura",
+            "ref": "dictionary_b:B-008"
+          },
+          {
+            "form": "ama",
+            "term": "ama"
+          },
+          {
+            "form": "pavo",
+            "term": "pavo"
+          },
+          {
+            "form": "yoruli",
+            "term": "yoru",
+            "affixes": [
+              "li"
+            ],
+            "ref": "dictionary_a:A-042"
+          },
+          {
+            "form": "raken",
+            "term": "rak",
+            "affixes": [
+              "en"
+            ],
+            "ref": "dictionary_b:B-018"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1",
+          "grammar:tense-1#2@past",
+          "grammar:plural-1#1"
+        ],
+        "assumptions": [
+          "the headman uses familiar 'tura' to Arun"
+        ],
+        "gaps": []
+      },
+      {
+        "line_id": "S024",
+        "nadi_9_text": "mi meethu raken!",
+        "tokens": [
+          {
+            "form": "mi",
+            "term": "mi"
+          },
+          {
+            "form": "meethu",
+            "term": "meethu",
+            "ref": "dictionary_a:A-059"
+          },
+          {
+            "form": "raken",
+            "term": "rak",
+            "affixes": [
+              "en"
+            ],
+            "ref": "dictionary_b:B-018"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1",
+          "grammar:tense-1#2@past"
+        ],
+        "assumptions": [
+          "'And' dropped; the joke is literal"
+        ],
+        "gaps": []
+      },
+      {
+        "line_id": "S025",
+        "nadi_9_text": "salo gedo, dovan.",
+        "tokens": [
+          {
+            "form": "salo",
+            "term": "salo",
+            "ref": "dictionary_b:B-031"
+          },
+          {
+            "form": "gedo",
+            "term": "gedo",
+            "ref": "dictionary_b:B-039"
+          },
+          {
+            "form": "dovan",
+            "term": "dovan",
+            "ref": "dictionary_b:B-021"
+          }
+        ],
+        "rules_used": [
+          "expert_notes:VAR-1#2"
+        ],
+        "assumptions": [
+          "reconciled, so 'dovan' (VAR-1)"
+        ],
+        "gaps": []
+      }
+    ]
+  },
+  "SC5#replan-EV01": {
+    "lines": [
+      {
+        "line_id": "S022",
+        "nadi_9_text": "hulmar, tavo khanasi ko?",
+        "tokens": [
+          {
+            "form": "hulmar",
+            "term": "hulmar",
+            "ref": "dictionary_b:B-027"
+          },
+          {
+            "form": "tavo",
+            "term": "tavo",
+            "ref": "dictionary_b:B-003"
+          },
+          {
+            "form": "khanasi",
+            "term": "khan",
+            "affixes": [
+              "a",
+              "si"
+            ],
+            "ref": "dictionary_b:B-016"
+          },
+          {
+            "form": "ko",
+            "term": "ko",
+            "ref": "dictionary_b:B-048"
+          }
+        ],
+        "rules_used": [
+          "grammar:order-1#1",
+          "grammar:tense-1#1@present",
+          "grammar:respect-2#1@present",
+          "grammar:q-1#1"
+        ],
+        "assumptions": [
+          "respectful 'tavo' to the headman, a guest",
+          "present-tense respect ending -si per the linguist's correction EV01"
+        ],
+        "gaps": []
+      }
+    ]
+  }
+}

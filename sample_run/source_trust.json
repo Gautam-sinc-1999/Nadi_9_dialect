@@ -1,0 +1,142 @@
+[
+  {
+    "source_id": "dictionary_a",
+    "role": "dictionary",
+    "prior": 0.6,
+    "supported": 62,
+    "contradicted": 8,
+    "untested": 29,
+    "trust": 0.87,
+    "measured": true,
+    "conflicts_of_interest": [],
+    "reason": "62 meanings confirmed, 8 contradicted by evidence, 29 untestable"
+  },
+  {
+    "source_id": "dictionary_b",
+    "role": "dictionary",
+    "prior": 0.6,
+    "supported": 46,
+    "contradicted": 0,
+    "untested": 4,
+    "trust": 0.968,
+    "measured": true,
+    "conflicts_of_interest": [],
+    "reason": "46 meanings confirmed, 0 contradicted by evidence, 4 untestable"
+  },
+  {
+    "source_id": "episode",
+    "role": "episode",
+    "prior": 1.0,
+    "supported": 0,
+    "contradicted": 0,
+    "untested": 0,
+    "trust": 1.0,
+    "measured": false,
+    "conflicts_of_interest": [],
+    "reason": "prior only"
+  },
+  {
+    "source_id": "examples",
+    "role": "examples",
+    "prior": 0.9,
+    "supported": 20,
+    "contradicted": 0,
+    "untested": 0,
+    "trust": 0.983,
+    "measured": true,
+    "conflicts_of_interest": [],
+    "reason": "20 examples confirmed, 0 contradicted by evidence, 0 untestable"
+  },
+  {
+    "source_id": "expert_notes",
+    "role": "expert_notes",
+    "prior": 0.7,
+    "supported": 3,
+    "contradicted": 1,
+    "untested": 3,
+    "trust": 0.725,
+    "measured": true,
+    "conflicts_of_interest": [
+      "Dr. Leela Varkey is the author of interview_01",
+      "Dr. Leela Varkey is the author of interview_02",
+      "Dr. Leela Varkey is the author of interview_03",
+      "Dr. Leela Varkey is the author of interview_04",
+      "Dr. Leela Varkey is the author of interview_05",
+      "Tomas Rehn works for 'Meridian Lexical Services', author of dictionary_a",
+      "Asha Kiran is the author of dictionary_b"
+    ],
+    "reason": "3 claims confirmed, 1 contradicted by evidence, 3 untestable"
+  },
+  {
+    "source_id": "grammar",
+    "role": "grammar",
+    "prior": 0.8,
+    "supported": 11,
+    "contradicted": 0,
+    "untested": 11,
+    "trust": 0.947,
+    "measured": true,
+    "conflicts_of_interest": [],
+    "reason": "11 rules confirmed, 0 contradicted by evidence, 11 untestable"
+  },
+  {
+    "source_id": "interview_01",
+    "role": "interview",
+    "prior": 0.7,
+    "supported": 0,
+    "contradicted": 0,
+    "untested": 0,
+    "trust": 0.7,
+    "measured": false,
+    "conflicts_of_interest": [],
+    "reason": "prior only"
+  },
+  {
+    "source_id": "interview_02",
+    "role": "interview",
+    "prior": 0.7,
+    "supported": 0,
+    "contradicted": 0,
+    "untested": 0,
+    "trust": 0.7,
+    "measured": false,
+    "conflicts_of_interest": [],
+    "reason": "prior only"
+  },
+  {
+    "source_id": "interview_03",
+    "role": "interview",
+    "prior": 0.7,
+    "supported": 0,
+    "contradicted": 0,
+    "untested": 0,
+    "trust": 0.7,
+    "measured": false,
+    "conflicts_of_interest": [],
+    "reason": "prior only"
+  },
+  {
+    "source_id": "interview_04",
+    "role": "interview",
+    "prior": 0.7,
+    "supported": 0,
+    "contradicted": 0,
+    "untested": 0,
+    "trust": 0.7,
+    "measured": false,
+    "conflicts_of_interest": [],
+    "reason": "prior only"
+  },
+  {
+    "source_id": "viewer_feedback",
+    "role": "feedback",
+    "prior": 0.3,
+    "supported": 0,
+    "contradicted": 0,
+    "untested": 0,
+    "trust": 0.3,
+    "measured": false,
+    "conflicts_of_interest": [],
+    "reason": "prior only"
+  }
+]

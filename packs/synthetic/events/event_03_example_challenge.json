@@ -1,0 +1,14 @@
+{
+  "event_id": "EV03",
+  "type": "example_challenge",
+  "trigger": {"after_subtitle": "S020"},
+  "received": "2025-04-03T09:05:00Z",
+  "from": {"name": "Localization Review Board"},
+  "target": "example:E09",
+  "message": "After re-listening to the recording, E09 is corrected. The worker used the respectful form: 'surat, brem tavo tamirusa ko?'.",
+  "change": {
+    "example_id": "E09",
+    "old_nadi_9": "surat, brem tu tamiru ko?",
+    "new_nadi_9": "surat, brem tavo tamirusa ko?"
+  }
+}

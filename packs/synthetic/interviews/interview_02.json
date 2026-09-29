@@ -1,0 +1,16 @@
+{
+  "source_id": "interview_02",
+  "topic": "work",
+  "recorded": "2024-10-05",
+  "recorded_by": "Dr. Leela Varkey",
+  "speaker": {"name": "Ravi", "age": 42, "gender": "M", "origin": "moved to the city 10 years ago"},
+  "audio_file": "interview_02.wav",
+  "audio_quality": "medium, background traffic, heavy code-switching",
+  "asr_engine": "mock-asr-1.0",
+  "segments": [
+    {"seg": "seg1", "start": "00:00:05.0", "end": "00:00:09.0", "asr_confidence": 0.82, "text": "osa mi office-ma meeting koren.", "interviewer_gloss": "Today I held a meeting in the office."},
+    {"seg": "seg2", "start": "00:00:11.0", "end": "00:00:15.0", "asr_confidence": 0.79, "text": "surat, tavo report dekensa ko?", "interviewer_gloss": "Sir, did you (respectful) see the report?"},
+    {"seg": "seg3", "start": "00:00:18.0", "end": "00:00:21.0", "asr_confidence": 0.86, "text": "mira surat gura suma esha.", "interviewer_gloss": "My boss is very good."},
+    {"seg": "seg4", "start": "00:00:25.0", "end": "00:00:29.0", "asr_confidence": 0.42, "text": "[inaudible] bus-ma [crosstalk] dem ...", "interviewer_gloss": "[Unclear. Something about the bus and 'ten'.]"}
+  ]
+}

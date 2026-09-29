@@ -1,0 +1,19 @@
+{
+  "pack_id": "nadi9-synthetic-v1",
+  "description": "Synthetic Nadi-9 assignment pack. Built by the candidate because the official pack was not supplied. Reproduces every difficulty listed in the brief.",
+  "sources": [
+    {"source_id": "examples", "path": "examples.json", "type": "approved_examples", "author": "Nadi-9 Localization Review Board", "date": "2024-02-10"},
+    {"source_id": "grammar", "path": "grammar_note.md", "type": "grammar_note", "author": "Dr. Prakash Menon", "date": "2023-06-15"},
+    {"source_id": "dictionary_a", "path": "dictionary_a.json", "type": "dictionary", "author": "Meridian Lexical Services (external vendor)", "date": "2022-08-30"},
+    {"source_id": "dictionary_b", "path": "dictionary_b.json", "type": "dictionary", "author": "Asha Kiran (community linguist)", "date": "2025-02-20"},
+    {"source_id": "expert_notes", "path": "expert_notes.json", "type": "expert_notes", "author": "3 specialists", "date": "2024-11-20 to 2025-03-06"},
+    {"source_id": "viewer_feedback", "path": "viewer_feedback.json", "type": "viewer_feedback", "author": "anonymous viewers", "date": "2024-09"},
+    {"source_id": "interview_01", "path": "interviews/interview_01.json", "type": "interview", "author": "Dr. Leela Varkey", "date": "2024-10-02"},
+    {"source_id": "interview_02", "path": "interviews/interview_02.json", "type": "interview", "author": "Dr. Leela Varkey", "date": "2024-10-05"},
+    {"source_id": "interview_03", "path": "interviews/interview_03.json", "type": "interview", "author": "Dr. Leela Varkey", "date": "2024-10-09"},
+    {"source_id": "interview_04", "path": "interviews/interview_04.json", "type": "interview", "author": "Dr. Leela Varkey", "date": "2024-10-14"},
+    {"source_id": "interview_05", "path": "interviews/interview_05.json", "type": "interview", "author": "Dr. Leela Varkey", "date": "2024-10-20"},
+    {"source_id": "episode", "path": "episode.json", "type": "episode", "author": "OTT production team", "date": "2025-04-01"}
+  ],
+  "events_dir": "events"
+}

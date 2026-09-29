@@ -1,0 +1,73 @@
+{
+  "_provenance": "Recorded from groq:openai/gpt-oss-120b on 2026-09-29 11:13 UTC. Real model output.",
+  "rules": [
+    {
+      "template": "word_order",
+      "params": {
+        "verb_position": "final"
+      },
+      "note": "Most clauses place the verb at the end of the sentence (e.g., ama manu paka, sol hulm nasiru)."
+    },
+    {
+      "template": "word_order",
+      "params": {
+        "verb_position": "medial"
+      },
+      "note": "Simple S‑V‑O clauses without an initial adverbial sometimes have the verb immediately after the subject (e.g., mi gedo vela, nesh mi tolv velen)."
+    },
+    {
+      "template": "affix",
+      "params": {
+        "kind": "suffix",
+        "form": "ma",
+        "feature": "case=locative",
+        "attaches_to": "noun"
+      },
+      "note": "The suffix ‑ma marks a locative relationship on nouns (office‑ma, vessa‑ma)."
+    },
+    {
+      "template": "affix",
+      "params": {
+        "kind": "suffix",
+        "form": "en",
+        "feature": "tense=past",
+        "attaches_to": "verb"
+      },
+      "note": "The suffix ‑en appears on verbs to indicate past tense (khanen, tamirensa)."
+    },
+    {
+      "template": "affix",
+      "params": {
+        "kind": "suffix",
+        "form": "sa",
+        "feature": "tense=future",
+        "attaches_to": "verb"
+      },
+      "note": "The suffix ‑sa marks future tense on verbs (khanirusa, tamirusa)."
+    },
+    {
+      "template": "particle_position",
+      "params": {
+        "particle": "na",
+        "relative_to": "verb",
+        "position": "after",
+        "feature": "negation"
+      },
+      "note": "The negation particle na follows the verb and precedes the object (mi so na deken, so chenn na loba)."
+    },
+    {
+      "template": "agreement",
+      "params": {
+        "if_word": "tavo",
+        "then_affix": "sa",
+        "on": "verb",
+        "tenses": [
+          "present",
+          "past",
+          "future"
+        ]
+      },
+      "note": "When the honorific second‑person pronoun tavo is used, the verb takes the suffix ‑sa regardless of tense (tavo manu khanirusa, tavo office tamensa)."
+    }
+  ]
+}

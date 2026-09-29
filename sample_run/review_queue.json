@@ -1,0 +1,736 @@
+[
+  {
+    "subtitle_id": "S001",
+    "priority": "high",
+    "decision": "HUMAN_REVIEW",
+    "timecode": "00:00:04,000 --> 00:00:06,200",
+    "speaker": "Riya",
+    "addressee": "Arun",
+    "source_text": "You came back, elder brother?",
+    "proposal": "tavo rovensa dovanor ko",
+    "back_gloss": "you return+en+sa elder brother question marker for yes/no questions",
+    "suggested_text": null,
+    "confidence": 0.21,
+    "confidence_reason": "V3 error: breaks grammar:order-1#1: verb comes final in the clause",
+    "question": "Which form should Riya use to Arun (relationship: estranged)? The line currently uses 'dovanor'. expert_notes:REH-1#1 says 'dovanor' always [unsupported: 0 for / 0 against; conflict of interest: Tomas Rehn works for 'Meridian Lexical Services', author of dictionary_a] vs expert_notes:VAR-1#1 says 'dovanor' only when estranged [weak: 0.91 for / 0 against; conflict of interest: Dr. Leela Varkey is the author of interview_01].",
+    "also_check": [
+      "The sources say use of dovanor is undocumented (grammar:kin-1#1: \"A form `dovanor` is also reported for \"elder brother\". I could not determine whe\"). The proposal assumes 'tavo rovensa dovanor ko'. Is that correct?",
+      "The sources say address to elder siblings is undocumented (grammar:respect-1#3: \"Address to **elder siblings** varies between families. See [kin-1].\"). The proposal assumes 'tavo rovensa dovanor ko'. Is that correct?",
+      "The proposal breaks grammar:order-1#1: verb comes final in the clause. Correct it, or confirm the proposal is acceptable?"
+    ],
+    "evidence": [
+      "dictionary_b:B-003",
+      "dictionary_b:B-011",
+      "dictionary_b:B-022",
+      "dictionary_b:B-048",
+      "grammar:order-1",
+      "examples:E01",
+      "grammar:tense-1",
+      "examples:E02",
+      "grammar:q-1",
+      "examples:E06",
+      "grammar:respect-2",
+      "examples:E08",
+      "expert_notes:VAR-1",
+      "interview_01:seg1"
+    ],
+    "conflicts": [
+      "disputed: 'dovanor' rules compete (expert_notes:REH-1#1 vs expert_notes:VAR-1#1)",
+      "tavo: dictionary_a:A-003 'you (plural)' vs dictionary_b:B-003 'you (respectful: parents, elders, bosses, headman, guests)' (resolved: dictionary_b:B-003)"
+    ],
+    "assumptions": [
+      "use respectful 'tavo' for higher addressee",
+      "use formal 'dovanor' because relationship is estranged",
+      "add respect suffix -sa after past tense",
+      "Arun is elder_sibling relative to Riya: siblings ('Younger sister of Arun. Stayed in the village.'); Arun is older",
+      "relationship state ['estranged'] from line note"
+    ],
+    "state_version": 2
+  },
+  {
+    "subtitle_id": "S003",
+    "priority": "high",
+    "decision": "HUMAN_REVIEW",
+    "timecode": "00:00:08,900 --> 00:00:11,800",
+    "speaker": "Riya",
+    "addressee": "Arun",
+    "source_text": "Five years, and not one phone call.",
+    "proposal": "pavo yoru [?and] na yem phone pal",
+    "back_gloss": "five year [?AND] not one phone call",
+    "suggested_text": null,
+    "confidence": 0.0,
+    "confidence_reason": "weakest word '[?and]': gap",
+    "question": "No source gives a Nadi-9 word for 'and' (needed in \"Five years, and not one phone call.\"). What word should be used, or should the line be rephrased?",
+    "also_check": [
+      "The proposal breaks grammar:neg-1#1: 'na' goes before the verb (negation). Correct it, or confirm the proposal is acceptable?",
+      "The model's answer had a structural problem (token list does not match the text (text ['pavo', 'yoru', '[?and]', 'na', 'yem', 'phone', ). The text itself: is it acceptable?",
+      "Only dictionary_a:A-042 lists 'yoru' (year); no example or recording confirms it. Is it correct here?"
+    ],
+    "evidence": [
+      "dictionary_a:A-089",
+      "dictionary_a:A-042",
+      "dictionary_b:B-047",
+      "dictionary_a:A-085",
+      "dictionary_a:A-026",
+      "grammar:order-1",
+      "examples:E01",
+      "grammar:neg-1",
+      "examples:E05"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "negation 'na' placed before verb",
+      "Arun is elder_sibling relative to Riya: siblings ('Younger sister of Arun. Stayed in the village.'); Arun is older",
+      "relationship state ['estranged'] from scene summary SC1"
+    ],
+    "state_version": 2
+  },
+  {
+    "subtitle_id": "S004",
+    "priority": "high",
+    "decision": "HUMAN_REVIEW",
+    "timecode": "00:00:12,200 --> 00:00:13,600",
+    "speaker": "Arun",
+    "addressee": "Riya",
+    "source_text": "I am sorry.",
+    "proposal": "mi esha tovar",
+    "back_gloss": "I be+a sorry",
+    "suggested_text": null,
+    "confidence": 0.35,
+    "confidence_reason": "V3 error: breaks grammar:order-1#1: verb comes final in the clause",
+    "question": "The proposal breaks grammar:order-1#1: verb comes final in the clause. Correct it, or confirm the proposal is acceptable?",
+    "also_check": [],
+    "evidence": [
+      "dictionary_a:A-001",
+      "dictionary_a:A-030",
+      "dictionary_a:A-062",
+      "grammar:order-1",
+      "examples:E01",
+      "grammar:tense-1"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "Riya is lower relative to Arun: siblings ('Younger sister of Arun. Stayed in the village.'); Riya is younger",
+      "relationship state ['estranged'] from scene summary SC1"
+    ],
+    "state_version": 2
+  },
+  {
+    "subtitle_id": "S005",
+    "priority": "high",
+    "decision": "HUMAN_REVIEW",
+    "timecode": "00:00:14,000 --> 00:00:16,000",
+    "speaker": "Ama",
+    "addressee": "Riya",
+    "source_text": "Riya, who is at the door?",
+    "proposal": "riya kiro dovar-ma esha ko",
+    "back_gloss": "riya who door+ma be+a question marker for yes/no questions",
+    "suggested_text": null,
+    "confidence": 0.47,
+    "confidence_reason": "weakest word 'dovar-ma': single source (dictionary_a:A-055)",
+    "question": "The sources say whether `ko` is also used with question words is undocumented (grammar:q-2#1: \"Unclear: whether `ko` is also used with question words. My one speaker omitted i\"). The proposal assumes 'riya kiro dovar-ma esha ko'. Is that correct?",
+    "also_check": [
+      "Only dictionary_a:A-055 lists 'dovar' (door); no example or recording confirms it. Is it correct here?"
+    ],
+    "evidence": [
+      "dictionary_a:A-083",
+      "dictionary_a:A-055",
+      "dictionary_a:A-030",
+      "dictionary_b:B-048",
+      "grammar:order-1",
+      "examples:E01",
+      "grammar:tense-1",
+      "grammar:q-1",
+      "examples:E06"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "Riya is lower relative to Ama: 'Mother of Riya and Arun.'",
+      "relationship state ['estranged'] from scene summary SC1"
+    ],
+    "state_version": 2
+  },
+  {
+    "subtitle_id": "S007",
+    "priority": "high",
+    "decision": "HUMAN_REVIEW",
+    "timecode": "00:00:23,000 --> 00:00:25,000",
+    "speaker": "Arun",
+    "addressee": "Ama",
+    "source_text": "Mother, forgive me.",
+    "proposal": "ama ush mi",
+    "back_gloss": "mother forgive I",
+    "suggested_text": null,
+    "confidence": 0.35,
+    "confidence_reason": "V3 error: breaks grammar:order-1#1: verb comes final in the clause",
+    "question": "\"Mother, forgive me.\" is a command to Ama (higher status). No tested rule says how a respectful command is formed, so 'ama ush mi' cannot be checked for politeness. Is it respectful enough?",
+    "also_check": [
+      "The proposal breaks grammar:order-1#1: verb comes final in the clause. Correct it, or confirm the proposal is acceptable?"
+    ],
+    "evidence": [
+      "dictionary_a:A-048",
+      "dictionary_a:A-027",
+      "dictionary_a:A-001",
+      "grammar:order-1",
+      "examples:E01"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "imperative expressed with bare verb form",
+      "vocative 'ama' placed before verb",
+      "Ama is higher relative to Arun: 'Mother of Riya and Arun.'"
+    ],
+    "state_version": 4
+  },
+  {
+    "subtitle_id": "S009",
+    "priority": "high",
+    "decision": "HUMAN_REVIEW",
+    "timecode": "00:00:35,000 --> 00:00:37,800",
+    "speaker": "Kabir",
+    "addressee": "Arun",
+    "source_text": "Hey, friend! The city boy has come back!",
+    "proposal": "salo sorai vessa [?boy] roven",
+    "back_gloss": "hello friend city [?BOY] return+en",
+    "suggested_text": null,
+    "confidence": 0.0,
+    "confidence_reason": "weakest word '[?boy]': gap",
+    "question": "No source gives a Nadi-9 word for 'boy' (needed in \"Hey, friend! The city boy has come back!\"). What word should be used, or should the line be rephrased?",
+    "also_check": [
+      "Which form should Kabir use to Arun? The line currently uses 'sorai'. dictionary_b:B-028#1 says 'sorai' allowed status: ['equal']; forbidden status: ['higher'] [weak: 1 for / 0 against] vs expert_notes:REH-3#1 says 'sorai' allowed status: ['higher'] [refuted: 0 for / 1 against (examples:E10); conflict of interest: Tomas Rehn works for 'Meridian Lexical Services', author of dictionary_a] vs expert_notes:KIR-4#1 says 'sorai' allowed status: ['equal']; forbidden status: ['higher'] [weak: 1 for / 0 against; conflict of interest: Asha Kiran is the author of dictionary_b].",
+      "Humour: does 'salo sorai vessa [?boy] roven' (back-gloss: hello friend city [?BOY] return+en) keep the joke in \"Hey, friend! The city boy has come back!\", or does it need a freer rendering?"
+    ],
+    "evidence": [
+      "dictionary_a:A-063",
+      "dictionary_b:B-028",
+      "dictionary_a:A-040",
+      "dictionary_b:B-011",
+      "grammar:order-1",
+      "examples:E01",
+      "grammar:tense-1",
+      "examples:E02",
+      "expert_notes:KIR-4",
+      "examples:E10"
+    ],
+    "conflicts": [
+      "friend -> sorai: dictionaries disagreed; resolved to dictionary_b:B-028",
+      "disputed: 'sorai' rules compete (dictionary_b:B-028#1 vs expert_notes:REH-3#1; expert_notes:KIR-4#1 vs expert_notes:REH-3#1)",
+      "sorai: dictionary_b:B-028 'friend. ONLY between equals. Said to a superior it sounds like 'boy' and is cheeky or insulting.' vs dictionary_a:A-053 'respected elder; sir. Polite address for superiors and elders.' (resolved: dictionary_b:B-028)"
+    ],
+    "assumptions": [
+      "sorai used because addressee Arun is equal to speaker Kabir",
+      "Arun is equal relative to Kabir: \"Arun's childhood friend. Village joker.\""
+    ],
+    "state_version": 1
+  },
+  {
+    "subtitle_id": "S010",
+    "priority": "high",
+    "decision": "HUMAN_REVIEW",
+    "timecode": "00:00:38,200 --> 00:00:40,500",
+    "speaker": "Arun",
+    "addressee": "Kabir",
+    "source_text": "Kabir! You haven't changed at all.",
+    "proposal": "kabir tu na morven sabu",
+    "back_gloss": "kabir you not change+en all",
+    "suggested_text": null,
+    "confidence": 0.17,
+    "confidence_reason": "V3 error: breaks grammar:order-1#1: verb comes final in the clause",
+    "question": "The proposal breaks grammar:order-1#1: verb comes final in the clause. Correct it, or confirm the proposal is acceptable?",
+    "also_check": [
+      "Only dictionary_a:A-031 lists 'morv' (change); no example or recording confirms it. Is it correct here?"
+    ],
+    "evidence": [
+      "dictionary_b:B-002",
+      "dictionary_b:B-047",
+      "dictionary_a:A-031",
+      "dictionary_a:A-079",
+      "grammar:order-1",
+      "examples:E01",
+      "grammar:tense-1",
+      "examples:E02",
+      "grammar:neg-1",
+      "examples:E05",
+      "grammar:respect-1",
+      "examples:E06",
+      "expert_notes:KIR-1"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "tu chosen because addressee Kabir is an equal",
+      "Kabir is equal relative to Arun: \"Arun's childhood friend. Village joker.\""
+    ],
+    "state_version": 1
+  },
+  {
+    "subtitle_id": "S011",
+    "priority": "high",
+    "decision": "HUMAN_REVIEW",
+    "timecode": "00:00:40,700 --> 00:00:41,500",
+    "speaker": "Kabir",
+    "addressee": "Arun",
+    "source_text": "I changed. Now I eat twice as much, ask my mother!",
+    "proposal": "mi morven eno mi khana tosh-guna mira ama [?ask]",
+    "back_gloss": "I change+en now I eat+a twice my mother [?ASK]",
+    "suggested_text": null,
+    "confidence": 0.0,
+    "confidence_reason": "weakest word '[?ask]': gap",
+    "question": "No source gives a Nadi-9 word for 'ask' (needed in \"I changed. Now I eat twice as much, ask my mother!\"). What word should be used, or should the line be rephrased?",
+    "also_check": [
+      "The grammar says nothing about comparison, which \"I changed. Now I eat twice as much, ask my mother!\" needs. The proposal renders it as 'mi morven eno mi khana tosh-guna mira ama [?ask]'. Is that how comparison is expressed?",
+      "The proposal breaks grammar:order-1#1: verb comes final in the clause. Correct it, or confirm the proposal is acceptable?",
+      "Only dictionary_a:A-031 lists 'morv' (change); no example or recording confirms it. Is it correct here?"
+    ],
+    "evidence": [
+      "dictionary_a:A-001",
+      "dictionary_a:A-031",
+      "dictionary_a:A-069",
+      "dictionary_a:A-019",
+      "dictionary_a:A-100",
+      "dictionary_a:A-007",
+      "dictionary_a:A-048",
+      "grammar:order-1",
+      "examples:E01",
+      "grammar:tense-1",
+      "examples:E02"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "morven uses past tense; khana uses present tense",
+      "Arun is equal relative to Kabir: \"Arun's childhood friend. Village joker.\""
+    ],
+    "state_version": 1
+  },
+  {
+    "subtitle_id": "S012",
+    "priority": "high",
+    "decision": "HUMAN_REVIEW",
+    "timecode": "00:00:43,000 --> 00:00:45,200",
+    "speaker": "Kabir",
+    "addressee": "Bhola",
+    "source_text": "Welcome, friend! Come, sit with us.",
+    "proposal": "salo [?friend] tam bes sath mas",
+    "back_gloss": "hello [?FRIEND] come sit with we",
+    "suggested_text": null,
+    "confidence": 0.0,
+    "confidence_reason": "weakest word '[?friend]': gap",
+    "question": "'friend' was left untranslated although the lexicon has 'sorai' (friend. ONLY between equals. Said to a superior it sounds li), probably because 'sorai' allowed status: ['equal']; forbidden status: ['higher'] but addressee is higher. Use 'sorai' here, or rephrase?",
+    "also_check": [
+      "\"Welcome, friend! Come, sit with us.\" is a command to Bhola (higher status). No tested rule says how a respectful command is formed, so 'salo [?friend] tam bes sath mas' cannot be checked for politeness. Is it respectful enough?",
+      "The proposal breaks grammar:order-1#1: verb comes final in the clause. Correct it, or confirm the proposal is acceptable?",
+      "Only dictionary_a:A-032 lists 'bes' (sit); no example or recording confirms it. Is it correct here?"
+    ],
+    "evidence": [
+      "dictionary_a:A-063",
+      "dictionary_a:A-015",
+      "dictionary_a:A-032",
+      "dictionary_a:A-099",
+      "dictionary_b:B-005",
+      "grammar:order-1",
+      "examples:E01"
+    ],
+    "conflicts": [
+      "friend -> sorai: dictionaries disagreed; resolved to dictionary_b:B-028",
+      "disputed: 'sorai' rules compete (dictionary_b:B-028#1 vs expert_notes:REH-3#1; expert_notes:KIR-4#1 vs expert_notes:REH-3#1)"
+    ],
+    "assumptions": [
+      "sorai not used because addressee Bhola is higher status; ?friend gap inserted",
+      "Bhola is higher relative to Kabir: Bhola: 'Village headman. Respected, a bit stern.'"
+    ],
+    "state_version": 1
+  },
+  {
+    "subtitle_id": "S013",
+    "priority": "high",
+    "decision": "HUMAN_REVIEW",
+    "timecode": "00:00:46,000 --> 00:00:48,600",
+    "speaker": "Bhola",
+    "addressee": "Arun",
+    "source_text": "Arun, will you go back to the city?",
+    "proposal": "arun tu veliru vessa-ma ko",
+    "back_gloss": "arun you go+iru city+ma question marker for yes/no questions",
+    "suggested_text": null,
+    "confidence": 0.28,
+    "confidence_reason": "V3 error: breaks grammar:order-1#1: verb comes final in the clause",
+    "question": "The proposal breaks grammar:order-1#1: verb comes final in the clause. Correct it, or confirm the proposal is acceptable?",
+    "also_check": [
+      "'back' is not expressed (expected ['rov']). Is that acceptable in the subtitle?"
+    ],
+    "evidence": [
+      "dictionary_b:B-002",
+      "dictionary_b:B-010",
+      "dictionary_a:A-040",
+      "dictionary_b:B-048",
+      "grammar:order-1",
+      "examples:E01",
+      "grammar:tense-1",
+      "examples:E03",
+      "grammar:q-1",
+      "examples:E06",
+      "grammar:respect-1",
+      "expert_notes:KIR-1"
+    ],
+    "conflicts": [
+      "go -> vel: dictionaries disagreed; resolved to dictionary_b:B-010",
+      "vel: dictionary_b:B-010 'go' vs dictionary_a:A-013 'come' (resolved: dictionary_b:B-010)"
+    ],
+    "assumptions": [
+      "tu used because Arun is lower status than Bhola; future tense veliru; ko marks yes/no question",
+      "Arun is lower relative to Bhola: Bhola: 'Village headman. Respected, a bit stern.'"
+    ],
+    "state_version": 1
+  },
+  {
+    "subtitle_id": "S015",
+    "priority": "high",
+    "decision": "HUMAN_REVIEW",
+    "timecode": "00:01:00,000 --> 00:01:02,800",
+    "speaker": "Mr. Dass",
+    "addressee": "Arun",
+    "source_text": "Arun, the meeting is tomorrow at ten.",
+    "proposal": "arun meeting brem dem esha",
+    "back_gloss": "arun meeting tomorrow ten be+a",
+    "suggested_text": null,
+    "confidence": 0.9,
+    "confidence_reason": "weakest word 'brem': resolved conflict (dictionary_b:B-032)",
+    "question": "The grammar says nothing about clock time, which \"Arun, the meeting is tomorrow at ten.\" needs. The proposal renders it as 'arun meeting brem dem esha'. Is that how clock time is expressed?",
+    "also_check": [],
+    "evidence": [
+      "dictionary_b:B-032",
+      "dictionary_b:B-046",
+      "dictionary_a:A-030",
+      "grammar:order-1",
+      "examples:E01",
+      "grammar:tense-1"
+    ],
+    "conflicts": [
+      "tomorrow -> brem: dictionaries disagreed; resolved to dictionary_b:B-032",
+      "ten -> dem: dictionaries disagreed; resolved to dictionary_b:B-046",
+      "brem: dictionary_b:B-032 'tomorrow' vs dictionary_a:A-066 'yesterday' (resolved: dictionary_b:B-032)",
+      "dem: dictionary_b:B-046 'ten' vs dictionary_a:A-090 'twelve' (resolved: dictionary_b:B-046)"
+    ],
+    "assumptions": [
+      "present tense used for scheduled event",
+      "Arun is lower relative to Mr. Dass: \"Arun's boss in the city. Only heard on the phone.\""
+    ],
+    "state_version": 3
+  },
+  {
+    "subtitle_id": "S017",
+    "priority": "high",
+    "decision": "HUMAN_REVIEW",
+    "timecode": "00:01:06,000 --> 00:01:07,400",
+    "speaker": "Mr. Dass",
+    "addressee": "Arun",
+    "source_text": "Don't be late.",
+    "proposal": "na esha [?late]",
+    "back_gloss": "not be+a [?LATE]",
+    "suggested_text": null,
+    "confidence": 0.0,
+    "confidence_reason": "weakest word '[?late]': gap",
+    "question": "No source gives a Nadi-9 word for 'late' (needed in \"Don't be late.\"). What word should be used, or should the line be rephrased?",
+    "also_check": [
+      "The sources say negative commands is undocumented (grammar:neg-1#2: \"Not yet documented: negation of future forms, and negative commands (\"don't ...\"\"). The proposal assumes 'na esha [?late]'. Is that correct?",
+      "The model's answer had a structural problem (token list does not match the text (text ['na', 'esha', '[?late]'], tokens ['na', 'esha', ). The text itself: is it acceptable?"
+    ],
+    "evidence": [
+      "dictionary_b:B-047",
+      "dictionary_a:A-030",
+      "grammar:order-1",
+      "examples:E01",
+      "grammar:neg-1",
+      "examples:E05"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "negative command formed with 'na' before present verb",
+      "Arun is lower relative to Mr. Dass: \"Arun's boss in the city. Only heard on the phone.\""
+    ],
+    "state_version": 3
+  },
+  {
+    "subtitle_id": "S018",
+    "priority": "high",
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "timecode": "00:01:07,800 --> 00:01:09,600",
+    "speaker": "Arun",
+    "addressee": "Mr. Dass",
+    "source_text": "Yes, sir. Thank you.",
+    "proposal": null,
+    "back_gloss": null,
+    "suggested_text": null,
+    "confidence": 0.0,
+    "confidence_reason": "no translation: no model output for this line",
+    "question": "No translation could be supported: no model output for this line. How should this line be rendered?",
+    "also_check": [],
+    "evidence": [],
+    "conflicts": [
+      "thanks -> kelim: dictionaries disagreed; resolved to dictionary_b:B-029"
+    ],
+    "assumptions": [
+      "Mr. Dass is higher relative to Arun: \"Arun's boss in the city. Only heard on the phone.\""
+    ],
+    "state_version": 3
+  },
+  {
+    "subtitle_id": "S019",
+    "priority": "high",
+    "decision": "HUMAN_REVIEW",
+    "timecode": "00:01:20,000 --> 00:01:22,800",
+    "speaker": "Riya",
+    "addressee": "Arun",
+    "source_text": "Will you leave tomorrow, elder brother?",
+    "proposal": "tavo nasirusa brem dovan ko",
+    "back_gloss": "you leave+iru+sa tomorrow elder brother question marker for yes/no questions",
+    "suggested_text": null,
+    "confidence": 0.28,
+    "confidence_reason": "V3 error: breaks grammar:order-1#1: verb comes final in the clause",
+    "question": "The sources say use of dovanor is undocumented (grammar:kin-1#1: \"A form `dovanor` is also reported for \"elder brother\". I could not determine whe\"). The proposal assumes 'tavo nasirusa brem dovan ko'. Is that correct?",
+    "also_check": [
+      "The sources say address to elder siblings is undocumented (grammar:respect-1#3: \"Address to **elder siblings** varies between families. See [kin-1].\"). The proposal assumes 'tavo nasirusa brem dovan ko'. Is that correct?",
+      "The proposal breaks grammar:order-1#1: verb comes final in the clause. Correct it, or confirm the proposal is acceptable?"
+    ],
+    "evidence": [
+      "dictionary_b:B-003",
+      "dictionary_b:B-020",
+      "dictionary_b:B-032",
+      "dictionary_b:B-021",
+      "dictionary_b:B-048",
+      "grammar:order-1",
+      "examples:E01",
+      "grammar:tense-1",
+      "examples:E03",
+      "grammar:q-1",
+      "examples:E06",
+      "grammar:respect-2",
+      "examples:E08"
+    ],
+    "conflicts": [
+      "tomorrow -> brem: dictionaries disagreed; resolved to dictionary_b:B-032",
+      "disputed: 'dovanor' rules compete (expert_notes:REH-1#1 vs expert_notes:VAR-1#1)",
+      "brem: dictionary_b:B-032 'tomorrow' vs dictionary_a:A-066 'yesterday' (resolved: dictionary_b:B-032)",
+      "tavo: dictionary_a:A-003 'you (plural)' vs dictionary_b:B-003 'you (respectful: parents, elders, bosses, headman, guests)' (resolved: dictionary_b:B-003)"
+    ],
+    "assumptions": [
+      "use respectful pronoun 'tavo' for elder sibling",
+      "use everyday form 'dovan' for address",
+      "Arun is elder_sibling relative to Riya: siblings ('Younger sister of Arun. Stayed in the village.'); Arun is older",
+      "relationship state ['reconciled'] from line note"
+    ],
+    "state_version": 1
+  },
+  {
+    "subtitle_id": "S020",
+    "priority": "high",
+    "decision": "HUMAN_REVIEW",
+    "timecode": "00:01:23,200 --> 00:01:25,000",
+    "speaker": "Arun",
+    "addressee": "Riya",
+    "source_text": "No. I will not leave.",
+    "proposal": "nu mi na nasiru",
+    "back_gloss": "no I not leave+iru",
+    "suggested_text": null,
+    "confidence": 0.47,
+    "confidence_reason": "weakest word 'nu': single source (dictionary_a:A-065)",
+    "question": "The sources say negation of future forms, is undocumented (grammar:neg-1#2: \"Not yet documented: negation of future forms, and negative commands (\"don't ...\"\"). The proposal assumes 'nu mi na nasiru'. Is that correct?",
+    "also_check": [
+      "The sources say future negation forms (na veliru vs velnai) is undocumented (expert_notes:KIR-3#1: \"For future negation I have heard both 'na veliru' and 'velnai'. I do not know wh\"). The proposal assumes 'nu mi na nasiru'. Is that correct?",
+      "Only dictionary_a:A-065 lists 'nu' (no); no example or recording confirms it. Is it correct here?"
+    ],
+    "evidence": [
+      "dictionary_a:A-065",
+      "dictionary_a:A-001",
+      "dictionary_b:B-047",
+      "dictionary_b:B-020",
+      "grammar:order-1",
+      "examples:E01",
+      "grammar:tense-1",
+      "examples:E03",
+      "grammar:neg-1",
+      "examples:E05"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "Riya is lower relative to Arun: siblings ('Younger sister of Arun. Stayed in the village.'); Riya is younger",
+      "relationship state ['reconciled'] from scene summary SC5"
+    ],
+    "state_version": 1
+  },
+  {
+    "subtitle_id": "S023",
+    "priority": "high",
+    "decision": "HUMAN_REVIEW",
+    "timecode": "00:01:31,000 --> 00:01:34,500",
+    "speaker": "Bhola",
+    "addressee": "Arun",
+    "source_text": "Yes. Arun, your mother waited for five years.",
+    "proposal": "ha arun tavora ama pavo yoru raken",
+    "back_gloss": "yes arun your mother five year wait+en",
+    "suggested_text": null,
+    "confidence": 0.19,
+    "confidence_reason": "V3 error: 'tavora' is respectful (dictionary_a:A-009) but the addressee is lower relative to the speaker",
+    "question": "The proposal 'tavora' is respectful (dictionary_a:A-009) but the addressee is lower relative to the speaker. Correct it, or confirm the proposal is acceptable?",
+    "also_check": [
+      "Only dictionary_a:A-042 lists 'yoru' (year); no example or recording confirms it. Is it correct here?"
+    ],
+    "evidence": [
+      "dictionary_a:A-064",
+      "dictionary_a:A-009",
+      "dictionary_a:A-048",
+      "dictionary_a:A-089",
+      "dictionary_a:A-042",
+      "dictionary_a:A-022",
+      "grammar:order-1",
+      "examples:E01",
+      "grammar:tense-1",
+      "examples:E02"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "Arun is lower relative to Bhola: Bhola: 'Village headman. Respected, a bit stern.'",
+      "relationship state ['reconciled'] from scene summary SC5"
+    ],
+    "state_version": 1
+  },
+  {
+    "subtitle_id": "S024",
+    "priority": "high",
+    "decision": "HUMAN_REVIEW",
+    "timecode": "00:01:35,000 --> 00:01:37,000",
+    "speaker": "Kabir",
+    "addressee": "everyone",
+    "source_text": "And I waited for dessert!",
+    "proposal": "[?and] mi raken meethu",
+    "back_gloss": "[?AND] I wait+en sweet dish",
+    "suggested_text": null,
+    "confidence": 0.0,
+    "confidence_reason": "weakest word '[?and]': gap",
+    "question": "No source gives a Nadi-9 word for 'and' (needed in \"And I waited for dessert!\"). What word should be used, or should the line be rephrased?",
+    "also_check": [
+      "The proposal breaks grammar:order-1#1: verb comes final in the clause. Correct it, or confirm the proposal is acceptable?",
+      "Only dictionary_a:A-059 lists 'meethu' (sweet dish, dessert); no example or recording confirms it. Is it correct here?",
+      "Humour: does '[?and] mi raken meethu' (back-gloss: [?AND] I wait+en sweet dish) keep the joke in \"And I waited for dessert!\", or does it need a freer rendering?"
+    ],
+    "evidence": [
+      "dictionary_a:A-001",
+      "dictionary_a:A-022",
+      "dictionary_a:A-059",
+      "grammar:order-1",
+      "examples:E01",
+      "grammar:tense-1",
+      "examples:E02"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "everyone is mixed relative to Kabir: addressed to several people",
+      "relationship state ['reconciled'] from scene summary SC5"
+    ],
+    "state_version": 1
+  },
+  {
+    "subtitle_id": "S025",
+    "priority": "high",
+    "decision": "HUMAN_REVIEW",
+    "timecode": "00:01:38,000 --> 00:01:40,500",
+    "speaker": "Riya",
+    "addressee": "Arun",
+    "source_text": "Welcome home, elder brother.",
+    "proposal": "salo gedo dovan",
+    "back_gloss": "hello house elder brother",
+    "suggested_text": null,
+    "confidence": 0.77,
+    "confidence_reason": "weakest word 'salo': agreed untested (dictionary_a:A-063)",
+    "question": "The sources say use of dovanor is undocumented (grammar:kin-1#1: \"A form `dovanor` is also reported for \"elder brother\". I could not determine whe\"). The proposal assumes 'salo gedo dovan'. Is that correct?",
+    "also_check": [
+      "The sources say address to elder siblings is undocumented (grammar:respect-1#3: \"Address to **elder siblings** varies between families. See [kin-1].\"). The proposal assumes 'salo gedo dovan'. Is that correct?"
+    ],
+    "evidence": [
+      "dictionary_a:A-063",
+      "dictionary_a:A-033",
+      "dictionary_b:B-021"
+    ],
+    "conflicts": [
+      "disputed: 'dovanor' rules compete (expert_notes:REH-1#1 vs expert_notes:VAR-1#1)"
+    ],
+    "assumptions": [
+      "use everyday form 'dovan' for address despite disputed formal form",
+      "Arun is elder_sibling relative to Riya: siblings ('Younger sister of Arun. Stayed in the village.'); Arun is older",
+      "relationship state ['reconciled'] from scene summary SC5"
+    ],
+    "state_version": 1
+  },
+  {
+    "subtitle_id": "S006",
+    "priority": "normal",
+    "decision": "HUMAN_REVIEW",
+    "timecode": "00:00:20,000 --> 00:00:22,500",
+    "speaker": "Ama",
+    "addressee": "Arun",
+    "source_text": "My son... you came back.",
+    "proposal": "mira putra tu roven",
+    "back_gloss": "my son you return+en",
+    "suggested_text": null,
+    "confidence": 0.42,
+    "confidence_reason": "weakest word 'putra': single source (dictionary_a:A-050)",
+    "question": "Only dictionary_a:A-050 lists 'putra' (son); no example or recording confirms it. Is it correct here?",
+    "also_check": [],
+    "evidence": [
+      "dictionary_a:A-007",
+      "dictionary_a:A-050",
+      "dictionary_b:B-002",
+      "dictionary_b:B-011",
+      "grammar:order-1",
+      "examples:E01",
+      "grammar:tense-1",
+      "examples:E02",
+      "grammar:respect-1",
+      "examples:E06",
+      "expert_notes:KIR-1"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "used tu for second‑person because addressee is lower status",
+      "verb placed final per clause order",
+      "Arun is lower relative to Ama: 'Mother of Riya and Arun.'"
+    ],
+    "state_version": 4
+  },
+  {
+    "subtitle_id": "S008",
+    "priority": "normal",
+    "decision": "HUMAN_REVIEW",
+    "timecode": "00:00:25,500 --> 00:00:28,500",
+    "speaker": "Ama",
+    "addressee": "Arun",
+    "source_text": "Eat first. We will talk tomorrow.",
+    "proposal": "agra khan. mas brem baliru",
+    "back_gloss": "first eat we tomorrow speak+iru",
+    "suggested_text": null,
+    "confidence": 0.47,
+    "confidence_reason": "weakest word 'agra': single source (dictionary_a:A-071)",
+    "question": "Only dictionary_a:A-071 lists 'agra' (first, before); no example or recording confirms it. Is it correct here?",
+    "also_check": [],
+    "evidence": [
+      "dictionary_a:A-071",
+      "dictionary_a:A-019",
+      "dictionary_b:B-005",
+      "dictionary_b:B-032",
+      "dictionary_a:A-017",
+      "grammar:order-1",
+      "examples:E01",
+      "grammar:tense-1",
+      "examples:E03"
+    ],
+    "conflicts": [
+      "tomorrow -> brem: dictionaries disagreed; resolved to dictionary_b:B-032",
+      "brem: dictionary_b:B-032 'tomorrow' vs dictionary_a:A-066 'yesterday' (resolved: dictionary_b:B-032)"
+    ],
+    "assumptions": [
+      "imperative 'khan' used without tense suffix",
+      "future clause uses -iru suffix on verb",
+      "time adverb 'brem' placed before verb",
+      "Arun is lower relative to Ama: 'Mother of Riya and Arun.'"
+    ],
+    "state_version": 4
+  }
+]

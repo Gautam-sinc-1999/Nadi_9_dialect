@@ -1,0 +1,13 @@
+{
+  "source_id": "interview_05",
+  "topic": "family and status",
+  "recorded": "2024-10-20",
+  "recorded_by": "Dr. Leela Varkey",
+  "speaker": {"name": "Unknown", "age": null, "gender": null, "origin": null},
+  "audio_file": "interview_05.wav",
+  "audio_quality": "unknown",
+  "asr_engine": "mock-asr-1.0",
+  "transcription_status": "not_transcribed",
+  "note": "Audio delivered but never transcribed. The transcription tool must be called to get segments; it may fail.",
+  "segments": []
+}

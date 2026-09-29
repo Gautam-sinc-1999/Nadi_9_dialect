@@ -1,0 +1,162 @@
+{
+  "_provenance": "Recorded from groq:openai/gpt-oss-120b on 2026-09-29 14:05 UTC. Real model output.",
+  "claims": [
+    {
+      "ref": "expert_notes:VAR-1",
+      "template": "lexical_choice",
+      "params": {
+        "term": "dovanor",
+        "allowed_status": [
+          "elder_sibling"
+        ],
+        "requires_tag": "estranged"
+      },
+      "quote": "'dovanor' is a distant, formal way to address an elder brother. Families use it while siblings are estranged or at formal ceremonies. Once they reconcile, they go back to 'dovan'."
+    },
+    {
+      "ref": "expert_notes:REH-1",
+      "template": "lexical_choice",
+      "params": {
+        "term": "dovanor",
+        "allowed_status": [
+          "elder_sibling"
+        ],
+        "always": true
+      },
+      "quote": "For broadcast subtitles an elder brother should always be addressed as 'dovanor'. Deference marking is expected on screen regardless of the family situation."
+    },
+    {
+      "ref": "expert_notes:REH-3",
+      "template": "lexical_choice",
+      "params": {
+        "term": "sorai",
+        "allowed_status": [
+          "higher"
+        ]
+      },
+      "quote": "'sorai' is a polite form of address and is safe to use with elders."
+    },
+    {
+      "ref": "expert_notes:KIR-4",
+      "template": "lexical_choice",
+      "params": {
+        "term": "sorai",
+        "allowed_status": [
+          "equal"
+        ],
+        "forbidden_status": [
+          "higher"
+        ]
+      },
+      "quote": "Calling someone of higher status 'sorai' is cheeky at best and rude at worst. Among friends it is warm."
+    },
+    {
+      "ref": "expert_notes:KIR-1",
+      "template": "lexical_choice",
+      "params": {
+        "term": "tu",
+        "forbidden_status": [
+          "higher"
+        ]
+      },
+      "quote": "Nobody addresses their boss with 'tu'. I think the honorific was lost in transcription; it should be 'tavo ... tamirusa'."
+    },
+    {
+      "ref": "dictionary_b:B-028",
+      "template": "lexical_choice",
+      "params": {
+        "term": "sorai",
+        "allowed_status": [
+          "equal"
+        ],
+        "forbidden_status": [
+          "higher"
+        ]
+      },
+      "quote": "friend. ONLY between equals. Said to a superior it sounds like 'boy' and is cheeky or insulting."
+    },
+    {
+      "ref": "dictionary_b:B-002",
+      "template": "lexical_choice",
+      "params": {
+        "term": "tu",
+        "allowed_status": [
+          "equal",
+          "lower"
+        ]
+      },
+      "quote": "you (familiar: friends, equals, younger people)"
+    },
+    {
+      "ref": "dictionary_b:B-003",
+      "template": "lexical_choice",
+      "params": {
+        "term": "tavo",
+        "allowed_status": [
+          "higher"
+        ]
+      },
+      "quote": "you (respectful: parents, elders, bosses, headman, guests)"
+    },
+    {
+      "ref": "dictionary_b:B-009",
+      "template": "lexical_choice",
+      "params": {
+        "term": "tavora",
+        "allowed_status": [
+          "higher"
+        ]
+      },
+      "quote": "your (respectful)"
+    },
+    {
+      "ref": "dictionary_b:B-022",
+      "template": "lexical_choice",
+      "params": {
+        "term": "dovanor",
+        "allowed_status": [
+          "elder_sibling"
+        ]
+      },
+      "quote": "elder brother (formal / distant form). Usage disputed, see expert notes."
+    },
+    {
+      "ref": "expert_notes:VAR-2",
+      "template": "affix",
+      "params": {
+        "kind": "suffix",
+        "form": "sa",
+        "feature": "tense=past",
+        "attaches_to": "verb"
+      },
+      "quote": "The respect register suffix -sa is well attested in past ..."
+    },
+    {
+      "ref": "expert_notes:VAR-2",
+      "template": "affix",
+      "params": {
+        "kind": "suffix",
+        "form": "sa",
+        "feature": "tense=future",
+        "attaches_to": "verb"
+      },
+      "quote": "The respect register suffix -sa is well attested in ... future forms."
+    },
+    {
+      "ref": "expert_notes:VAR-3",
+      "template": "gap",
+      "params": {
+        "topic": "pluralization of English nouns with -li"
+      },
+      "quote": "I never heard them take the plural -li."
+    },
+    {
+      "ref": "expert_notes:KIR-3",
+      "template": "gap",
+      "params": {
+        "topic": "future negation forms (na veliru vs velnai)"
+      },
+      "quote": "For future negation I have heard both 'na veliru' and 'velnai'. I do not know which is standard, or whether it depends on the village."
+    }
+  ]
+}

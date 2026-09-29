@@ -1,0 +1,229 @@
+{
+  "_provenance": "Recorded from groq:openai/gpt-oss-120b on 2026-09-29 11:06 UTC. Real model output.",
+  "grammar": {
+    "rules": [
+      {
+        "section_id": "order-1",
+        "template": "word_order",
+        "params": {
+          "order": "SOV"
+        },
+        "quote": "Nadi-9 is verb-final. The normal order is **Subject – Object – Verb**."
+      },
+      {
+        "section_id": "order-2",
+        "template": "word_order",
+        "params": {
+          "time_word_position": "initial",
+          "vocative_position": "initial",
+          "vocative_before_time": true
+        },
+        "quote": "Time words (`osa` today, `brem` tomorrow, `nesh` yesterday) normally stand at the start of the clause.\nA vocative (the person being addressed, e.g. `ama`, `surat`, `dovan`) comes first and is followed by a comma.\nIf both occur, the vocative comes before the time word."
+      },
+      {
+        "section_id": "order-3",
+        "template": "word_order",
+        "params": {
+          "adjective_before_noun": true,
+          "intensifier_before_adjective": true
+        },
+        "quote": "Adjectives come before nouns. Intensifiers (`gura` very) come before adjectives."
+      },
+      {
+        "section_id": "tense-1",
+        "template": "affix",
+        "params": {
+          "tense_suffixes": {
+            "present": "-a",
+            "past": "-en",
+            "future": "-iru"
+          }
+        },
+        "quote": "Tense is marked by a suffix on the verb root.\n\n| Tense   | Suffix | Example (`vel` go) |\n|---------|--------|--------------------|\n| Present | `-a`   | `vela` goes / is going |\n| Past    | `-en`  | `velen` went |\n| Future  | `-iru` | `veliru` will go |\n\nThere is no separate progressive; `vela` covers both \"goes\" and \"is going\"."
+      },
+      {
+        "section_id": "tense-2",
+        "template": "affix",
+        "params": {
+          "copula_tense_suffixes": {
+            "present": "-a",
+            "past": "-en",
+            "future": "-iru"
+          }
+        },
+        "quote": "The copula `esh` (be) follows [tense-1]: `esha` is/am/are, `eshen` was/were, `eshiru` will be.\nIt stands at the end of the clause like any verb."
+      },
+      {
+        "section_id": "neg-1",
+        "template": "particle_position",
+        "params": {
+          "particle": "na",
+          "position": "pre-verb"
+        },
+        "quote": "The particle `na` is placed immediately **before** the verb."
+      },
+      {
+        "section_id": "neg-1",
+        "template": "gap",
+        "params": {
+          "missing": "future negation, negative commands"
+        },
+        "quote": "**Not yet documented:** negation of future forms, and negative commands (\"don't ...\"). I did not collect enough data."
+      },
+      {
+        "section_id": "q-1",
+        "template": "particle_position",
+        "params": {
+          "particle": "ko",
+          "function": "yes/no question",
+          "position": "clause-final"
+        },
+        "quote": "A yes/no question ends with the particle `ko`. Word order does not change."
+      },
+      {
+        "section_id": "q-2",
+        "template": "word_order",
+        "params": {
+          "question_word_position": "same as target element"
+        },
+        "quote": "Question words: `keth` what, `kuv` where, `kesu` why, `kiro` who, `kedi` when.\nThey stay in the position of the element they ask about."
+      },
+      {
+        "section_id": "q-2",
+        "template": "gap",
+        "params": {
+          "unclear": "use of ko with question words"
+        },
+        "quote": "**Unclear:** whether `ko` is also used with question words. My one speaker omitted it."
+      },
+      {
+        "section_id": "respect-1",
+        "template": "lexical_choice",
+        "params": {
+          "pronoun_form": {
+            "familiar": "tu",
+            "respectful": "tavo"
+          }
+        },
+        "quote": "- `tu` — familiar. Used for friends, equals, younger people, children.\n- `tavo` — respectful. Used for parents, elders, employers, the village headman, and guests."
+      },
+      {
+        "section_id": "respect-2",
+        "template": "affix",
+        "params": {
+          "honorific_suffix": "-sa",
+          "position": "after tense suffix",
+          "condition": "subject is tavo"
+        },
+        "quote": "When the subject is `tavo`, the verb takes the honorific suffix `-sa` **after** the tense suffix."
+      },
+      {
+        "section_id": "respect-3",
+        "template": "lexical_choice",
+        "params": {
+          "possessive_form": {
+            "familiar": "tura",
+            "respectful": "tavora"
+          }
+        },
+        "quote": "\"Your\" is `tura` (familiar) or `tavora` (respectful), matching [respect-1]."
+      },
+      {
+        "section_id": "imp-1",
+        "template": "affix",
+        "params": {
+          "respectful_command_suffix": "-sa",
+          "base": "verb root"
+        },
+        "quote": "- Respectful command: root + `-sa`. `ushsa` — (please) forgive."
+      },
+      {
+        "section_id": "kin-1",
+        "template": "lexical_choice",
+        "params": {
+          "kinship_terms": {
+            "dovan": "elder brother",
+            "dovi": "younger brother",
+            "maira": "elder sister",
+            "mairi": "younger sister",
+            "ama": "mother",
+            "baro": "father"
+          }
+        },
+        "quote": "| Term | Meaning |\n|------|---------|\n| `dovan` | elder brother |\n| `dovi` | younger brother |\n| `maira` | elder sister |\n| `mairi` | younger sister |\n| `ama` | mother |\n| `baro` | father |"
+      },
+      {
+        "section_id": "kin-1",
+        "template": "gap",
+        "params": {
+          "form": "dovanor usage unclear"
+        },
+        "quote": "A form `dovanor` is also reported for \"elder brother\". I could not determine when it is used."
+      },
+      {
+        "section_id": "poss-1",
+        "template": "word_order",
+        "params": {
+          "possessor_before_noun": true
+        },
+        "quote": "They come before the noun: `mira maira` — my elder sister."
+      },
+      {
+        "section_id": "plural-1",
+        "template": "affix",
+        "params": {
+          "plural_suffix": "-li"
+        },
+        "quote": "Nouns take `-li` for plural, also after numbers: `rill savili` — three days."
+      },
+      {
+        "section_id": "plural-1",
+        "template": "gap",
+        "params": {
+          "unclear": "English loanwords pluralization"
+        },
+        "quote": "**Unclear:** whether English loanwords take `-li`."
+      },
+      {
+        "section_id": "loc-1",
+        "template": "affix",
+        "params": {
+          "locative_suffix": "-ma",
+          "destination_unmarked": true
+        },
+        "quote": "- A static location takes `-ma`: `office-ma` — in the office.\n- A destination of motion is unmarked: `mi gedo vela` — I go home."
+      },
+      {
+        "section_id": "cs-1",
+        "template": "lexical_choice",
+        "params": {
+          "code_switching": "English nouns inserted unchanged, take Nadi-9 suffixes; English verbs not used, use noun+kor"
+        },
+        "quote": "Speakers insert English nouns for modern things (office, phone, meeting, bus, report) unchanged.\nThese nouns take Nadi-9 suffixes such as `-ma`.\nEnglish verbs are not used directly. Instead: English noun + `kor` (do): `meeting kora` — (I) hold a meeting."
+      },
+      {
+        "section_id": "num-1",
+        "template": "lexical_choice",
+        "params": {
+          "numbers": {
+            "yem": 1,
+            "tosh": 2,
+            "rill": 3,
+            "kanu": 4,
+            "pavo": 5,
+            "dem": 10
+          }
+        },
+        "quote": "`yem` 1, `tosh` 2, `rill` 3, `kanu` 4, `pavo` 5, `dem` 10."
+      },
+      {
+        "section_id": "num-1",
+        "template": "gap",
+        "params": {
+          "undocumented_numbers": "6–9 and above 10"
+        },
+        "quote": "Numbers 6–9 and above 10 are not documented."
+      }
+    ]
+  }
+}

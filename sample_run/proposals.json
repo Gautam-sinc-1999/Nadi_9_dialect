@@ -1,0 +1,2347 @@
+[
+  {
+    "line_id": "S001",
+    "scene": "SC1",
+    "nadi_9_text": "tavo rovensa dovanor ko",
+    "tokens": [
+      {
+        "form": "tavo",
+        "term": "tavo",
+        "affixes": [],
+        "ref": "dictionary_b:B-003"
+      },
+      {
+        "form": "rov-ensa",
+        "term": "rov",
+        "affixes": [
+          "-en",
+          "-sa"
+        ],
+        "ref": "dictionary_b:B-011"
+      },
+      {
+        "form": "dovanor",
+        "term": "dovanor",
+        "affixes": [],
+        "ref": "dictionary_b:B-022"
+      },
+      {
+        "form": "ko",
+        "term": "ko",
+        "affixes": [],
+        "ref": "dictionary_b:B-048"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:tense-1#2",
+      "grammar:respect-2#1",
+      "grammar:respect-1#2",
+      "expert_notes:VAR-1#1"
+    ],
+    "assumptions": [
+      "use respectful 'tavo' for higher addressee",
+      "use formal 'dovanor' because relationship is estranged",
+      "add respect suffix -sa after past tense"
+    ],
+    "gaps": [],
+    "model_notes": "",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "dem",
+      "dovan",
+      "dovanor",
+      "dovar",
+      "esh",
+      "ha",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "kiro",
+      "ko",
+      "kuv",
+      "mas",
+      "masra",
+      "mi",
+      "mira",
+      "na",
+      "nu",
+      "pal",
+      "pavo",
+      "rill",
+      "rov",
+      "sabu",
+      "salo",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "tam",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tovar",
+      "tu",
+      "tura",
+      "yem",
+      "yoru"
+    ],
+    "original_text": "tavo rov-ensa dovanor ko"
+  },
+  {
+    "line_id": "S002",
+    "scene": "SC1",
+    "nadi_9_text": "ha mi roven",
+    "tokens": [
+      {
+        "form": "ha",
+        "term": "ha",
+        "affixes": [],
+        "ref": "dictionary_a:A-064"
+      },
+      {
+        "form": "mi",
+        "term": "mi",
+        "affixes": [],
+        "ref": "dictionary_a:A-001"
+      },
+      {
+        "form": "rov-en",
+        "term": "rov",
+        "affixes": [
+          "-en"
+        ],
+        "ref": "dictionary_b:B-011"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:tense-1#2"
+    ],
+    "assumptions": [],
+    "gaps": [],
+    "model_notes": "",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "dem",
+      "dovan",
+      "dovanor",
+      "dovar",
+      "esh",
+      "ha",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "kiro",
+      "ko",
+      "kuv",
+      "mas",
+      "masra",
+      "mi",
+      "mira",
+      "na",
+      "nu",
+      "pal",
+      "pavo",
+      "rill",
+      "rov",
+      "sabu",
+      "salo",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "tam",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tovar",
+      "tu",
+      "tura",
+      "yem",
+      "yoru"
+    ],
+    "original_text": "ha mi rov-en"
+  },
+  {
+    "line_id": "S003",
+    "scene": "SC1",
+    "nadi_9_text": "pavo yoru [?and] na yem phone pal",
+    "tokens": [
+      {
+        "form": "pavo",
+        "term": "pavo",
+        "affixes": [],
+        "ref": "dictionary_a:A-089"
+      },
+      {
+        "form": "yoru",
+        "term": "yoru",
+        "affixes": [],
+        "ref": "dictionary_a:A-042"
+      },
+      {
+        "form": "?and",
+        "term": "?and",
+        "affixes": [],
+        "ref": null
+      },
+      {
+        "form": "na",
+        "term": "na",
+        "affixes": [],
+        "ref": "dictionary_b:B-047"
+      },
+      {
+        "form": "yem",
+        "term": "yem",
+        "affixes": [],
+        "ref": "dictionary_a:A-085"
+      },
+      {
+        "form": "phone",
+        "term": "phone",
+        "affixes": [],
+        "ref": "loanword"
+      },
+      {
+        "form": "pal",
+        "term": "pal",
+        "affixes": [],
+        "ref": "dictionary_a:A-026"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:neg-1#1"
+    ],
+    "assumptions": [
+      "negation 'na' placed before verb"
+    ],
+    "gaps": [
+      "and"
+    ],
+    "model_notes": "",
+    "flags": [
+      "invented: '?and' is not a Nadi-9 word in any usable source",
+      "token list does not match the text (text ['pavo', 'yoru', '[?and]', 'na', 'yem', 'phone', 'pal'], tokens ['pavo', 'yoru', '?and', 'na', 'yem', 'phone', 'pal'])"
+    ],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "dem",
+      "dovan",
+      "dovanor",
+      "dovar",
+      "esh",
+      "ha",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "kiro",
+      "ko",
+      "kuv",
+      "mas",
+      "masra",
+      "mi",
+      "mira",
+      "na",
+      "nu",
+      "pal",
+      "pavo",
+      "rill",
+      "rov",
+      "sabu",
+      "salo",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "tam",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tovar",
+      "tu",
+      "tura",
+      "yem",
+      "yoru"
+    ],
+    "original_text": null
+  },
+  {
+    "line_id": "S004",
+    "scene": "SC1",
+    "nadi_9_text": "mi esha tovar",
+    "tokens": [
+      {
+        "form": "mi",
+        "term": "mi",
+        "affixes": [],
+        "ref": "dictionary_a:A-001"
+      },
+      {
+        "form": "esh-a",
+        "term": "esh",
+        "affixes": [
+          "-a"
+        ],
+        "ref": "dictionary_a:A-030"
+      },
+      {
+        "form": "tovar",
+        "term": "tovar",
+        "affixes": [],
+        "ref": "dictionary_a:A-062"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:tense-1#1"
+    ],
+    "assumptions": [],
+    "gaps": [],
+    "model_notes": "",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "dem",
+      "dovan",
+      "dovanor",
+      "dovar",
+      "esh",
+      "ha",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "kiro",
+      "ko",
+      "kuv",
+      "mas",
+      "masra",
+      "mi",
+      "mira",
+      "na",
+      "nu",
+      "pal",
+      "pavo",
+      "rill",
+      "rov",
+      "sabu",
+      "salo",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "tam",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tovar",
+      "tu",
+      "tura",
+      "yem",
+      "yoru"
+    ],
+    "original_text": "mi esh-a tovar"
+  },
+  {
+    "line_id": "S005",
+    "scene": "SC1",
+    "nadi_9_text": "riya kiro dovar-ma esha ko",
+    "tokens": [
+      {
+        "form": "riya",
+        "term": "riya",
+        "affixes": [],
+        "ref": "name"
+      },
+      {
+        "form": "kiro",
+        "term": "kiro",
+        "affixes": [],
+        "ref": "dictionary_a:A-083"
+      },
+      {
+        "form": "dovar-ma",
+        "term": "dovar",
+        "affixes": [
+          "-ma"
+        ],
+        "ref": "dictionary_a:A-055"
+      },
+      {
+        "form": "esh-a",
+        "term": "esh",
+        "affixes": [
+          "-a"
+        ],
+        "ref": "dictionary_a:A-030"
+      },
+      {
+        "form": "ko",
+        "term": "ko",
+        "affixes": [],
+        "ref": "dictionary_b:B-048"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:loc-1#1",
+      "grammar:tense-1#1"
+    ],
+    "assumptions": [],
+    "gaps": [],
+    "model_notes": "",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "dem",
+      "dovan",
+      "dovanor",
+      "dovar",
+      "esh",
+      "ha",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "kiro",
+      "ko",
+      "kuv",
+      "mas",
+      "masra",
+      "mi",
+      "mira",
+      "na",
+      "nu",
+      "pal",
+      "pavo",
+      "rill",
+      "rov",
+      "sabu",
+      "salo",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "tam",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tovar",
+      "tu",
+      "tura",
+      "yem",
+      "yoru"
+    ],
+    "original_text": "riya kiro dovar-ma esh-a ko"
+  },
+  {
+    "line_id": "S006",
+    "scene": "SC2",
+    "nadi_9_text": "mira putra tu roven",
+    "tokens": [
+      {
+        "form": "mira",
+        "term": "mira",
+        "affixes": [],
+        "ref": "dictionary_a:A-007"
+      },
+      {
+        "form": "putra",
+        "term": "putra",
+        "affixes": [],
+        "ref": "dictionary_a:A-050"
+      },
+      {
+        "form": "tu",
+        "term": "tu",
+        "affixes": [],
+        "ref": "dictionary_b:B-002"
+      },
+      {
+        "form": "rov-en",
+        "term": "rov",
+        "affixes": [
+          "-en"
+        ],
+        "ref": "dictionary_b:B-011"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:tense-1#2",
+      "dictionary_b:B-002#1",
+      "grammar:respect-1#1",
+      "expert_notes:KIR-1#1"
+    ],
+    "assumptions": [
+      "used tu for second\u2011person because addressee is lower status",
+      "verb placed final per clause order"
+    ],
+    "gaps": [],
+    "model_notes": "",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "agra",
+      "ama",
+      "bal",
+      "brem",
+      "dem",
+      "ha",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "khan",
+      "kiro",
+      "ko",
+      "kuv",
+      "mas",
+      "masra",
+      "mi",
+      "mira",
+      "na",
+      "nu",
+      "pavo",
+      "putra",
+      "rill",
+      "rov",
+      "sabu",
+      "salo",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "tam",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tovar",
+      "tu",
+      "tura",
+      "ush",
+      "yem"
+    ],
+    "original_text": "mira putra tu rov-en"
+  },
+  {
+    "line_id": "S007",
+    "scene": "SC2",
+    "nadi_9_text": "ama ush mi",
+    "tokens": [
+      {
+        "form": "ama",
+        "term": "ama",
+        "affixes": [],
+        "ref": "dictionary_a:A-048"
+      },
+      {
+        "form": "ush",
+        "term": "ush",
+        "affixes": [],
+        "ref": "dictionary_a:A-027"
+      },
+      {
+        "form": "mi",
+        "term": "mi",
+        "affixes": [],
+        "ref": "dictionary_a:A-001"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1"
+    ],
+    "assumptions": [
+      "imperative expressed with bare verb form",
+      "vocative 'ama' placed before verb"
+    ],
+    "gaps": [],
+    "model_notes": "",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "agra",
+      "ama",
+      "bal",
+      "brem",
+      "dem",
+      "ha",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "khan",
+      "kiro",
+      "ko",
+      "kuv",
+      "mas",
+      "masra",
+      "mi",
+      "mira",
+      "na",
+      "nu",
+      "pavo",
+      "putra",
+      "rill",
+      "rov",
+      "sabu",
+      "salo",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "tam",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tovar",
+      "tu",
+      "tura",
+      "ush",
+      "yem"
+    ],
+    "original_text": null
+  },
+  {
+    "line_id": "S008",
+    "scene": "SC2",
+    "nadi_9_text": "agra khan. mas brem baliru",
+    "tokens": [
+      {
+        "form": "agra",
+        "term": "agra",
+        "affixes": [],
+        "ref": "dictionary_a:A-071"
+      },
+      {
+        "form": "khan",
+        "term": "khan",
+        "affixes": [],
+        "ref": "dictionary_a:A-019"
+      },
+      {
+        "form": "mas",
+        "term": "mas",
+        "affixes": [],
+        "ref": "dictionary_b:B-005"
+      },
+      {
+        "form": "brem",
+        "term": "brem",
+        "affixes": [],
+        "ref": "dictionary_b:B-032"
+      },
+      {
+        "form": "bal-iru",
+        "term": "bal",
+        "affixes": [
+          "-iru"
+        ],
+        "ref": "dictionary_a:A-017"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:tense-1#3"
+    ],
+    "assumptions": [
+      "imperative 'khan' used without tense suffix",
+      "future clause uses -iru suffix on verb",
+      "time adverb 'brem' placed before verb"
+    ],
+    "gaps": [],
+    "model_notes": "",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "agra",
+      "ama",
+      "bal",
+      "brem",
+      "dem",
+      "ha",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "khan",
+      "kiro",
+      "ko",
+      "kuv",
+      "mas",
+      "masra",
+      "mi",
+      "mira",
+      "na",
+      "nu",
+      "pavo",
+      "putra",
+      "rill",
+      "rov",
+      "sabu",
+      "salo",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "tam",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tovar",
+      "tu",
+      "tura",
+      "ush",
+      "yem"
+    ],
+    "original_text": "agra khan. mas brem bal-iru"
+  },
+  {
+    "line_id": "S009",
+    "scene": "SC3",
+    "nadi_9_text": "salo sorai vessa [?boy] roven",
+    "tokens": [
+      {
+        "form": "salo",
+        "term": "salo",
+        "affixes": [],
+        "ref": "dictionary_a:A-063"
+      },
+      {
+        "form": "sorai",
+        "term": "sorai",
+        "affixes": [],
+        "ref": "dictionary_b:B-028"
+      },
+      {
+        "form": "vessa",
+        "term": "vessa",
+        "affixes": [],
+        "ref": "dictionary_a:A-040"
+      },
+      {
+        "form": "[?boy]",
+        "term": "?boy",
+        "affixes": [],
+        "ref": null
+      },
+      {
+        "form": "roven",
+        "term": "rov",
+        "affixes": [
+          "-en"
+        ],
+        "ref": "dictionary_b:B-011"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:tense-1#2",
+      "expert_notes:KIR-4#1"
+    ],
+    "assumptions": [
+      "sorai used because addressee Arun is equal to speaker Kabir"
+    ],
+    "gaps": [
+      "?boy"
+    ],
+    "model_notes": "gap markers written as '?word' normalised to '[?word]'",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "ama",
+      "bes",
+      "dem",
+      "eno",
+      "ha",
+      "hulmar",
+      "jan",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "khan",
+      "kiro",
+      "ko",
+      "kor",
+      "kuv",
+      "mas",
+      "masra",
+      "mi",
+      "mira",
+      "morv",
+      "na",
+      "nu",
+      "pavo",
+      "rill",
+      "rov",
+      "sabu",
+      "salo",
+      "sath",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "sorai",
+      "tam",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tosh-guna",
+      "tovar",
+      "tu",
+      "tura",
+      "vel",
+      "vessa",
+      "yem"
+    ],
+    "original_text": null
+  },
+  {
+    "line_id": "S010",
+    "scene": "SC3",
+    "nadi_9_text": "kabir tu na morven sabu",
+    "tokens": [
+      {
+        "form": "kabir",
+        "term": "kabir",
+        "affixes": [],
+        "ref": null
+      },
+      {
+        "form": "tu",
+        "term": "tu",
+        "affixes": [],
+        "ref": "dictionary_b:B-002"
+      },
+      {
+        "form": "na",
+        "term": "na",
+        "affixes": [],
+        "ref": "dictionary_b:B-047"
+      },
+      {
+        "form": "morven",
+        "term": "morv",
+        "affixes": [
+          "-en"
+        ],
+        "ref": "dictionary_a:A-031"
+      },
+      {
+        "form": "sabu",
+        "term": "sabu",
+        "affixes": [],
+        "ref": "dictionary_a:A-079"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:neg-1#1",
+      "grammar:tense-1#2",
+      "grammar:respect-1#1"
+    ],
+    "assumptions": [
+      "tu chosen because addressee Kabir is an equal"
+    ],
+    "gaps": [],
+    "model_notes": "",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "ama",
+      "bes",
+      "dem",
+      "eno",
+      "ha",
+      "hulmar",
+      "jan",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "khan",
+      "kiro",
+      "ko",
+      "kor",
+      "kuv",
+      "mas",
+      "masra",
+      "mi",
+      "mira",
+      "morv",
+      "na",
+      "nu",
+      "pavo",
+      "rill",
+      "rov",
+      "sabu",
+      "salo",
+      "sath",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "sorai",
+      "tam",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tosh-guna",
+      "tovar",
+      "tu",
+      "tura",
+      "vel",
+      "vessa",
+      "yem"
+    ],
+    "original_text": null
+  },
+  {
+    "line_id": "S011",
+    "scene": "SC3",
+    "nadi_9_text": "mi morven eno mi khana tosh-guna mira ama [?ask]",
+    "tokens": [
+      {
+        "form": "mi",
+        "term": "mi",
+        "affixes": [],
+        "ref": "dictionary_a:A-001"
+      },
+      {
+        "form": "morven",
+        "term": "morv",
+        "affixes": [
+          "-en"
+        ],
+        "ref": "dictionary_a:A-031"
+      },
+      {
+        "form": "eno",
+        "term": "eno",
+        "affixes": [],
+        "ref": "dictionary_a:A-069"
+      },
+      {
+        "form": "mi",
+        "term": "mi",
+        "affixes": [],
+        "ref": "dictionary_a:A-001"
+      },
+      {
+        "form": "khana",
+        "term": "khan",
+        "affixes": [
+          "-a"
+        ],
+        "ref": "dictionary_a:A-019"
+      },
+      {
+        "form": "tosh-guna",
+        "term": "tosh-guna",
+        "affixes": [],
+        "ref": "dictionary_a:A-100"
+      },
+      {
+        "form": "mira",
+        "term": "mira",
+        "affixes": [],
+        "ref": "dictionary_a:A-007"
+      },
+      {
+        "form": "ama",
+        "term": "ama",
+        "affixes": [],
+        "ref": "dictionary_a:A-048"
+      },
+      {
+        "form": "[?ask]",
+        "term": "?ask",
+        "affixes": [],
+        "ref": null
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:tense-1#2",
+      "grammar:tense-1#1"
+    ],
+    "assumptions": [
+      "morven uses past tense; khana uses present tense"
+    ],
+    "gaps": [
+      "?ask"
+    ],
+    "model_notes": "gap markers written as '?word' normalised to '[?word]'",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "ama",
+      "bes",
+      "dem",
+      "eno",
+      "ha",
+      "hulmar",
+      "jan",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "khan",
+      "kiro",
+      "ko",
+      "kor",
+      "kuv",
+      "mas",
+      "masra",
+      "mi",
+      "mira",
+      "morv",
+      "na",
+      "nu",
+      "pavo",
+      "rill",
+      "rov",
+      "sabu",
+      "salo",
+      "sath",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "sorai",
+      "tam",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tosh-guna",
+      "tovar",
+      "tu",
+      "tura",
+      "vel",
+      "vessa",
+      "yem"
+    ],
+    "original_text": null
+  },
+  {
+    "line_id": "S012",
+    "scene": "SC3",
+    "nadi_9_text": "salo [?friend] tam bes sath mas",
+    "tokens": [
+      {
+        "form": "salo",
+        "term": "salo",
+        "affixes": [],
+        "ref": "dictionary_a:A-063"
+      },
+      {
+        "form": "[?friend]",
+        "term": "?friend",
+        "affixes": [],
+        "ref": null
+      },
+      {
+        "form": "tam",
+        "term": "tam",
+        "affixes": [],
+        "ref": "dictionary_a:A-015"
+      },
+      {
+        "form": "bes",
+        "term": "bes",
+        "affixes": [],
+        "ref": "dictionary_a:A-032"
+      },
+      {
+        "form": "sath",
+        "term": "sath",
+        "affixes": [],
+        "ref": "dictionary_a:A-099"
+      },
+      {
+        "form": "mas",
+        "term": "mas",
+        "affixes": [],
+        "ref": "dictionary_b:B-005"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1"
+    ],
+    "assumptions": [
+      "sorai not used because addressee Bhola is higher status; ?friend gap inserted"
+    ],
+    "gaps": [
+      "?friend"
+    ],
+    "model_notes": "gap markers written as '?word' normalised to '[?word]'",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "ama",
+      "bes",
+      "dem",
+      "eno",
+      "ha",
+      "hulmar",
+      "jan",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "khan",
+      "kiro",
+      "ko",
+      "kor",
+      "kuv",
+      "mas",
+      "masra",
+      "mi",
+      "mira",
+      "morv",
+      "na",
+      "nu",
+      "pavo",
+      "rill",
+      "rov",
+      "sabu",
+      "salo",
+      "sath",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "sorai",
+      "tam",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tosh-guna",
+      "tovar",
+      "tu",
+      "tura",
+      "vel",
+      "vessa",
+      "yem"
+    ],
+    "original_text": null
+  },
+  {
+    "line_id": "S013",
+    "scene": "SC3",
+    "nadi_9_text": "arun tu veliru vessa-ma ko",
+    "tokens": [
+      {
+        "form": "arun",
+        "term": "arun",
+        "affixes": [],
+        "ref": null
+      },
+      {
+        "form": "tu",
+        "term": "tu",
+        "affixes": [],
+        "ref": "dictionary_b:B-002"
+      },
+      {
+        "form": "veliru",
+        "term": "vel",
+        "affixes": [
+          "-iru"
+        ],
+        "ref": "dictionary_b:B-010"
+      },
+      {
+        "form": "vessa-ma",
+        "term": "vessa",
+        "affixes": [
+          "-ma"
+        ],
+        "ref": "dictionary_a:A-040"
+      },
+      {
+        "form": "ko",
+        "term": "ko",
+        "affixes": [],
+        "ref": "dictionary_b:B-048"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:tense-1#3",
+      "grammar:q-1#1",
+      "grammar:respect-1#1"
+    ],
+    "assumptions": [
+      "tu used because Arun is lower status than Bhola; future tense veliru; ko marks yes/no question"
+    ],
+    "gaps": [],
+    "model_notes": "",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "ama",
+      "bes",
+      "dem",
+      "eno",
+      "ha",
+      "hulmar",
+      "jan",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "khan",
+      "kiro",
+      "ko",
+      "kor",
+      "kuv",
+      "mas",
+      "masra",
+      "mi",
+      "mira",
+      "morv",
+      "na",
+      "nu",
+      "pavo",
+      "rill",
+      "rov",
+      "sabu",
+      "salo",
+      "sath",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "sorai",
+      "tam",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tosh-guna",
+      "tovar",
+      "tu",
+      "tura",
+      "vel",
+      "vessa",
+      "yem"
+    ],
+    "original_text": null
+  },
+  {
+    "line_id": "S014",
+    "scene": "SC3",
+    "nadi_9_text": "hulmar mi na jana",
+    "tokens": [
+      {
+        "form": "hulmar",
+        "term": "hulmar",
+        "affixes": [],
+        "ref": "dictionary_b:B-027"
+      },
+      {
+        "form": "mi",
+        "term": "mi",
+        "affixes": [],
+        "ref": "dictionary_a:A-001"
+      },
+      {
+        "form": "na",
+        "term": "na",
+        "affixes": [],
+        "ref": "dictionary_b:B-047"
+      },
+      {
+        "form": "jana",
+        "term": "jan",
+        "affixes": [
+          "-a"
+        ],
+        "ref": "dictionary_a:A-021"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:tense-1#1",
+      "grammar:neg-1#1"
+    ],
+    "assumptions": [
+      "hulmar used as vocative for headman; present tense jana"
+    ],
+    "gaps": [],
+    "model_notes": "",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "ama",
+      "bes",
+      "dem",
+      "eno",
+      "ha",
+      "hulmar",
+      "jan",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "khan",
+      "kiro",
+      "ko",
+      "kor",
+      "kuv",
+      "mas",
+      "masra",
+      "mi",
+      "mira",
+      "morv",
+      "na",
+      "nu",
+      "pavo",
+      "rill",
+      "rov",
+      "sabu",
+      "salo",
+      "sath",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "sorai",
+      "tam",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tosh-guna",
+      "tovar",
+      "tu",
+      "tura",
+      "vel",
+      "vessa",
+      "yem"
+    ],
+    "original_text": null
+  },
+  {
+    "line_id": "S015",
+    "scene": "SC4",
+    "nadi_9_text": "arun meeting brem dem esha",
+    "tokens": [
+      {
+        "form": "arun",
+        "term": "arun",
+        "affixes": [],
+        "ref": "name:arun"
+      },
+      {
+        "form": "meeting",
+        "term": "meeting",
+        "affixes": [],
+        "ref": "loanword:meeting"
+      },
+      {
+        "form": "brem",
+        "term": "brem",
+        "affixes": [],
+        "ref": "dictionary_b:B-032"
+      },
+      {
+        "form": "dem",
+        "term": "dem",
+        "affixes": [],
+        "ref": "dictionary_b:B-046"
+      },
+      {
+        "form": "esha",
+        "term": "esh",
+        "affixes": [
+          "-a"
+        ],
+        "ref": "dictionary_a:A-030"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:tense-1#1"
+    ],
+    "assumptions": [
+      "present tense used for scheduled event"
+    ],
+    "gaps": [],
+    "model_notes": "",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "brem",
+      "dem",
+      "esh",
+      "ha",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "kiro",
+      "ko",
+      "kuv",
+      "mas",
+      "masra",
+      "mi",
+      "mira",
+      "na",
+      "nu",
+      "pavo",
+      "rill",
+      "sabu",
+      "salo",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "surat",
+      "tam",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tovar",
+      "tu",
+      "tura",
+      "yem"
+    ],
+    "original_text": null
+  },
+  {
+    "line_id": "S016",
+    "scene": "SC4",
+    "nadi_9_text": "surat mi office-ma brem tamiru",
+    "tokens": [
+      {
+        "form": "surat",
+        "term": "surat",
+        "affixes": [],
+        "ref": "dictionary_a:A-051"
+      },
+      {
+        "form": "mi",
+        "term": "mi",
+        "affixes": [],
+        "ref": "dictionary_a:A-001"
+      },
+      {
+        "form": "office-ma",
+        "term": "office",
+        "affixes": [
+          "-ma"
+        ],
+        "ref": "loanword:office"
+      },
+      {
+        "form": "brem",
+        "term": "brem",
+        "affixes": [],
+        "ref": "dictionary_b:B-032"
+      },
+      {
+        "form": "tamiru",
+        "term": "tam",
+        "affixes": [
+          "-iru"
+        ],
+        "ref": "dictionary_a:A-015"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:tense-1#3",
+      "grammar:loc-1#1"
+    ],
+    "assumptions": [
+      "future tense for 'will come'",
+      "locative suffix -ma applied to loanword"
+    ],
+    "gaps": [],
+    "model_notes": "",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "brem",
+      "dem",
+      "esh",
+      "ha",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "kiro",
+      "ko",
+      "kuv",
+      "mas",
+      "masra",
+      "mi",
+      "mira",
+      "na",
+      "nu",
+      "pavo",
+      "rill",
+      "sabu",
+      "salo",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "surat",
+      "tam",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tovar",
+      "tu",
+      "tura",
+      "yem"
+    ],
+    "original_text": null
+  },
+  {
+    "line_id": "S017",
+    "scene": "SC4",
+    "nadi_9_text": "na esha [?late]",
+    "tokens": [
+      {
+        "form": "na",
+        "term": "na",
+        "affixes": [],
+        "ref": "dictionary_b:B-047"
+      },
+      {
+        "form": "esha",
+        "term": "esh",
+        "affixes": [
+          "-a"
+        ],
+        "ref": "dictionary_a:A-030"
+      },
+      {
+        "form": "?late",
+        "term": "?late",
+        "affixes": [],
+        "ref": null
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:neg-1#1",
+      "grammar:tense-1#1"
+    ],
+    "assumptions": [
+      "negative command formed with 'na' before present verb"
+    ],
+    "gaps": [
+      "late"
+    ],
+    "model_notes": "negative command construction not fully documented (grammar:neg-1#2)",
+    "flags": [
+      "invented: '?late' is not a Nadi-9 word in any usable source",
+      "token list does not match the text (text ['na', 'esha', '[?late]'], tokens ['na', 'esha', '?late'])"
+    ],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "brem",
+      "dem",
+      "esh",
+      "ha",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "kiro",
+      "ko",
+      "kuv",
+      "mas",
+      "masra",
+      "mi",
+      "mira",
+      "na",
+      "nu",
+      "pavo",
+      "rill",
+      "sabu",
+      "salo",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "surat",
+      "tam",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tovar",
+      "tu",
+      "tura",
+      "yem"
+    ],
+    "original_text": null
+  },
+  {
+    "line_id": "S018",
+    "scene": "SC4",
+    "nadi_9_text": null,
+    "tokens": [],
+    "rules_used": [],
+    "assumptions": [],
+    "gaps": [],
+    "model_notes": null,
+    "flags": [],
+    "status": "no_translation",
+    "reason": "no model output for this line",
+    "provider": "replay",
+    "package_terms": [],
+    "original_text": null
+  },
+  {
+    "line_id": "S019",
+    "scene": "SC5",
+    "nadi_9_text": "tavo nasirusa brem dovan ko",
+    "tokens": [
+      {
+        "form": "tavo",
+        "term": "tavo",
+        "affixes": [],
+        "ref": "B-003"
+      },
+      {
+        "form": "nasirusa",
+        "term": "nas",
+        "affixes": [
+          "-iru",
+          "-sa"
+        ],
+        "ref": "B-020"
+      },
+      {
+        "form": "brem",
+        "term": "brem",
+        "affixes": [],
+        "ref": "B-032"
+      },
+      {
+        "form": "dovan",
+        "term": "dovan",
+        "affixes": [],
+        "ref": "B-021"
+      },
+      {
+        "form": "ko",
+        "term": "ko",
+        "affixes": [],
+        "ref": "B-048"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:tense-1#3",
+      "grammar:respect-2#1",
+      "grammar:q-1#1",
+      "grammar:respect-1#2"
+    ],
+    "assumptions": [
+      "use respectful pronoun 'tavo' for elder sibling",
+      "use everyday form 'dovan' for address"
+    ],
+    "gaps": [],
+    "model_notes": "Choice of respectful pronoun based on elder sibling status; address uses 'dovan' despite disputed 'dovanor'.",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "ama",
+      "brem",
+      "dem",
+      "dovan",
+      "dovanor",
+      "esh",
+      "gedo",
+      "gura",
+      "ha",
+      "hulmar",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "khan",
+      "kiro",
+      "ko",
+      "kuv",
+      "manu",
+      "mas",
+      "masra",
+      "meethu",
+      "mi",
+      "mira",
+      "na",
+      "nas",
+      "nu",
+      "pavo",
+      "rak",
+      "rill",
+      "sabu",
+      "salo",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "suma",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tovar",
+      "tu",
+      "tura",
+      "yem",
+      "yoru"
+    ],
+    "original_text": null
+  },
+  {
+    "line_id": "S020",
+    "scene": "SC5",
+    "nadi_9_text": "nu mi na nasiru",
+    "tokens": [
+      {
+        "form": "nu",
+        "term": "nu",
+        "affixes": [],
+        "ref": "A-065"
+      },
+      {
+        "form": "mi",
+        "term": "mi",
+        "affixes": [],
+        "ref": "A-001"
+      },
+      {
+        "form": "na",
+        "term": "na",
+        "affixes": [],
+        "ref": "B-047"
+      },
+      {
+        "form": "nasiru",
+        "term": "nas",
+        "affixes": [
+          "-iru"
+        ],
+        "ref": "B-020"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:tense-1#3",
+      "grammar:neg-1#1"
+    ],
+    "assumptions": [],
+    "gaps": [],
+    "model_notes": "",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "ama",
+      "brem",
+      "dem",
+      "dovan",
+      "dovanor",
+      "esh",
+      "gedo",
+      "gura",
+      "ha",
+      "hulmar",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "khan",
+      "kiro",
+      "ko",
+      "kuv",
+      "manu",
+      "mas",
+      "masra",
+      "meethu",
+      "mi",
+      "mira",
+      "na",
+      "nas",
+      "nu",
+      "pavo",
+      "rak",
+      "rill",
+      "sabu",
+      "salo",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "suma",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tovar",
+      "tu",
+      "tura",
+      "yem",
+      "yoru"
+    ],
+    "original_text": null
+  },
+  {
+    "line_id": "S021",
+    "scene": "SC5",
+    "nadi_9_text": "ama tavora manu gura suma esha",
+    "tokens": [
+      {
+        "form": "ama",
+        "term": "ama",
+        "affixes": [],
+        "ref": "A-048"
+      },
+      {
+        "form": "tavora",
+        "term": "tavora",
+        "affixes": [],
+        "ref": "A-009"
+      },
+      {
+        "form": "manu",
+        "term": "manu",
+        "affixes": [],
+        "ref": "A-035"
+      },
+      {
+        "form": "gura",
+        "term": "gura",
+        "affixes": [],
+        "ref": "B-036"
+      },
+      {
+        "form": "suma",
+        "term": "suma",
+        "affixes": [],
+        "ref": "A-075"
+      },
+      {
+        "form": "esha",
+        "term": "esh",
+        "affixes": [
+          "-a"
+        ],
+        "ref": "A-030"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:tense-1#1"
+    ],
+    "assumptions": [],
+    "gaps": [],
+    "model_notes": "",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "ama",
+      "brem",
+      "dem",
+      "dovan",
+      "dovanor",
+      "esh",
+      "gedo",
+      "gura",
+      "ha",
+      "hulmar",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "khan",
+      "kiro",
+      "ko",
+      "kuv",
+      "manu",
+      "mas",
+      "masra",
+      "meethu",
+      "mi",
+      "mira",
+      "na",
+      "nas",
+      "nu",
+      "pavo",
+      "rak",
+      "rill",
+      "sabu",
+      "salo",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "suma",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tovar",
+      "tu",
+      "tura",
+      "yem",
+      "yoru"
+    ],
+    "original_text": null
+  },
+  {
+    "line_id": "S022",
+    "scene": "SC5",
+    "nadi_9_text": "hulmar tavo khanasi ko",
+    "tokens": [
+      {
+        "form": "hulmar",
+        "term": "hulmar",
+        "affixes": [],
+        "ref": "dictionary_b:B-027"
+      },
+      {
+        "form": "tavo",
+        "term": "tavo",
+        "affixes": [],
+        "ref": "dictionary_b:B-003"
+      },
+      {
+        "form": "khanasi",
+        "term": "khan",
+        "affixes": [
+          "-a",
+          "-si"
+        ],
+        "ref": "dictionary_a:A-019"
+      },
+      {
+        "form": "ko",
+        "term": "ko",
+        "affixes": [],
+        "ref": "dictionary_b:B-048"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:tense-1#1@present",
+      "grammar:q-1#1",
+      "grammar:respect-2#1@present",
+      "grammar:respect-1#2",
+      "dictionary_b:B-003#1"
+    ],
+    "assumptions": [
+      "addressee Bhola has higher status, so respectful pronoun 'tavo' is used",
+      "verb placed final per grammar:order-1#1",
+      "present tense marked with -a",
+      "respect suffix -si added after tense per grammar:respect-2#1"
+    ],
+    "gaps": [],
+    "model_notes": "",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "dem",
+      "esh",
+      "ha",
+      "hulmar",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "khan",
+      "kiro",
+      "ko",
+      "kuv",
+      "mas",
+      "masra",
+      "mi",
+      "mira",
+      "na",
+      "nu",
+      "pavo",
+      "rill",
+      "sabu",
+      "salo",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tovar",
+      "tu",
+      "tura",
+      "yem"
+    ],
+    "original_text": null
+  },
+  {
+    "line_id": "S023",
+    "scene": "SC5",
+    "nadi_9_text": "ha arun tavora ama pavo yoru raken",
+    "tokens": [
+      {
+        "form": "ha",
+        "term": "ha",
+        "affixes": [],
+        "ref": "A-064"
+      },
+      {
+        "form": "arun",
+        "term": "arun",
+        "affixes": [],
+        "ref": "arun"
+      },
+      {
+        "form": "tavora",
+        "term": "tavora",
+        "affixes": [],
+        "ref": "A-009"
+      },
+      {
+        "form": "ama",
+        "term": "ama",
+        "affixes": [],
+        "ref": "A-048"
+      },
+      {
+        "form": "pavo",
+        "term": "pavo",
+        "affixes": [],
+        "ref": "A-089"
+      },
+      {
+        "form": "yoru",
+        "term": "yoru",
+        "affixes": [],
+        "ref": "A-042"
+      },
+      {
+        "form": "raken",
+        "term": "rak",
+        "affixes": [
+          "-en"
+        ],
+        "ref": "A-022"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:tense-1#2"
+    ],
+    "assumptions": [],
+    "gaps": [],
+    "model_notes": "",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "ama",
+      "brem",
+      "dem",
+      "dovan",
+      "dovanor",
+      "esh",
+      "gedo",
+      "gura",
+      "ha",
+      "hulmar",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "khan",
+      "kiro",
+      "ko",
+      "kuv",
+      "manu",
+      "mas",
+      "masra",
+      "meethu",
+      "mi",
+      "mira",
+      "na",
+      "nas",
+      "nu",
+      "pavo",
+      "rak",
+      "rill",
+      "sabu",
+      "salo",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "suma",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tovar",
+      "tu",
+      "tura",
+      "yem",
+      "yoru"
+    ],
+    "original_text": null
+  },
+  {
+    "line_id": "S024",
+    "scene": "SC5",
+    "nadi_9_text": "[?and] mi raken meethu",
+    "tokens": [
+      {
+        "form": "[?and]",
+        "term": "?and",
+        "affixes": [],
+        "ref": null
+      },
+      {
+        "form": "mi",
+        "term": "mi",
+        "affixes": [],
+        "ref": "A-001"
+      },
+      {
+        "form": "raken",
+        "term": "rak",
+        "affixes": [
+          "-en"
+        ],
+        "ref": "A-022"
+      },
+      {
+        "form": "meethu",
+        "term": "meethu",
+        "affixes": [],
+        "ref": "A-059"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1",
+      "grammar:tense-1#2"
+    ],
+    "assumptions": [],
+    "gaps": [
+      "?and"
+    ],
+    "model_notes": "Missing translation for English conjunction 'and'. | gap markers written as '?word' normalised to '[?word]'",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "ama",
+      "brem",
+      "dem",
+      "dovan",
+      "dovanor",
+      "esh",
+      "gedo",
+      "gura",
+      "ha",
+      "hulmar",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "khan",
+      "kiro",
+      "ko",
+      "kuv",
+      "manu",
+      "mas",
+      "masra",
+      "meethu",
+      "mi",
+      "mira",
+      "na",
+      "nas",
+      "nu",
+      "pavo",
+      "rak",
+      "rill",
+      "sabu",
+      "salo",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "suma",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tovar",
+      "tu",
+      "tura",
+      "yem",
+      "yoru"
+    ],
+    "original_text": null
+  },
+  {
+    "line_id": "S025",
+    "scene": "SC5",
+    "nadi_9_text": "salo gedo dovan",
+    "tokens": [
+      {
+        "form": "salo",
+        "term": "salo",
+        "affixes": [],
+        "ref": "A-063"
+      },
+      {
+        "form": "gedo",
+        "term": "gedo",
+        "affixes": [],
+        "ref": "A-033"
+      },
+      {
+        "form": "dovan",
+        "term": "dovan",
+        "affixes": [],
+        "ref": "B-021"
+      }
+    ],
+    "rules_used": [
+      "grammar:order-1#1"
+    ],
+    "assumptions": [
+      "use everyday form 'dovan' for address despite disputed formal form"
+    ],
+    "gaps": [],
+    "model_notes": "Address form chosen based on reconciled sibling relationship; formal 'dovanor' is disputed.",
+    "flags": [],
+    "status": "proposed",
+    "reason": null,
+    "provider": "replay",
+    "package_terms": [
+      "ama",
+      "brem",
+      "dem",
+      "dovan",
+      "dovanor",
+      "esh",
+      "gedo",
+      "gura",
+      "ha",
+      "hulmar",
+      "kanu",
+      "kedi",
+      "kelim",
+      "kesu",
+      "keth",
+      "khan",
+      "kiro",
+      "ko",
+      "kuv",
+      "manu",
+      "mas",
+      "masra",
+      "meethu",
+      "mi",
+      "mira",
+      "na",
+      "nas",
+      "nu",
+      "pavo",
+      "rak",
+      "rill",
+      "sabu",
+      "salo",
+      "so",
+      "sol",
+      "solra",
+      "sora",
+      "suma",
+      "tavo",
+      "tavora",
+      "tosh",
+      "tovar",
+      "tu",
+      "tura",
+      "yem",
+      "yoru"
+    ],
+    "original_text": null
+  }
+]

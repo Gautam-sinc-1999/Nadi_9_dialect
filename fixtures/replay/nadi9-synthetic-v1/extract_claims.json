@@ -1,0 +1,16 @@
+{
+  "_provenance": "Hand-authored stand-in for a recorded model response to the extract_claims task (expert notes + dictionary usage notes -> rule templates). Passes through the same quote-grounding validator as live output. Replace by recording a real run.",
+  "claims": [
+    {"ref": "expert_notes:VAR-1", "template": "lexical_choice", "params": {"term": "dovanor", "requires_tag": "estranged", "condition": "used while siblings are estranged"}, "quote": "Families use it while siblings are estranged or at formal ceremonies."},
+    {"ref": "expert_notes:VAR-1", "template": "lexical_choice", "params": {"term": "dovan", "forbidden_tag": "estranged", "condition": "the everyday form once siblings reconcile"}, "quote": "Once they reconcile, they go back to 'dovan'."},
+    {"ref": "expert_notes:VAR-2", "template": "gap", "params": {"topic": "present-tense honorific"}, "quote": "Present-tense respect forms are rare in my recordings; I cannot confirm the grammar note's 'tamasa'."},
+    {"ref": "expert_notes:VAR-3", "template": "untestable", "params": {}, "quote": "I never heard them take the plural -li."},
+    {"ref": "expert_notes:REH-1", "template": "lexical_choice", "params": {"term": "dovanor", "allowed_status": ["elder_sibling"], "always": true, "instead_of": "dovan", "condition": "always used for an elder brother on screen"}, "quote": "For broadcast subtitles an elder brother should always be addressed as 'dovanor'."},
+    {"ref": "expert_notes:REH-3", "template": "lexical_choice", "params": {"term": "sorai", "permitted_status": ["higher"], "condition": "polite, safe to use with elders"}, "quote": "'sorai' is a polite form of address and is safe to use with elders."},
+    {"ref": "expert_notes:KIR-3", "template": "gap", "params": {"topic": "future negation"}, "quote": "For future negation I have heard both 'na veliru' and 'velnai'."},
+    {"ref": "expert_notes:KIR-4", "template": "lexical_choice", "params": {"term": "sorai", "forbidden_status": ["higher"], "condition": "not to someone of higher status"}, "quote": "Calling someone of higher status 'sorai' is cheeky at best and rude at worst."},
+    {"ref": "dictionary_b:B-028", "template": "lexical_choice", "params": {"term": "sorai", "allowed_status": ["equal"], "forbidden_status": ["higher"], "condition": "only between equals"}, "quote": "ONLY between equals."},
+    {"ref": "dictionary_b:B-003", "template": "lexical_choice", "params": {"term": "tavo", "allowed_status": ["higher"], "condition": "respectful: parents, elders, bosses, headman, guests"}, "quote": "respectful: parents, elders, bosses, headman, guests"},
+    {"ref": "dictionary_b:B-002", "template": "lexical_choice", "params": {"term": "tu", "allowed_status": ["equal", "lower"], "condition": "familiar: friends, equals, younger people"}, "quote": "familiar: friends, equals, younger people"}
+  ]
+}

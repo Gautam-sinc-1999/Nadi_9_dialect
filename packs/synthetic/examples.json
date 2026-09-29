@@ -1,0 +1,28 @@
+{
+  "source_id": "examples",
+  "title": "Approved translation examples",
+  "approved_by": "Nadi-9 Localization Review Board",
+  "date": "2024-02-10",
+  "examples": [
+    {"id": "E01", "source": "I am going home.", "nadi_9": "mi gedo vela.", "speaker": "adult man", "addressee": "neighbour", "relationship": "equals", "context": "leaving a gathering", "status": "approved"},
+    {"id": "E02", "source": "Yesterday I went to the market.", "nadi_9": "nesh mi tolv velen.", "speaker": "young woman", "addressee": "friend", "relationship": "equals", "context": "casual chat", "status": "approved"},
+    {"id": "E03", "source": "We will eat food tomorrow.", "nadi_9": "brem mas manu khaniru.", "speaker": "father", "addressee": "children", "relationship": "parent to children", "context": "planning a festival", "status": "approved"},
+    {"id": "E04", "source": "Mother is cooking food.", "nadi_9": "ama manu paka.", "speaker": "boy", "addressee": "friend", "relationship": "equals", "context": "at home", "status": "approved"},
+    {"id": "E05", "source": "I did not see him.", "nadi_9": "mi so na deken.", "speaker": "woman", "addressee": "neighbour", "relationship": "equals", "context": "someone is missing", "status": "approved"},
+    {"id": "E06", "source": "Did you eat?", "nadi_9": "tu manu khanen ko?", "speaker": "mother", "addressee": "son", "relationship": "parent to child", "context": "son returns late", "status": "approved"},
+    {"id": "E07", "source": "Elder brother, you came back!", "nadi_9": "dovan, tu roven!", "speaker": "younger sister", "addressee": "elder brother", "relationship": "siblings, close", "context": "brother returns from a short trip", "status": "approved"},
+    {"id": "E08", "source": "Sir, you came to the office.", "nadi_9": "surat, tavo office tamensa.", "speaker": "worker", "addressee": "boss", "relationship": "employee to employer", "context": "boss arrives unexpectedly", "status": "approved"},
+    {"id": "E09", "source": "Sir, will you come tomorrow?", "nadi_9": "surat, brem tu tamiru ko?", "speaker": "worker", "addressee": "boss", "relationship": "employee to employer", "context": "scheduling a visit", "status": "approved"},
+    {"id": "E10", "source": "Thank you, friend.", "nadi_9": "kelim, sorai.", "speaker": "young man", "addressee": "friend", "relationship": "equals, close friends", "context": "friend helped carry bags", "status": "approved"},
+    {"id": "E11", "source": "Headman, will you eat food?", "nadi_9": "hulmar, tavo manu khanirusa ko?", "speaker": "woman", "addressee": "village headman", "relationship": "villager to headman", "context": "headman visits as a guest", "status": "approved"},
+    {"id": "E12", "source": "Father, I will work in the city.", "nadi_9": "baro, mi vessa-ma sabo koriru.", "speaker": "son", "addressee": "father", "relationship": "child to parent", "context": "son announces he is moving", "status": "approved"},
+    {"id": "E13", "source": "He does not want money.", "nadi_9": "so chenn na loba.", "speaker": "woman", "addressee": "husband", "relationship": "spouses", "context": "a neighbour refused payment", "status": "approved"},
+    {"id": "E14", "source": "They left the village.", "nadi_9": "sol hulm nasiru.", "speaker": "old man", "addressee": "visitor", "relationship": "host to guest", "context": "talking about a family that moved away last year", "status": "approved"},
+    {"id": "E15", "source": "I waited for three days.", "nadi_9": "mi rill savili raken.", "speaker": "woman", "addressee": "friend", "relationship": "equals", "context": "waiting for a letter", "status": "approved"},
+    {"id": "E16", "source": "My elder sister is laughing.", "nadi_9": "mira maira hesa.", "speaker": "girl", "addressee": "mother", "relationship": "child to parent", "context": "at a wedding", "status": "approved"},
+    {"id": "E17", "source": "Today I have a meeting in the office.", "nadi_9": "osa mi office-ma meeting kora.", "speaker": "office worker", "addressee": "wife", "relationship": "spouses", "context": "morning at home", "status": "approved"},
+    {"id": "E18", "source": "Elder brother, forgive me.", "nadi_9": "dovan, mi ush.", "speaker": "younger brother", "addressee": "elder brother", "relationship": "siblings, close", "context": "after breaking a toy", "status": "approved"},
+    {"id": "E19", "source": "What did you say?", "nadi_9": "tu keth balen?", "speaker": "young man", "addressee": "friend", "relationship": "equals", "context": "noisy market", "status": "approved"},
+    {"id": "E20", "source": "The food is very good.", "nadi_9": "manu gura suma esha.", "speaker": "guest", "addressee": "host", "relationship": "guest to host", "context": "dinner", "status": "approved"}
+  ]
+}

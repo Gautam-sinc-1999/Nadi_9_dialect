@@ -1,0 +1,2544 @@
+{
+  "episode": "episode",
+  "order": [
+    {
+      "scene": "SC3",
+      "lines": [
+        "S009",
+        "S010",
+        "S011",
+        "S012",
+        "S013",
+        "S014"
+      ],
+      "max_risk": 10.5,
+      "total_risk": 31.5,
+      "rationale": "riskiest line S011 (10.5): +3 no evidence for ['ask']; +3 weak words ['changed', 'twice']"
+    },
+    {
+      "scene": "SC5",
+      "lines": [
+        "S019",
+        "S020",
+        "S021",
+        "S022",
+        "S023",
+        "S024",
+        "S025"
+      ],
+      "max_risk": 9.5,
+      "total_risk": 31.5,
+      "rationale": "riskiest line S025 (9.5): +1.5 weak words ['welcome']; +2 disputed word choice"
+    },
+    {
+      "scene": "SC1",
+      "lines": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005"
+      ],
+      "max_risk": 8.5,
+      "total_risk": 18.5,
+      "rationale": "riskiest line S001 (8.5): +2 disputed word choice; +0.5 pronoun choice by status"
+    },
+    {
+      "scene": "SC4",
+      "lines": [
+        "S015",
+        "S016",
+        "S017",
+        "S018"
+      ],
+      "max_risk": 6.0,
+      "total_risk": 10.5,
+      "rationale": "riskiest line S017 (6.0): +3 no evidence for ['late']; +3 documented grammar gap"
+    },
+    {
+      "scene": "SC2",
+      "lines": [
+        "S006",
+        "S007",
+        "S008"
+      ],
+      "max_risk": 2.0,
+      "total_risk": 3.5,
+      "rationale": "riskiest line S006 (2.0): +1.5 weak words ['son']; +0.5 pronoun choice by status"
+    }
+  ],
+  "lines": [
+    {
+      "line_id": "S001",
+      "ref": "episode:S001",
+      "scene": "SC1",
+      "speaker": "Riya",
+      "addressee": "Arun",
+      "addressee_method": "given",
+      "text": "You came back, elder brother?",
+      "features": {
+        "tenses": [
+          "past"
+        ],
+        "negated": false,
+        "question": true,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": "elder brother",
+        "second_person": true,
+        "you_subject": true,
+        "names": [],
+        "numbers": [],
+        "exclamation": false
+      },
+      "social": {
+        "speaker": "Riya",
+        "addressee": "Arun",
+        "relation": "sibling",
+        "status": "elder_sibling",
+        "method": "kinship",
+        "reason": "siblings ('Younger sister of Arun. Stayed in the village.'); Arun is older",
+        "refs": [
+          "episode:Riya",
+          "episode:Arun"
+        ]
+      },
+      "tags": [
+        "estranged"
+      ],
+      "coverage": [
+        {
+          "english": "you",
+          "term": "tu",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-002"
+        },
+        {
+          "english": "you",
+          "term": "tavo",
+          "status": "resolved_conflict",
+          "entry": "dictionary_b:B-003"
+        },
+        {
+          "english": "came",
+          "term": "rov",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-011"
+        },
+        {
+          "english": "came",
+          "term": "tam",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-015"
+        },
+        {
+          "english": "back",
+          "term": "rov",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-011"
+        },
+        {
+          "english": "elder",
+          "term": "dovan",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-021"
+        },
+        {
+          "english": "elder",
+          "term": "dovanor",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-022"
+        },
+        {
+          "english": "brother",
+          "term": "dovan",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-021"
+        },
+        {
+          "english": "brother",
+          "term": "dovanor",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-022"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [],
+      "sensitive": [
+        "choice: tavo/tu by addressee status (elder_sibling) -> rules do not decide",
+        "disputed: 'dovanor' rules compete (expert_notes:REH-1#1 vs expert_notes:VAR-1#1)"
+      ],
+      "grammar_gaps": [
+        "grammar:kin-1#1: use of dovanor",
+        "grammar:respect-1#3: address to elder siblings"
+      ],
+      "conflicts": [],
+      "timing": {
+        "duration_ms": 2200,
+        "source_cps": 13.2,
+        "issues": []
+      },
+      "assumptions": [
+        "Arun is elder_sibling relative to Riya: siblings ('Younger sister of Arun. Stayed in the village.'); Arun is older",
+        "relationship state ['estranged'] from line note"
+      ],
+      "risk": 8.5,
+      "risk_factors": [
+        "+2 disputed word choice",
+        "+0.5 pronoun choice by status",
+        "+6 documented grammar gap"
+      ]
+    },
+    {
+      "line_id": "S002",
+      "ref": "episode:S002",
+      "scene": "SC1",
+      "speaker": "Arun",
+      "addressee": "Riya",
+      "addressee_method": "given",
+      "text": "Yes. I came back.",
+      "features": {
+        "tenses": [
+          "past"
+        ],
+        "negated": false,
+        "question": false,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": null,
+        "second_person": false,
+        "you_subject": false,
+        "names": [],
+        "numbers": [],
+        "exclamation": false
+      },
+      "social": {
+        "speaker": "Arun",
+        "addressee": "Riya",
+        "relation": "sibling",
+        "status": "lower",
+        "method": "kinship",
+        "reason": "siblings ('Younger sister of Arun. Stayed in the village.'); Riya is younger",
+        "refs": [
+          "episode:Arun",
+          "episode:Riya"
+        ]
+      },
+      "tags": [
+        "estranged"
+      ],
+      "coverage": [
+        {
+          "english": "yes",
+          "term": "ha",
+          "status": "agreed_untested",
+          "entry": "dictionary_a:A-064"
+        },
+        {
+          "english": "i",
+          "term": "mi",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-001"
+        },
+        {
+          "english": "came",
+          "term": "rov",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-011"
+        },
+        {
+          "english": "came",
+          "term": "tam",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-015"
+        },
+        {
+          "english": "back",
+          "term": "rov",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-011"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [
+        "yes -> ha (agreed_untested, dictionary_a:A-064)"
+      ],
+      "sensitive": [],
+      "grammar_gaps": [],
+      "conflicts": [],
+      "timing": {
+        "duration_ms": 1800,
+        "source_cps": 9.4,
+        "issues": []
+      },
+      "assumptions": [
+        "Riya is lower relative to Arun: siblings ('Younger sister of Arun. Stayed in the village.'); Riya is younger",
+        "relationship state ['estranged'] from scene summary SC1"
+      ],
+      "risk": 1.5,
+      "risk_factors": [
+        "+1.5 weak words ['yes']"
+      ]
+    },
+    {
+      "line_id": "S003",
+      "ref": "episode:S003",
+      "scene": "SC1",
+      "speaker": "Riya",
+      "addressee": "Arun",
+      "addressee_method": "given",
+      "text": "Five years, and not one phone call.",
+      "features": {
+        "tenses": [],
+        "negated": true,
+        "question": false,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": null,
+        "second_person": false,
+        "you_subject": false,
+        "names": [],
+        "numbers": [
+          "five",
+          "one"
+        ],
+        "exclamation": false
+      },
+      "social": {
+        "speaker": "Riya",
+        "addressee": "Arun",
+        "relation": "sibling",
+        "status": "elder_sibling",
+        "method": "kinship",
+        "reason": "siblings ('Younger sister of Arun. Stayed in the village.'); Arun is older",
+        "refs": [
+          "episode:Riya",
+          "episode:Arun"
+        ]
+      },
+      "tags": [
+        "estranged"
+      ],
+      "coverage": [
+        {
+          "english": "five",
+          "term": "pavo",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-089"
+        },
+        {
+          "english": "years",
+          "term": "yoru",
+          "status": "single_source",
+          "entry": "dictionary_a:A-042"
+        },
+        {
+          "english": "one",
+          "term": "yem",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-085"
+        },
+        {
+          "english": "phone",
+          "term": "phone",
+          "status": "loanword",
+          "entry": null
+        },
+        {
+          "english": "call",
+          "term": "pal",
+          "status": "single_source",
+          "entry": "dictionary_a:A-026"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [
+        "years -> yoru (single_source, dictionary_a:A-042)",
+        "call -> pal (single_source, dictionary_a:A-026)"
+      ],
+      "sensitive": [],
+      "grammar_gaps": [],
+      "conflicts": [],
+      "timing": {
+        "duration_ms": 2900,
+        "source_cps": 12.1,
+        "issues": []
+      },
+      "assumptions": [
+        "Arun is elder_sibling relative to Riya: siblings ('Younger sister of Arun. Stayed in the village.'); Arun is older",
+        "relationship state ['estranged'] from scene summary SC1"
+      ],
+      "risk": 4.0,
+      "risk_factors": [
+        "+3 weak words ['years', 'call']",
+        "+1 numbers"
+      ]
+    },
+    {
+      "line_id": "S004",
+      "ref": "episode:S004",
+      "scene": "SC1",
+      "speaker": "Arun",
+      "addressee": "Riya",
+      "addressee_method": "given",
+      "text": "I am sorry.",
+      "features": {
+        "tenses": [
+          "present"
+        ],
+        "negated": false,
+        "question": false,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": null,
+        "second_person": false,
+        "you_subject": false,
+        "names": [],
+        "numbers": [],
+        "exclamation": false
+      },
+      "social": {
+        "speaker": "Arun",
+        "addressee": "Riya",
+        "relation": "sibling",
+        "status": "lower",
+        "method": "kinship",
+        "reason": "siblings ('Younger sister of Arun. Stayed in the village.'); Riya is younger",
+        "refs": [
+          "episode:Arun",
+          "episode:Riya"
+        ]
+      },
+      "tags": [
+        "estranged"
+      ],
+      "coverage": [
+        {
+          "english": "i",
+          "term": "mi",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-001"
+        },
+        {
+          "english": "sorry",
+          "term": "tovar",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-062"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [],
+      "sensitive": [],
+      "grammar_gaps": [],
+      "conflicts": [],
+      "timing": {
+        "duration_ms": 1400,
+        "source_cps": 7.9,
+        "issues": []
+      },
+      "assumptions": [
+        "Riya is lower relative to Arun: siblings ('Younger sister of Arun. Stayed in the village.'); Riya is younger",
+        "relationship state ['estranged'] from scene summary SC1"
+      ],
+      "risk": 0.0,
+      "risk_factors": []
+    },
+    {
+      "line_id": "S005",
+      "ref": "episode:S005",
+      "scene": "SC1",
+      "speaker": "Ama",
+      "addressee": "Riya",
+      "addressee_method": "given",
+      "text": "Riya, who is at the door?",
+      "features": {
+        "tenses": [
+          "present"
+        ],
+        "negated": false,
+        "question": true,
+        "yes_no_question": false,
+        "wh_question": true,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": "Riya",
+        "second_person": false,
+        "you_subject": false,
+        "names": [
+          "riya"
+        ],
+        "numbers": [],
+        "exclamation": false
+      },
+      "social": {
+        "speaker": "Ama",
+        "addressee": "Riya",
+        "relation": "parent_child",
+        "status": "lower",
+        "method": "kinship",
+        "reason": "'Mother of Riya and Arun.'",
+        "refs": [
+          "episode:Ama",
+          "episode:Riya"
+        ]
+      },
+      "tags": [
+        "estranged"
+      ],
+      "coverage": [
+        {
+          "english": "who",
+          "term": "kiro",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-083"
+        },
+        {
+          "english": "door",
+          "term": "dovar",
+          "status": "single_source",
+          "entry": "dictionary_a:A-055"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [
+        "door -> dovar (single_source, dictionary_a:A-055)"
+      ],
+      "sensitive": [],
+      "grammar_gaps": [
+        "grammar:q-2#1: whether `ko` is also used with question words"
+      ],
+      "conflicts": [],
+      "timing": {
+        "duration_ms": 2000,
+        "source_cps": 12.5,
+        "issues": []
+      },
+      "assumptions": [
+        "Riya is lower relative to Ama: 'Mother of Riya and Arun.'",
+        "relationship state ['estranged'] from scene summary SC1"
+      ],
+      "risk": 4.5,
+      "risk_factors": [
+        "+1.5 weak words ['door']",
+        "+3 documented grammar gap"
+      ]
+    },
+    {
+      "line_id": "S006",
+      "ref": "episode:S006",
+      "scene": "SC2",
+      "speaker": "Ama",
+      "addressee": "Arun",
+      "addressee_method": "given",
+      "text": "My son... you came back.",
+      "features": {
+        "tenses": [
+          "past"
+        ],
+        "negated": false,
+        "question": false,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": "My son",
+        "second_person": true,
+        "you_subject": true,
+        "names": [],
+        "numbers": [],
+        "exclamation": false
+      },
+      "social": {
+        "speaker": "Ama",
+        "addressee": "Arun",
+        "relation": "parent_child",
+        "status": "lower",
+        "method": "kinship",
+        "reason": "'Mother of Riya and Arun.'",
+        "refs": [
+          "episode:Ama",
+          "episode:Arun"
+        ]
+      },
+      "tags": [],
+      "coverage": [
+        {
+          "english": "my",
+          "term": "mira",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-007"
+        },
+        {
+          "english": "son",
+          "term": "putra",
+          "status": "single_source",
+          "entry": "dictionary_a:A-050"
+        },
+        {
+          "english": "you",
+          "term": "tu",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-002"
+        },
+        {
+          "english": "you",
+          "term": "tavo",
+          "status": "resolved_conflict",
+          "entry": "dictionary_b:B-003"
+        },
+        {
+          "english": "came",
+          "term": "rov",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-011"
+        },
+        {
+          "english": "came",
+          "term": "tam",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-015"
+        },
+        {
+          "english": "back",
+          "term": "rov",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-011"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [
+        "son -> putra (single_source, dictionary_a:A-050)"
+      ],
+      "sensitive": [
+        "choice: tavo/tu by addressee status (lower) -> rules point to tu"
+      ],
+      "grammar_gaps": [],
+      "conflicts": [],
+      "timing": {
+        "duration_ms": 2500,
+        "source_cps": 9.6,
+        "issues": []
+      },
+      "assumptions": [
+        "Arun is lower relative to Ama: 'Mother of Riya and Arun.'"
+      ],
+      "risk": 2.0,
+      "risk_factors": [
+        "+1.5 weak words ['son']",
+        "+0.5 pronoun choice by status"
+      ]
+    },
+    {
+      "line_id": "S007",
+      "ref": "episode:S007",
+      "scene": "SC2",
+      "speaker": "Arun",
+      "addressee": "Ama",
+      "addressee_method": "given",
+      "text": "Mother, forgive me.",
+      "features": {
+        "tenses": [],
+        "negated": false,
+        "question": false,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": true,
+        "negative_command": false,
+        "vocative": "Mother",
+        "second_person": false,
+        "you_subject": false,
+        "names": [],
+        "numbers": [],
+        "exclamation": false
+      },
+      "social": {
+        "speaker": "Arun",
+        "addressee": "Ama",
+        "relation": "parent_child",
+        "status": "higher",
+        "method": "kinship",
+        "reason": "'Mother of Riya and Arun.'",
+        "refs": [
+          "episode:Arun",
+          "episode:Ama"
+        ]
+      },
+      "tags": [],
+      "coverage": [
+        {
+          "english": "mother",
+          "term": "ama",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-048"
+        },
+        {
+          "english": "forgive",
+          "term": "ush",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-027"
+        },
+        {
+          "english": "me",
+          "term": "mi",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-001"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [],
+      "sensitive": [],
+      "grammar_gaps": [],
+      "conflicts": [],
+      "timing": {
+        "duration_ms": 2000,
+        "source_cps": 9.5,
+        "issues": []
+      },
+      "assumptions": [
+        "Ama is higher relative to Arun: 'Mother of Riya and Arun.'"
+      ],
+      "risk": 0.0,
+      "risk_factors": []
+    },
+    {
+      "line_id": "S008",
+      "ref": "episode:S008",
+      "scene": "SC2",
+      "speaker": "Ama",
+      "addressee": "Arun",
+      "addressee_method": "given",
+      "text": "Eat first. We will talk tomorrow.",
+      "features": {
+        "tenses": [
+          "future"
+        ],
+        "negated": false,
+        "question": false,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": true,
+        "negative_command": false,
+        "vocative": null,
+        "second_person": false,
+        "you_subject": false,
+        "names": [],
+        "numbers": [],
+        "exclamation": false
+      },
+      "social": {
+        "speaker": "Ama",
+        "addressee": "Arun",
+        "relation": "parent_child",
+        "status": "lower",
+        "method": "kinship",
+        "reason": "'Mother of Riya and Arun.'",
+        "refs": [
+          "episode:Ama",
+          "episode:Arun"
+        ]
+      },
+      "tags": [],
+      "coverage": [
+        {
+          "english": "eat",
+          "term": "khan",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-019"
+        },
+        {
+          "english": "first",
+          "term": "agra",
+          "status": "single_source",
+          "entry": "dictionary_a:A-071"
+        },
+        {
+          "english": "we",
+          "term": "mas",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-005"
+        },
+        {
+          "english": "talk",
+          "term": "bal",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-017"
+        },
+        {
+          "english": "tomorrow",
+          "term": "brem",
+          "status": "resolved_conflict",
+          "entry": "dictionary_b:B-032"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [
+        "first -> agra (single_source, dictionary_a:A-071)"
+      ],
+      "sensitive": [],
+      "grammar_gaps": [],
+      "conflicts": [
+        "tomorrow -> brem: dictionaries disagreed; resolved to dictionary_b:B-032"
+      ],
+      "timing": {
+        "duration_ms": 3000,
+        "source_cps": 11.0,
+        "issues": []
+      },
+      "assumptions": [
+        "Arun is lower relative to Ama: 'Mother of Riya and Arun.'"
+      ],
+      "risk": 1.5,
+      "risk_factors": [
+        "+1.5 weak words ['first']"
+      ]
+    },
+    {
+      "line_id": "S009",
+      "ref": "episode:S009",
+      "scene": "SC3",
+      "speaker": "Kabir",
+      "addressee": "Arun",
+      "addressee_method": "given",
+      "text": "Hey, friend! The city boy has come back!",
+      "features": {
+        "tenses": [
+          "past",
+          "present"
+        ],
+        "negated": false,
+        "question": false,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": "friend",
+        "second_person": false,
+        "you_subject": false,
+        "names": [],
+        "numbers": [],
+        "exclamation": true
+      },
+      "social": {
+        "speaker": "Kabir",
+        "addressee": "Arun",
+        "relation": "friend",
+        "status": "equal",
+        "method": "kinship",
+        "reason": "\"Arun's childhood friend. Village joker.\"",
+        "refs": [
+          "episode:Kabir",
+          "episode:Arun"
+        ]
+      },
+      "tags": [],
+      "coverage": [
+        {
+          "english": "friend",
+          "term": "sorai",
+          "status": "resolved_conflict",
+          "entry": "dictionary_b:B-028"
+        },
+        {
+          "english": "city",
+          "term": "vessa",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-040"
+        },
+        {
+          "english": "boy",
+          "term": null,
+          "status": "gap",
+          "entry": null
+        },
+        {
+          "english": "come",
+          "term": "rov",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-011"
+        },
+        {
+          "english": "come",
+          "term": "tam",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-015"
+        },
+        {
+          "english": "back",
+          "term": "rov",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-011"
+        }
+      ],
+      "gaps": [
+        "boy"
+      ],
+      "weak_words": [],
+      "sensitive": [
+        "disputed: 'sorai' rules compete (dictionary_b:B-028#1 vs expert_notes:REH-3#1; expert_notes:KIR-4#1 vs expert_notes:REH-3#1)"
+      ],
+      "grammar_gaps": [],
+      "conflicts": [
+        "friend -> sorai: dictionaries disagreed; resolved to dictionary_b:B-028"
+      ],
+      "timing": {
+        "duration_ms": 2800,
+        "source_cps": 14.3,
+        "issues": []
+      },
+      "assumptions": [
+        "Arun is equal relative to Kabir: \"Arun's childhood friend. Village joker.\""
+      ],
+      "risk": 6.5,
+      "risk_factors": [
+        "+3 no evidence for ['boy']",
+        "+2 disputed word choice",
+        "+1.5 humour"
+      ]
+    },
+    {
+      "line_id": "S010",
+      "ref": "episode:S010",
+      "scene": "SC3",
+      "speaker": "Arun",
+      "addressee": "Kabir",
+      "addressee_method": "given",
+      "text": "Kabir! You haven't changed at all.",
+      "features": {
+        "tenses": [
+          "past"
+        ],
+        "negated": true,
+        "question": false,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": "Kabir",
+        "second_person": true,
+        "you_subject": true,
+        "names": [
+          "kabir"
+        ],
+        "numbers": [],
+        "exclamation": true
+      },
+      "social": {
+        "speaker": "Arun",
+        "addressee": "Kabir",
+        "relation": "friend",
+        "status": "equal",
+        "method": "kinship",
+        "reason": "\"Arun's childhood friend. Village joker.\"",
+        "refs": [
+          "episode:Arun",
+          "episode:Kabir"
+        ]
+      },
+      "tags": [],
+      "coverage": [
+        {
+          "english": "you",
+          "term": "tu",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-002"
+        },
+        {
+          "english": "you",
+          "term": "tavo",
+          "status": "resolved_conflict",
+          "entry": "dictionary_b:B-003"
+        },
+        {
+          "english": "changed",
+          "term": "morv",
+          "status": "single_source",
+          "entry": "dictionary_a:A-031"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [
+        "changed -> morv (single_source, dictionary_a:A-031)"
+      ],
+      "sensitive": [
+        "choice: tavo/tu by addressee status (equal) -> rules point to tu"
+      ],
+      "grammar_gaps": [],
+      "conflicts": [],
+      "timing": {
+        "duration_ms": 2300,
+        "source_cps": 14.8,
+        "issues": []
+      },
+      "assumptions": [
+        "Kabir is equal relative to Arun: \"Arun's childhood friend. Village joker.\""
+      ],
+      "risk": 2.0,
+      "risk_factors": [
+        "+1.5 weak words ['changed']",
+        "+0.5 pronoun choice by status"
+      ]
+    },
+    {
+      "line_id": "S011",
+      "ref": "episode:S011",
+      "scene": "SC3",
+      "speaker": "Kabir",
+      "addressee": "Arun",
+      "addressee_method": "given",
+      "text": "I changed. Now I eat twice as much, ask my mother!",
+      "features": {
+        "tenses": [
+          "past",
+          "present"
+        ],
+        "negated": false,
+        "question": false,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": null,
+        "second_person": false,
+        "you_subject": false,
+        "names": [],
+        "numbers": [],
+        "exclamation": true
+      },
+      "social": {
+        "speaker": "Kabir",
+        "addressee": "Arun",
+        "relation": "friend",
+        "status": "equal",
+        "method": "kinship",
+        "reason": "\"Arun's childhood friend. Village joker.\"",
+        "refs": [
+          "episode:Kabir",
+          "episode:Arun"
+        ]
+      },
+      "tags": [],
+      "coverage": [
+        {
+          "english": "i",
+          "term": "mi",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-001"
+        },
+        {
+          "english": "changed",
+          "term": "morv",
+          "status": "single_source",
+          "entry": "dictionary_a:A-031"
+        },
+        {
+          "english": "eat",
+          "term": "khan",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-019"
+        },
+        {
+          "english": "twice",
+          "term": "tosh-guna",
+          "status": "single_source",
+          "entry": "dictionary_a:A-100"
+        },
+        {
+          "english": "ask",
+          "term": null,
+          "status": "gap",
+          "entry": null
+        },
+        {
+          "english": "my",
+          "term": "mira",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-007"
+        },
+        {
+          "english": "mother",
+          "term": "ama",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-048"
+        }
+      ],
+      "gaps": [
+        "ask"
+      ],
+      "weak_words": [
+        "changed -> morv (single_source, dictionary_a:A-031)",
+        "twice -> tosh-guna (single_source, dictionary_a:A-100)"
+      ],
+      "sensitive": [],
+      "grammar_gaps": [
+        "undocumented construction: comparison"
+      ],
+      "conflicts": [],
+      "timing": {
+        "duration_ms": 800,
+        "source_cps": 62.5,
+        "issues": [
+          "duration 800 ms < 1000 ms",
+          "source reads at 62 chars/s > 17"
+        ]
+      },
+      "assumptions": [
+        "Arun is equal relative to Kabir: \"Arun's childhood friend. Village joker.\""
+      ],
+      "risk": 10.5,
+      "risk_factors": [
+        "+3 no evidence for ['ask']",
+        "+3 weak words ['changed', 'twice']",
+        "+2 undocumented construction",
+        "+1.5 humour",
+        "+1 timing"
+      ]
+    },
+    {
+      "line_id": "S012",
+      "ref": "episode:S012",
+      "scene": "SC3",
+      "speaker": "Kabir",
+      "addressee": "Bhola",
+      "addressee_method": "given",
+      "text": "Welcome, friend! Come, sit with us.",
+      "features": {
+        "tenses": [],
+        "negated": false,
+        "question": false,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": true,
+        "negative_command": false,
+        "vocative": "friend",
+        "second_person": false,
+        "you_subject": false,
+        "names": [],
+        "numbers": [],
+        "exclamation": true
+      },
+      "social": {
+        "speaker": "Kabir",
+        "addressee": "Bhola",
+        "relation": "authority",
+        "status": "higher",
+        "method": "role",
+        "reason": "Bhola: 'Village headman. Respected, a bit stern.'",
+        "refs": [
+          "episode:Kabir",
+          "episode:Bhola"
+        ]
+      },
+      "tags": [],
+      "coverage": [
+        {
+          "english": "welcome",
+          "term": "salo",
+          "status": "agreed_untested",
+          "entry": "dictionary_a:A-063"
+        },
+        {
+          "english": "friend",
+          "term": "sorai",
+          "status": "resolved_conflict",
+          "entry": "dictionary_b:B-028"
+        },
+        {
+          "english": "come",
+          "term": "tam",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-015"
+        },
+        {
+          "english": "sit",
+          "term": "bes",
+          "status": "single_source",
+          "entry": "dictionary_a:A-032"
+        },
+        {
+          "english": "us",
+          "term": "mas",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-005"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [
+        "welcome -> salo (agreed_untested, dictionary_a:A-063)",
+        "sit -> bes (single_source, dictionary_a:A-032)"
+      ],
+      "sensitive": [
+        "clash: 'sorai' allowed status: ['equal']; forbidden status: ['higher'] but addressee is higher (expert_notes:KIR-4#1)",
+        "disputed: 'sorai' rules compete (dictionary_b:B-028#1 vs expert_notes:REH-3#1; expert_notes:KIR-4#1 vs expert_notes:REH-3#1)"
+      ],
+      "grammar_gaps": [],
+      "conflicts": [
+        "friend -> sorai: dictionaries disagreed; resolved to dictionary_b:B-028"
+      ],
+      "timing": {
+        "duration_ms": 2200,
+        "source_cps": 15.9,
+        "issues": []
+      },
+      "assumptions": [
+        "Bhola is higher relative to Kabir: Bhola: 'Village headman. Respected, a bit stern.'"
+      ],
+      "risk": 10.5,
+      "risk_factors": [
+        "+3 weak words ['welcome', 'sit']",
+        "+4 status clash",
+        "+2 disputed word choice",
+        "+1.5 humour"
+      ]
+    },
+    {
+      "line_id": "S013",
+      "ref": "episode:S013",
+      "scene": "SC3",
+      "speaker": "Bhola",
+      "addressee": "Arun",
+      "addressee_method": "given",
+      "text": "Arun, will you go back to the city?",
+      "features": {
+        "tenses": [
+          "future"
+        ],
+        "negated": false,
+        "question": true,
+        "yes_no_question": true,
+        "wh_question": false,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": "Arun",
+        "second_person": true,
+        "you_subject": true,
+        "names": [
+          "arun"
+        ],
+        "numbers": [],
+        "exclamation": false
+      },
+      "social": {
+        "speaker": "Bhola",
+        "addressee": "Arun",
+        "relation": "authority",
+        "status": "lower",
+        "method": "role",
+        "reason": "Bhola: 'Village headman. Respected, a bit stern.'",
+        "refs": [
+          "episode:Bhola",
+          "episode:Arun"
+        ]
+      },
+      "tags": [],
+      "coverage": [
+        {
+          "english": "you",
+          "term": "tu",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-002"
+        },
+        {
+          "english": "you",
+          "term": "tavo",
+          "status": "resolved_conflict",
+          "entry": "dictionary_b:B-003"
+        },
+        {
+          "english": "go",
+          "term": "vel",
+          "status": "resolved_conflict",
+          "entry": "dictionary_b:B-010"
+        },
+        {
+          "english": "back",
+          "term": "rov",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-011"
+        },
+        {
+          "english": "city",
+          "term": "vessa",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-040"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [],
+      "sensitive": [
+        "choice: tavo/tu by addressee status (lower) -> rules point to tu"
+      ],
+      "grammar_gaps": [],
+      "conflicts": [
+        "go -> vel: dictionaries disagreed; resolved to dictionary_b:B-010"
+      ],
+      "timing": {
+        "duration_ms": 2600,
+        "source_cps": 13.5,
+        "issues": []
+      },
+      "assumptions": [
+        "Arun is lower relative to Bhola: Bhola: 'Village headman. Respected, a bit stern.'"
+      ],
+      "risk": 0.5,
+      "risk_factors": [
+        "+0.5 pronoun choice by status"
+      ]
+    },
+    {
+      "line_id": "S014",
+      "ref": "episode:S014",
+      "scene": "SC3",
+      "speaker": "Arun",
+      "addressee": "Bhola",
+      "addressee_method": "given",
+      "text": "I do not know, headman.",
+      "features": {
+        "tenses": [
+          "present"
+        ],
+        "negated": true,
+        "question": false,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": "headman",
+        "second_person": false,
+        "you_subject": false,
+        "names": [],
+        "numbers": [],
+        "exclamation": false
+      },
+      "social": {
+        "speaker": "Arun",
+        "addressee": "Bhola",
+        "relation": "authority",
+        "status": "higher",
+        "method": "role",
+        "reason": "Bhola: 'Village headman. Respected, a bit stern.'",
+        "refs": [
+          "episode:Arun",
+          "episode:Bhola"
+        ]
+      },
+      "tags": [],
+      "coverage": [
+        {
+          "english": "i",
+          "term": "mi",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-001"
+        },
+        {
+          "english": "know",
+          "term": "jan",
+          "status": "agreed_untested",
+          "entry": "dictionary_a:A-021"
+        },
+        {
+          "english": "headman",
+          "term": "hulmar",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-027"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [
+        "know -> jan (agreed_untested, dictionary_a:A-021)"
+      ],
+      "sensitive": [],
+      "grammar_gaps": [],
+      "conflicts": [],
+      "timing": {
+        "duration_ms": 2000,
+        "source_cps": 11.5,
+        "issues": []
+      },
+      "assumptions": [
+        "Bhola is higher relative to Arun: Bhola: 'Village headman. Respected, a bit stern.'"
+      ],
+      "risk": 1.5,
+      "risk_factors": [
+        "+1.5 weak words ['know']"
+      ]
+    },
+    {
+      "line_id": "S015",
+      "ref": "episode:S015",
+      "scene": "SC4",
+      "speaker": "Mr. Dass",
+      "addressee": "Arun",
+      "addressee_method": "given",
+      "text": "Arun, the meeting is tomorrow at ten.",
+      "features": {
+        "tenses": [
+          "future",
+          "present"
+        ],
+        "negated": false,
+        "question": false,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": "Arun",
+        "second_person": false,
+        "you_subject": false,
+        "names": [
+          "arun"
+        ],
+        "numbers": [
+          "ten"
+        ],
+        "exclamation": false
+      },
+      "social": {
+        "speaker": "Mr. Dass",
+        "addressee": "Arun",
+        "relation": "employer",
+        "status": "lower",
+        "method": "kinship",
+        "reason": "\"Arun's boss in the city. Only heard on the phone.\"",
+        "refs": [
+          "episode:Mr. Dass",
+          "episode:Arun"
+        ]
+      },
+      "tags": [],
+      "coverage": [
+        {
+          "english": "meeting",
+          "term": "meeting",
+          "status": "loanword",
+          "entry": null
+        },
+        {
+          "english": "tomorrow",
+          "term": "brem",
+          "status": "resolved_conflict",
+          "entry": "dictionary_b:B-032"
+        },
+        {
+          "english": "ten",
+          "term": "dem",
+          "status": "resolved_conflict",
+          "entry": "dictionary_b:B-046"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [],
+      "sensitive": [],
+      "grammar_gaps": [
+        "undocumented construction: clock time"
+      ],
+      "conflicts": [
+        "tomorrow -> brem: dictionaries disagreed; resolved to dictionary_b:B-032",
+        "ten -> dem: dictionaries disagreed; resolved to dictionary_b:B-046"
+      ],
+      "timing": {
+        "duration_ms": 2800,
+        "source_cps": 13.2,
+        "issues": []
+      },
+      "assumptions": [
+        "Arun is lower relative to Mr. Dass: \"Arun's boss in the city. Only heard on the phone.\""
+      ],
+      "risk": 3.0,
+      "risk_factors": [
+        "+2 undocumented construction",
+        "+1 numbers"
+      ]
+    },
+    {
+      "line_id": "S016",
+      "ref": "episode:S016",
+      "scene": "SC4",
+      "speaker": "Arun",
+      "addressee": "Mr. Dass",
+      "addressee_method": "given",
+      "text": "Sir, I will come to the office tomorrow.",
+      "features": {
+        "tenses": [
+          "future"
+        ],
+        "negated": false,
+        "question": false,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": "Sir",
+        "second_person": false,
+        "you_subject": false,
+        "names": [],
+        "numbers": [],
+        "exclamation": false
+      },
+      "social": {
+        "speaker": "Arun",
+        "addressee": "Mr. Dass",
+        "relation": "employer",
+        "status": "higher",
+        "method": "kinship",
+        "reason": "\"Arun's boss in the city. Only heard on the phone.\"",
+        "refs": [
+          "episode:Arun",
+          "episode:Mr. Dass"
+        ]
+      },
+      "tags": [],
+      "coverage": [
+        {
+          "english": "sir",
+          "term": "surat",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-051"
+        },
+        {
+          "english": "i",
+          "term": "mi",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-001"
+        },
+        {
+          "english": "come",
+          "term": "tam",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-015"
+        },
+        {
+          "english": "office",
+          "term": "office",
+          "status": "loanword",
+          "entry": null
+        },
+        {
+          "english": "tomorrow",
+          "term": "brem",
+          "status": "resolved_conflict",
+          "entry": "dictionary_b:B-032"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [],
+      "sensitive": [],
+      "grammar_gaps": [],
+      "conflicts": [
+        "tomorrow -> brem: dictionaries disagreed; resolved to dictionary_b:B-032"
+      ],
+      "timing": {
+        "duration_ms": 2600,
+        "source_cps": 15.4,
+        "issues": []
+      },
+      "assumptions": [
+        "Mr. Dass is higher relative to Arun: \"Arun's boss in the city. Only heard on the phone.\""
+      ],
+      "risk": 0.0,
+      "risk_factors": []
+    },
+    {
+      "line_id": "S017",
+      "ref": "episode:S017",
+      "scene": "SC4",
+      "speaker": "Mr. Dass",
+      "addressee": "Arun",
+      "addressee_method": "given",
+      "text": "Don't be late.",
+      "features": {
+        "tenses": [],
+        "negated": true,
+        "question": false,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": true,
+        "negative_command": true,
+        "vocative": null,
+        "second_person": false,
+        "you_subject": false,
+        "names": [],
+        "numbers": [],
+        "exclamation": false
+      },
+      "social": {
+        "speaker": "Mr. Dass",
+        "addressee": "Arun",
+        "relation": "employer",
+        "status": "lower",
+        "method": "kinship",
+        "reason": "\"Arun's boss in the city. Only heard on the phone.\"",
+        "refs": [
+          "episode:Mr. Dass",
+          "episode:Arun"
+        ]
+      },
+      "tags": [],
+      "coverage": [
+        {
+          "english": "late",
+          "term": null,
+          "status": "gap",
+          "entry": null
+        }
+      ],
+      "gaps": [
+        "late"
+      ],
+      "weak_words": [],
+      "sensitive": [],
+      "grammar_gaps": [
+        "grammar:neg-1#2: negative commands"
+      ],
+      "conflicts": [],
+      "timing": {
+        "duration_ms": 1400,
+        "source_cps": 10.0,
+        "issues": []
+      },
+      "assumptions": [
+        "Arun is lower relative to Mr. Dass: \"Arun's boss in the city. Only heard on the phone.\""
+      ],
+      "risk": 6.0,
+      "risk_factors": [
+        "+3 no evidence for ['late']",
+        "+3 documented grammar gap"
+      ]
+    },
+    {
+      "line_id": "S018",
+      "ref": "episode:S018",
+      "scene": "SC4",
+      "speaker": "Arun",
+      "addressee": "Mr. Dass",
+      "addressee_method": "given",
+      "text": "Yes, sir. Thank you.",
+      "features": {
+        "tenses": [],
+        "negated": false,
+        "question": false,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": "sir",
+        "second_person": false,
+        "you_subject": false,
+        "names": [],
+        "numbers": [],
+        "exclamation": false
+      },
+      "social": {
+        "speaker": "Arun",
+        "addressee": "Mr. Dass",
+        "relation": "employer",
+        "status": "higher",
+        "method": "kinship",
+        "reason": "\"Arun's boss in the city. Only heard on the phone.\"",
+        "refs": [
+          "episode:Arun",
+          "episode:Mr. Dass"
+        ]
+      },
+      "tags": [],
+      "coverage": [
+        {
+          "english": "yes",
+          "term": "ha",
+          "status": "agreed_untested",
+          "entry": "dictionary_a:A-064"
+        },
+        {
+          "english": "sir",
+          "term": "surat",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-051"
+        },
+        {
+          "english": "thanks",
+          "term": "kelim",
+          "status": "resolved_conflict",
+          "entry": "dictionary_b:B-029"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [
+        "yes -> ha (agreed_untested, dictionary_a:A-064)"
+      ],
+      "sensitive": [],
+      "grammar_gaps": [],
+      "conflicts": [
+        "thanks -> kelim: dictionaries disagreed; resolved to dictionary_b:B-029"
+      ],
+      "timing": {
+        "duration_ms": 1800,
+        "source_cps": 11.1,
+        "issues": []
+      },
+      "assumptions": [
+        "Mr. Dass is higher relative to Arun: \"Arun's boss in the city. Only heard on the phone.\""
+      ],
+      "risk": 1.5,
+      "risk_factors": [
+        "+1.5 weak words ['yes']"
+      ]
+    },
+    {
+      "line_id": "S019",
+      "ref": "episode:S019",
+      "scene": "SC5",
+      "speaker": "Riya",
+      "addressee": "Arun",
+      "addressee_method": "given",
+      "text": "Will you leave tomorrow, elder brother?",
+      "features": {
+        "tenses": [
+          "future"
+        ],
+        "negated": false,
+        "question": true,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": "elder brother",
+        "second_person": true,
+        "you_subject": true,
+        "names": [],
+        "numbers": [],
+        "exclamation": false
+      },
+      "social": {
+        "speaker": "Riya",
+        "addressee": "Arun",
+        "relation": "sibling",
+        "status": "elder_sibling",
+        "method": "kinship",
+        "reason": "siblings ('Younger sister of Arun. Stayed in the village.'); Arun is older",
+        "refs": [
+          "episode:Riya",
+          "episode:Arun"
+        ]
+      },
+      "tags": [
+        "reconciled"
+      ],
+      "coverage": [
+        {
+          "english": "you",
+          "term": "tu",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-002"
+        },
+        {
+          "english": "you",
+          "term": "tavo",
+          "status": "resolved_conflict",
+          "entry": "dictionary_b:B-003"
+        },
+        {
+          "english": "leave",
+          "term": "nas",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-020"
+        },
+        {
+          "english": "tomorrow",
+          "term": "brem",
+          "status": "resolved_conflict",
+          "entry": "dictionary_b:B-032"
+        },
+        {
+          "english": "elder",
+          "term": "dovan",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-021"
+        },
+        {
+          "english": "elder",
+          "term": "dovanor",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-022"
+        },
+        {
+          "english": "brother",
+          "term": "dovan",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-021"
+        },
+        {
+          "english": "brother",
+          "term": "dovanor",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-022"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [],
+      "sensitive": [
+        "choice: tavo/tu by addressee status (elder_sibling) -> rules do not decide",
+        "disputed: 'dovanor' rules compete (expert_notes:REH-1#1 vs expert_notes:VAR-1#1)"
+      ],
+      "grammar_gaps": [
+        "grammar:kin-1#1: use of dovanor",
+        "grammar:respect-1#3: address to elder siblings"
+      ],
+      "conflicts": [
+        "tomorrow -> brem: dictionaries disagreed; resolved to dictionary_b:B-032"
+      ],
+      "timing": {
+        "duration_ms": 2800,
+        "source_cps": 13.9,
+        "issues": []
+      },
+      "assumptions": [
+        "Arun is elder_sibling relative to Riya: siblings ('Younger sister of Arun. Stayed in the village.'); Arun is older",
+        "relationship state ['reconciled'] from line note"
+      ],
+      "risk": 8.5,
+      "risk_factors": [
+        "+2 disputed word choice",
+        "+0.5 pronoun choice by status",
+        "+6 documented grammar gap"
+      ]
+    },
+    {
+      "line_id": "S020",
+      "ref": "episode:S020",
+      "scene": "SC5",
+      "speaker": "Arun",
+      "addressee": "Riya",
+      "addressee_method": "given",
+      "text": "No. I will not leave.",
+      "features": {
+        "tenses": [
+          "future"
+        ],
+        "negated": true,
+        "question": false,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": null,
+        "second_person": false,
+        "you_subject": false,
+        "names": [],
+        "numbers": [],
+        "exclamation": false
+      },
+      "social": {
+        "speaker": "Arun",
+        "addressee": "Riya",
+        "relation": "sibling",
+        "status": "lower",
+        "method": "kinship",
+        "reason": "siblings ('Younger sister of Arun. Stayed in the village.'); Riya is younger",
+        "refs": [
+          "episode:Arun",
+          "episode:Riya"
+        ]
+      },
+      "tags": [
+        "reconciled"
+      ],
+      "coverage": [
+        {
+          "english": "i",
+          "term": "mi",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-001"
+        },
+        {
+          "english": "leave",
+          "term": "nas",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-020"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [],
+      "sensitive": [],
+      "grammar_gaps": [
+        "grammar:neg-1#2: negation of future forms,",
+        "expert_notes:KIR-3#1: future negation forms (na veliru vs velnai)"
+      ],
+      "conflicts": [],
+      "timing": {
+        "duration_ms": 1800,
+        "source_cps": 11.7,
+        "issues": []
+      },
+      "assumptions": [
+        "Riya is lower relative to Arun: siblings ('Younger sister of Arun. Stayed in the village.'); Riya is younger",
+        "relationship state ['reconciled'] from scene summary SC5"
+      ],
+      "risk": 6.0,
+      "risk_factors": [
+        "+6 documented grammar gap"
+      ]
+    },
+    {
+      "line_id": "S021",
+      "ref": "episode:S021",
+      "scene": "SC5",
+      "speaker": "Arun",
+      "addressee": "Ama",
+      "addressee_method": "given",
+      "text": "Mother, your food is very good.",
+      "features": {
+        "tenses": [
+          "present"
+        ],
+        "negated": false,
+        "question": false,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": "Mother",
+        "second_person": true,
+        "you_subject": false,
+        "names": [],
+        "numbers": [],
+        "exclamation": false
+      },
+      "social": {
+        "speaker": "Arun",
+        "addressee": "Ama",
+        "relation": "parent_child",
+        "status": "higher",
+        "method": "kinship",
+        "reason": "'Mother of Riya and Arun.'",
+        "refs": [
+          "episode:Arun",
+          "episode:Ama"
+        ]
+      },
+      "tags": [
+        "reconciled"
+      ],
+      "coverage": [
+        {
+          "english": "mother",
+          "term": "ama",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-048"
+        },
+        {
+          "english": "your",
+          "term": "tavora",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-009"
+        },
+        {
+          "english": "your",
+          "term": "tura",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-008"
+        },
+        {
+          "english": "food",
+          "term": "manu",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-035"
+        },
+        {
+          "english": "good",
+          "term": "suma",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-075"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [],
+      "sensitive": [],
+      "grammar_gaps": [],
+      "conflicts": [],
+      "timing": {
+        "duration_ms": 2500,
+        "source_cps": 12.4,
+        "issues": []
+      },
+      "assumptions": [
+        "Ama is higher relative to Arun: 'Mother of Riya and Arun.'",
+        "relationship state ['reconciled'] from scene summary SC5"
+      ],
+      "risk": 0.0,
+      "risk_factors": []
+    },
+    {
+      "line_id": "S022",
+      "ref": "episode:S022",
+      "scene": "SC5",
+      "speaker": "Ama",
+      "addressee": "Bhola",
+      "addressee_method": "given",
+      "text": "Headman, are you eating?",
+      "features": {
+        "tenses": [
+          "present"
+        ],
+        "negated": false,
+        "question": true,
+        "yes_no_question": true,
+        "wh_question": false,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": "Headman",
+        "second_person": true,
+        "you_subject": true,
+        "names": [],
+        "numbers": [],
+        "exclamation": false
+      },
+      "social": {
+        "speaker": "Ama",
+        "addressee": "Bhola",
+        "relation": "authority",
+        "status": "higher",
+        "method": "role",
+        "reason": "Bhola: 'Village headman. Respected, a bit stern.'",
+        "refs": [
+          "episode:Ama",
+          "episode:Bhola"
+        ]
+      },
+      "tags": [
+        "reconciled"
+      ],
+      "coverage": [
+        {
+          "english": "headman",
+          "term": "hulmar",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-027"
+        },
+        {
+          "english": "you",
+          "term": "tu",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-002"
+        },
+        {
+          "english": "you",
+          "term": "tavo",
+          "status": "resolved_conflict",
+          "entry": "dictionary_b:B-003"
+        },
+        {
+          "english": "eating",
+          "term": "khan",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-019"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [],
+      "sensitive": [
+        "choice: tavo/tu by addressee status (higher) -> rules point to tavo"
+      ],
+      "grammar_gaps": [],
+      "conflicts": [],
+      "timing": {
+        "duration_ms": 2000,
+        "source_cps": 12.0,
+        "issues": []
+      },
+      "assumptions": [
+        "Bhola is higher relative to Ama: Bhola: 'Village headman. Respected, a bit stern.'",
+        "relationship state ['reconciled'] from scene summary SC5"
+      ],
+      "risk": 0.5,
+      "risk_factors": [
+        "+0.5 pronoun choice by status"
+      ]
+    },
+    {
+      "line_id": "S023",
+      "ref": "episode:S023",
+      "scene": "SC5",
+      "speaker": "Bhola",
+      "addressee": "Arun",
+      "addressee_method": "given",
+      "text": "Yes. Arun, your mother waited for five years.",
+      "features": {
+        "tenses": [
+          "past"
+        ],
+        "negated": false,
+        "question": false,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": "Arun",
+        "second_person": true,
+        "you_subject": false,
+        "names": [
+          "arun"
+        ],
+        "numbers": [
+          "five"
+        ],
+        "exclamation": false
+      },
+      "social": {
+        "speaker": "Bhola",
+        "addressee": "Arun",
+        "relation": "authority",
+        "status": "lower",
+        "method": "role",
+        "reason": "Bhola: 'Village headman. Respected, a bit stern.'",
+        "refs": [
+          "episode:Bhola",
+          "episode:Arun"
+        ]
+      },
+      "tags": [
+        "reconciled"
+      ],
+      "coverage": [
+        {
+          "english": "yes",
+          "term": "ha",
+          "status": "agreed_untested",
+          "entry": "dictionary_a:A-064"
+        },
+        {
+          "english": "your",
+          "term": "tavora",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-009"
+        },
+        {
+          "english": "your",
+          "term": "tura",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-008"
+        },
+        {
+          "english": "mother",
+          "term": "ama",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-048"
+        },
+        {
+          "english": "waited",
+          "term": "rak",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-022"
+        },
+        {
+          "english": "five",
+          "term": "pavo",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-089"
+        },
+        {
+          "english": "years",
+          "term": "yoru",
+          "status": "single_source",
+          "entry": "dictionary_a:A-042"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [
+        "yes -> ha (agreed_untested, dictionary_a:A-064)",
+        "years -> yoru (single_source, dictionary_a:A-042)"
+      ],
+      "sensitive": [],
+      "grammar_gaps": [],
+      "conflicts": [],
+      "timing": {
+        "duration_ms": 3500,
+        "source_cps": 12.9,
+        "issues": []
+      },
+      "assumptions": [
+        "Arun is lower relative to Bhola: Bhola: 'Village headman. Respected, a bit stern.'",
+        "relationship state ['reconciled'] from scene summary SC5"
+      ],
+      "risk": 4.0,
+      "risk_factors": [
+        "+3 weak words ['yes', 'years']",
+        "+1 numbers"
+      ]
+    },
+    {
+      "line_id": "S024",
+      "ref": "episode:S024",
+      "scene": "SC5",
+      "speaker": "Kabir",
+      "addressee": "everyone",
+      "addressee_method": "given",
+      "text": "And I waited for dessert!",
+      "features": {
+        "tenses": [
+          "past"
+        ],
+        "negated": false,
+        "question": false,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": null,
+        "second_person": false,
+        "you_subject": false,
+        "names": [],
+        "numbers": [],
+        "exclamation": true
+      },
+      "social": {
+        "speaker": "Kabir",
+        "addressee": "everyone",
+        "relation": "group",
+        "status": "mixed",
+        "method": "none",
+        "reason": "addressed to several people",
+        "refs": []
+      },
+      "tags": [
+        "reconciled"
+      ],
+      "coverage": [
+        {
+          "english": "i",
+          "term": "mi",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-001"
+        },
+        {
+          "english": "waited",
+          "term": "rak",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-022"
+        },
+        {
+          "english": "dessert",
+          "term": "meethu",
+          "status": "single_source",
+          "entry": "dictionary_a:A-059"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [
+        "dessert -> meethu (single_source, dictionary_a:A-059)"
+      ],
+      "sensitive": [],
+      "grammar_gaps": [],
+      "conflicts": [],
+      "timing": {
+        "duration_ms": 2000,
+        "source_cps": 12.5,
+        "issues": []
+      },
+      "assumptions": [
+        "everyone is mixed relative to Kabir: addressed to several people",
+        "relationship state ['reconciled'] from scene summary SC5"
+      ],
+      "risk": 3.0,
+      "risk_factors": [
+        "+1.5 weak words ['dessert']",
+        "+1.5 humour"
+      ]
+    },
+    {
+      "line_id": "S025",
+      "ref": "episode:S025",
+      "scene": "SC5",
+      "speaker": "Riya",
+      "addressee": "Arun",
+      "addressee_method": "given",
+      "text": "Welcome home, elder brother.",
+      "features": {
+        "tenses": [],
+        "negated": false,
+        "question": false,
+        "yes_no_question": false,
+        "wh_question": false,
+        "imperative": false,
+        "negative_command": false,
+        "vocative": "elder brother",
+        "second_person": false,
+        "you_subject": false,
+        "names": [],
+        "numbers": [],
+        "exclamation": false
+      },
+      "social": {
+        "speaker": "Riya",
+        "addressee": "Arun",
+        "relation": "sibling",
+        "status": "elder_sibling",
+        "method": "kinship",
+        "reason": "siblings ('Younger sister of Arun. Stayed in the village.'); Arun is older",
+        "refs": [
+          "episode:Riya",
+          "episode:Arun"
+        ]
+      },
+      "tags": [
+        "reconciled"
+      ],
+      "coverage": [
+        {
+          "english": "welcome",
+          "term": "salo",
+          "status": "agreed_untested",
+          "entry": "dictionary_a:A-063"
+        },
+        {
+          "english": "home",
+          "term": "gedo",
+          "status": "corroborated",
+          "entry": "dictionary_a:A-033"
+        },
+        {
+          "english": "elder",
+          "term": "dovan",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-021"
+        },
+        {
+          "english": "elder",
+          "term": "dovanor",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-022"
+        },
+        {
+          "english": "brother",
+          "term": "dovan",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-021"
+        },
+        {
+          "english": "brother",
+          "term": "dovanor",
+          "status": "corroborated",
+          "entry": "dictionary_b:B-022"
+        }
+      ],
+      "gaps": [],
+      "weak_words": [
+        "welcome -> salo (agreed_untested, dictionary_a:A-063)"
+      ],
+      "sensitive": [
+        "disputed: 'dovanor' rules compete (expert_notes:REH-1#1 vs expert_notes:VAR-1#1)"
+      ],
+      "grammar_gaps": [
+        "grammar:kin-1#1: use of dovanor",
+        "grammar:respect-1#3: address to elder siblings"
+      ],
+      "conflicts": [],
+      "timing": {
+        "duration_ms": 2500,
+        "source_cps": 11.2,
+        "issues": []
+      },
+      "assumptions": [
+        "Arun is elder_sibling relative to Riya: siblings ('Younger sister of Arun. Stayed in the village.'); Arun is older",
+        "relationship state ['reconciled'] from scene summary SC5"
+      ],
+      "risk": 9.5,
+      "risk_factors": [
+        "+1.5 weak words ['welcome']",
+        "+2 disputed word choice",
+        "+6 documented grammar gap"
+      ]
+    }
+  ],
+  "social": [
+    {
+      "speaker": "Riya",
+      "addressee": "Arun",
+      "relation": "sibling",
+      "status": "elder_sibling",
+      "method": "kinship",
+      "reason": "siblings ('Younger sister of Arun. Stayed in the village.'); Arun is older",
+      "refs": [
+        "episode:Riya",
+        "episode:Arun"
+      ]
+    },
+    {
+      "speaker": "Arun",
+      "addressee": "Riya",
+      "relation": "sibling",
+      "status": "lower",
+      "method": "kinship",
+      "reason": "siblings ('Younger sister of Arun. Stayed in the village.'); Riya is younger",
+      "refs": [
+        "episode:Arun",
+        "episode:Riya"
+      ]
+    },
+    {
+      "speaker": "Ama",
+      "addressee": "Riya",
+      "relation": "parent_child",
+      "status": "lower",
+      "method": "kinship",
+      "reason": "'Mother of Riya and Arun.'",
+      "refs": [
+        "episode:Ama",
+        "episode:Riya"
+      ]
+    },
+    {
+      "speaker": "Ama",
+      "addressee": "Arun",
+      "relation": "parent_child",
+      "status": "lower",
+      "method": "kinship",
+      "reason": "'Mother of Riya and Arun.'",
+      "refs": [
+        "episode:Ama",
+        "episode:Arun"
+      ]
+    },
+    {
+      "speaker": "Arun",
+      "addressee": "Ama",
+      "relation": "parent_child",
+      "status": "higher",
+      "method": "kinship",
+      "reason": "'Mother of Riya and Arun.'",
+      "refs": [
+        "episode:Arun",
+        "episode:Ama"
+      ]
+    },
+    {
+      "speaker": "Kabir",
+      "addressee": "Arun",
+      "relation": "friend",
+      "status": "equal",
+      "method": "kinship",
+      "reason": "\"Arun's childhood friend. Village joker.\"",
+      "refs": [
+        "episode:Kabir",
+        "episode:Arun"
+      ]
+    },
+    {
+      "speaker": "Arun",
+      "addressee": "Kabir",
+      "relation": "friend",
+      "status": "equal",
+      "method": "kinship",
+      "reason": "\"Arun's childhood friend. Village joker.\"",
+      "refs": [
+        "episode:Arun",
+        "episode:Kabir"
+      ]
+    },
+    {
+      "speaker": "Kabir",
+      "addressee": "Bhola",
+      "relation": "authority",
+      "status": "higher",
+      "method": "role",
+      "reason": "Bhola: 'Village headman. Respected, a bit stern.'",
+      "refs": [
+        "episode:Kabir",
+        "episode:Bhola"
+      ]
+    },
+    {
+      "speaker": "Bhola",
+      "addressee": "Arun",
+      "relation": "authority",
+      "status": "lower",
+      "method": "role",
+      "reason": "Bhola: 'Village headman. Respected, a bit stern.'",
+      "refs": [
+        "episode:Bhola",
+        "episode:Arun"
+      ]
+    },
+    {
+      "speaker": "Arun",
+      "addressee": "Bhola",
+      "relation": "authority",
+      "status": "higher",
+      "method": "role",
+      "reason": "Bhola: 'Village headman. Respected, a bit stern.'",
+      "refs": [
+        "episode:Arun",
+        "episode:Bhola"
+      ]
+    },
+    {
+      "speaker": "Mr. Dass",
+      "addressee": "Arun",
+      "relation": "employer",
+      "status": "lower",
+      "method": "kinship",
+      "reason": "\"Arun's boss in the city. Only heard on the phone.\"",
+      "refs": [
+        "episode:Mr. Dass",
+        "episode:Arun"
+      ]
+    },
+    {
+      "speaker": "Arun",
+      "addressee": "Mr. Dass",
+      "relation": "employer",
+      "status": "higher",
+      "method": "kinship",
+      "reason": "\"Arun's boss in the city. Only heard on the phone.\"",
+      "refs": [
+        "episode:Arun",
+        "episode:Mr. Dass"
+      ]
+    },
+    {
+      "speaker": "Ama",
+      "addressee": "Bhola",
+      "relation": "authority",
+      "status": "higher",
+      "method": "role",
+      "reason": "Bhola: 'Village headman. Respected, a bit stern.'",
+      "refs": [
+        "episode:Ama",
+        "episode:Bhola"
+      ]
+    },
+    {
+      "speaker": "Kabir",
+      "addressee": "everyone",
+      "relation": "group",
+      "status": "mixed",
+      "method": "none",
+      "reason": "addressed to several people",
+      "refs": []
+    }
+  ],
+  "limits": {
+    "max_chars_per_line": 42,
+    "max_lines": 2,
+    "max_chars_per_second": 17,
+    "min_duration_ms": 1000
+  },
+  "budget": {
+    "model_calls_used_so_far": 8,
+    "model_calls_left": 17,
+    "translation_calls": 5,
+    "critic_calls": 5,
+    "replan_reserve": 4,
+    "note": "critic enabled"
+  },
+  "notes": [
+    "3 line(s) contain words with no Nadi-9 evidence",
+    "1 line(s) risk a status clash"
+  ]
+}

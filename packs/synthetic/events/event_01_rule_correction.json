@@ -1,0 +1,16 @@
+{
+  "event_id": "EV01",
+  "type": "rule_correction",
+  "trigger": {"after_subtitle": "S005"},
+  "received": "2025-04-02T10:15:00Z",
+  "from": {"name": "Dr. Leela Varkey", "role": "Field linguist"},
+  "target": "grammar:respect-2",
+  "message": "Correction to the honorific suffix. In the PRESENT tense the respect suffix is -si, not -sa (e.g. 'khanasi', 'velasi', not 'khanasa'). Past and future keep -sa ('tamensa', 'tamirusa'). Confirmed with 6 new recordings.",
+  "change": {
+    "rule_id": "respect-2",
+    "tense": "present",
+    "old_suffix": "-sa",
+    "new_suffix": "-si",
+    "unchanged": ["past", "future"]
+  }
+}

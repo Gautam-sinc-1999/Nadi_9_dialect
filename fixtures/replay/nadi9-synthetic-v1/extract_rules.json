@@ -1,0 +1,33 @@
+{
+  "_provenance": "Hand-authored stand-in for a recorded model response to the extract_rules task on the synthetic pack. It passes through the same grounding validator as live output. Replace by recording a real run.",
+  "grammar": {
+    "rules": [
+      {"section_id": "order-1", "template": "word_order", "params": {"verb_position": "final"}, "quote": "Nadi-9 is verb-final."},
+      {"section_id": "order-2", "template": "untestable", "params": {}, "quote": "comes first and is followed by a comma"},
+      {"section_id": "order-3", "template": "untestable", "params": {}, "quote": "Adjectives come before nouns."},
+      {"section_id": "tense-1", "template": "affix", "params": {"kind": "suffix", "form": "a", "feature": "tense=present", "attaches_to": "verb"}, "quote": "Present | `-a`"},
+      {"section_id": "tense-1", "template": "affix", "params": {"kind": "suffix", "form": "en", "feature": "tense=past", "attaches_to": "verb"}, "quote": "Past | `-en`"},
+      {"section_id": "tense-1", "template": "affix", "params": {"kind": "suffix", "form": "iru", "feature": "tense=future", "attaches_to": "verb"}, "quote": "Future | `-iru`"},
+      {"section_id": "tense-2", "template": "untestable", "params": {}, "quote": "The copula `esh` (be) follows [tense-1]"},
+      {"section_id": "neg-1", "template": "particle_position", "params": {"particle": "na", "relative_to": "verb", "position": "before", "feature": "negation"}, "quote": "The particle `na` is placed immediately **before** the verb."},
+      {"section_id": "neg-1", "template": "gap", "params": {"topic": "future negation; negative commands"}, "quote": "negation of future forms, and negative commands"},
+      {"section_id": "q-1", "template": "particle_position", "params": {"particle": "ko", "relative_to": "clause_end", "position": "at", "feature": "yes_no_question"}, "quote": "A yes/no question ends with the particle `ko`."},
+      {"section_id": "q-2", "template": "untestable", "params": {}, "quote": "They stay in the position of the element they ask about."},
+      {"section_id": "q-2", "template": "gap", "params": {"topic": "ko with question words"}, "quote": "whether `ko` is also used with question words"},
+      {"section_id": "respect-1", "template": "lexical_choice", "params": {"term": "tavo", "condition": "addressee is a parent, elder, employer, village headman or guest", "allowed_status": ["higher"]}, "quote": "Used for parents, elders, employers, the village headman, and guests."},
+      {"section_id": "respect-1", "template": "lexical_choice", "params": {"term": "tu", "condition": "addressee is a friend, equal, younger person or child", "allowed_status": ["equal", "lower"]}, "quote": "Used for friends, equals, younger people, children."},
+      {"section_id": "respect-1", "template": "gap", "params": {"topic": "address to elder siblings"}, "quote": "Address to **elder siblings** varies between families."},
+      {"section_id": "respect-2", "template": "agreement", "params": {"if_word": "tavo", "then_affix": "sa", "on": "verb", "tenses": ["present", "past", "future"], "position": "after tense suffix"}, "quote": "When the subject is `tavo`, the verb takes the honorific suffix `-sa` **after** the tense suffix."},
+      {"section_id": "respect-3", "template": "lexical_choice", "params": {"term": "tavora", "condition": "possessor is a respectful addressee"}, "quote": "\"Your\" is `tura` (familiar) or `tavora` (respectful)"},
+      {"section_id": "imp-1", "template": "affix", "params": {"kind": "suffix", "form": "sa", "feature": "mood=imperative,respect", "attaches_to": "verb"}, "quote": "Respectful command: root + `-sa`."},
+      {"section_id": "imp-1", "template": "gap", "params": {"topic": "natural examples of respectful commands"}, "quote": "Respectful commands are based on elicitation only."},
+      {"section_id": "kin-1", "template": "gap", "params": {"topic": "when dovanor is used"}, "quote": "I could not determine when it is used."},
+      {"section_id": "poss-1", "template": "untestable", "params": {}, "quote": "They come before the noun"},
+      {"section_id": "plural-1", "template": "affix", "params": {"kind": "suffix", "form": "li", "feature": "number=plural", "attaches_to": "noun"}, "quote": "Nouns take `-li` for plural, also after numbers"},
+      {"section_id": "plural-1", "template": "gap", "params": {"topic": "plural of loanwords"}, "quote": "whether English loanwords take `-li`"},
+      {"section_id": "loc-1", "template": "affix", "params": {"kind": "suffix", "form": "ma", "feature": "case=locative", "attaches_to": "noun"}, "quote": "A static location takes `-ma`"},
+      {"section_id": "cs-1", "template": "untestable", "params": {}, "quote": "Speakers insert English nouns for modern things (office, phone, meeting, bus, report) unchanged."},
+      {"section_id": "num-1", "template": "gap", "params": {"topic": "numbers 6-9 and above 10"}, "quote": "Numbers 6–9 and above 10 are not documented."}
+    ]
+  }
+}

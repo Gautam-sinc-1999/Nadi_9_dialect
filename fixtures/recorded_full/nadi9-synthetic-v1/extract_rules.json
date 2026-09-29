@@ -1,0 +1,216 @@
+{
+  "_provenance": "Recorded from groq:openai/gpt-oss-120b on 2026-09-29 14:05 UTC. Real model output.",
+  "grammar": {
+    "rules": [
+      {
+        "section_id": "order-1",
+        "template": "word_order",
+        "params": {
+          "verb_position": "final"
+        },
+        "quote": "Nadi-9 is verb-final. The normal order is **Subject – Object – Verb**."
+      },
+      {
+        "section_id": "tense-1",
+        "template": "affix",
+        "params": {
+          "kind": "suffix",
+          "form": "a",
+          "feature": "tense=present",
+          "attaches_to": "verb"
+        },
+        "quote": "Present | `-a` | `vela` goes / is going"
+      },
+      {
+        "section_id": "tense-1",
+        "template": "affix",
+        "params": {
+          "kind": "suffix",
+          "form": "en",
+          "feature": "tense=past",
+          "attaches_to": "verb"
+        },
+        "quote": "Past | `-en` | `velen` went"
+      },
+      {
+        "section_id": "tense-1",
+        "template": "affix",
+        "params": {
+          "kind": "suffix",
+          "form": "iru",
+          "feature": "tense=future",
+          "attaches_to": "verb"
+        },
+        "quote": "Future | `-iru` | `veliru` will go"
+      },
+      {
+        "section_id": "neg-1",
+        "template": "particle_position",
+        "params": {
+          "particle": "na",
+          "relative_to": "verb",
+          "position": "before",
+          "feature": "negation"
+        },
+        "quote": "The particle `na` is placed immediately **before** the verb."
+      },
+      {
+        "section_id": "q-1",
+        "template": "particle_position",
+        "params": {
+          "particle": "ko",
+          "relative_to": "clause_end",
+          "position": "at",
+          "feature": "yes_no_question"
+        },
+        "quote": "A yes/no question ends with the particle `ko`. Word order does not change."
+      },
+      {
+        "section_id": "respect-2",
+        "template": "agreement",
+        "params": {
+          "if_word": "tavo",
+          "then_affix": "sa",
+          "on": "verb",
+          "tenses": [
+            "present",
+            "past",
+            "future"
+          ]
+        },
+        "quote": "When the subject is `tavo`, the verb takes the honorific suffix `-sa` **after** the tense suffix."
+      },
+      {
+        "section_id": "respect-1",
+        "template": "lexical_choice",
+        "params": {
+          "term": "tu",
+          "condition": null,
+          "allowed_status": [
+            "equal",
+            "lower"
+          ]
+        },
+        "quote": "- `tu` — familiar. Used for friends, equals, younger people, children."
+      },
+      {
+        "section_id": "respect-1",
+        "template": "lexical_choice",
+        "params": {
+          "term": "tavo",
+          "condition": null,
+          "allowed_status": [
+            "higher"
+          ]
+        },
+        "quote": "- `tavo` — respectful. Used for parents, elders, employers, the village headman, and guests."
+      },
+      {
+        "section_id": "respect-3",
+        "template": "lexical_choice",
+        "params": {
+          "term": "tavora",
+          "condition": null,
+          "allowed_status": [
+            "higher"
+          ]
+        },
+        "quote": "\"Your\" is `tura` (familiar) or `tavora` (respectful), matching [respect-1]."
+      },
+      {
+        "section_id": "plural-1",
+        "template": "affix",
+        "params": {
+          "kind": "suffix",
+          "form": "li",
+          "feature": "number=plural",
+          "attaches_to": "noun"
+        },
+        "quote": "Nouns take `-li` for plural, also after numbers: `rill savili` — three days."
+      },
+      {
+        "section_id": "loc-1",
+        "template": "affix",
+        "params": {
+          "kind": "suffix",
+          "form": "ma",
+          "feature": "case=locative",
+          "attaches_to": "noun"
+        },
+        "quote": "- A static location takes `-ma`: `office-ma` — in the office."
+      },
+      {
+        "section_id": "neg-1",
+        "template": "gap",
+        "params": {
+          "topic": "negation of future forms, and negative commands"
+        },
+        "quote": "Not yet documented: negation of future forms, and negative commands (\"don't ...\")."
+      },
+      {
+        "section_id": "q-2",
+        "template": "gap",
+        "params": {
+          "topic": "whether `ko` is also used with question words"
+        },
+        "quote": "Unclear: whether `ko` is also used with question words. My one speaker omitted it."
+      },
+      {
+        "section_id": "kin-1",
+        "template": "gap",
+        "params": {
+          "topic": "use of dovanor"
+        },
+        "quote": "A form `dovanor` is also reported for \"elder brother\". I could not determine when it is used."
+      },
+      {
+        "section_id": "plural-1",
+        "template": "gap",
+        "params": {
+          "topic": "whether English loanwords take `-li`"
+        },
+        "quote": "Unclear: whether English loanwords take `-li`."
+      },
+      {
+        "section_id": "num-1",
+        "template": "gap",
+        "params": {
+          "topic": "numbers 6–9 and above 10"
+        },
+        "quote": "Numbers 6–9 and above 10 are not documented."
+      },
+      {
+        "section_id": "respect-1",
+        "template": "gap",
+        "params": {
+          "topic": "address to elder siblings"
+        },
+        "quote": "Address to **elder siblings** varies between families. See [kin-1]."
+      },
+      {
+        "section_id": "order-2",
+        "template": "untestable",
+        "params": {},
+        "quote": "Time words (`osa` today, `brem` tomorrow, `nesh` yesterday) normally stand at the start of the clause."
+      },
+      {
+        "section_id": "order-3",
+        "template": "untestable",
+        "params": {},
+        "quote": "Adjectives come before nouns."
+      },
+      {
+        "section_id": "imp-1",
+        "template": "untestable",
+        "params": {},
+        "quote": "- Familiar command: bare verb root. `dovan, mi ush.` — Elder brother, forgive me."
+      },
+      {
+        "section_id": "poss-1",
+        "template": "untestable",
+        "params": {},
+        "quote": "`mira` my, `tura` your (familiar), `tavora` your (respectful), `sora` his/her, `masra` our, `solra` their."
+      }
+    ]
+  }
+}

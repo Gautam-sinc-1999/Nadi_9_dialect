@@ -1,0 +1,15 @@
+{
+  "source_id": "interview_04",
+  "topic": "status",
+  "recorded": "2024-10-14",
+  "recorded_by": "Dr. Leela Varkey",
+  "speaker": {"name": "Kamala", "age": 71, "gender": "F", "origin": "hill village"},
+  "audio_file": "interview_04.wav",
+  "audio_quality": "poor, wind noise, speaker far from microphone",
+  "asr_engine": "mock-asr-1.0",
+  "segments": [
+    {"seg": "seg1", "start": "00:00:06.0", "end": "00:00:10.0", "asr_confidence": 0.48, "text": "hulmar, tavo manu khanasi ko?", "asr_alternatives": ["hulmar, tavo manu khanasa ko?"], "interviewer_gloss": "Headman, are you (respectful) eating food?"},
+    {"seg": "seg2", "start": "00:00:11.0", "end": "00:00:15.0", "asr_confidence": 0.21, "text": "[inaudible]", "interviewer_gloss": "[Unclear]"},
+    {"seg": "seg3", "start": "00:00:16.0", "end": "00:00:19.0", "asr_confidence": 0.77, "text": "tavo tamensa, kelim.", "interviewer_gloss": "You (respectful) came, thank you."}
+  ]
+}

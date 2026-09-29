@@ -1,0 +1,66 @@
+{
+  "_provenance": "Recorded from groq:openai/gpt-oss-120b on 2026-09-29 14:06 UTC. Real model output.",
+  "rules": [
+    {
+      "template": "word_order",
+      "params": {
+        "verb_position": "final"
+      },
+      "note": "Verbs appear at the end of clauses (e.g., “mi gedo vela”, “ama manu paka”)."
+    },
+    {
+      "template": "affix",
+      "params": {
+        "kind": "suffix",
+        "form": "ru",
+        "feature": "tense=future",
+        "attaches_to": "verb"
+      },
+      "note": "Future verbs end in –ru (e.g., “khaniru”, “tamiru”)."
+    },
+    {
+      "template": "affix",
+      "params": {
+        "kind": "suffix",
+        "form": "en",
+        "feature": "tense=past",
+        "attaches_to": "verb"
+      },
+      "note": "Past verbs end in –en (e.g., “khanen”, “raken”)."
+    },
+    {
+      "template": "particle_position",
+      "params": {
+        "particle": "na",
+        "relative_to": "verb",
+        "position": "after",
+        "feature": "negation"
+      },
+      "note": "Negation particle na follows the verb (e.g., “mi so na deken”, “so chenn na loba”)."
+    },
+    {
+      "template": "particle_position",
+      "params": {
+        "particle": "ko",
+        "relative_to": "clause_end",
+        "position": "at",
+        "feature": "yes_no_question"
+      },
+      "note": "Question particle ko appears at the end of a clause (e.g., “tu manu khanen ko?”, “brem tu tamiru ko?”)."
+    },
+    {
+      "template": "agreement",
+      "params": {
+        "if_word": "tavo",
+        "then_affix": "sa",
+        "on": "verb",
+        "tenses": [
+          "present",
+          "past",
+          "future"
+        ]
+      },
+      "note": "When the second‑person pronoun tavo is present, the verb takes the suffix -sa (e.g., “tamensa”, “khanirusa”)."
+    }
+  ]
+}

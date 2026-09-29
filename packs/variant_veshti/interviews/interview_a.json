@@ -1,0 +1,9 @@
+{
+  "speaker": "Oran",
+  "recorded": "2024-03-01",
+  "utterances": [
+    {"t0": 1.0, "t1": 3.2, "transcript": "kasim ek brak oje.", "translation": "I went to the market today.", "conf": 0.9},
+    {"t0": 4.0, "t1": 6.0, "transcript": "zulok ekar fesh.", "translation": "We will eat bread.", "conf": 0.85},
+    {"t0": 7.0, "t1": 9.0, "transcript": "[noise] val", "translation": "[unclear]", "conf": 0.3}
+  ]
+}

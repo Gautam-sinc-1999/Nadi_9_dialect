@@ -1,0 +1,14 @@
+{
+  "event_id": "EV02",
+  "type": "example_challenge",
+  "trigger": {"after_subtitle": "S018"},
+  "received": "2025-04-02T14:40:00Z",
+  "from": {"name": "Asha Kiran", "role": "Community linguist"},
+  "target": "example:E14",
+  "message": "E14 is wrong. The family left last year, so the verb must be past: 'sol hulm nasen', not 'nasiru'. The original transcriber confused the endings.",
+  "change": {
+    "example_id": "E14",
+    "old_nadi_9": "sol hulm nasiru.",
+    "new_nadi_9": "sol hulm nasen."
+  }
+}

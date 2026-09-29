@@ -1,0 +1,50 @@
+{
+  "source_id": "episode",
+  "episode_id": "EP01",
+  "title": "Homecoming",
+  "source_language": "en",
+  "target_language": "nadi-9",
+  "subtitle_limits": {"max_chars_per_line": 42, "max_lines": 2, "max_chars_per_second": 17, "min_duration_ms": 1000},
+  "characters": [
+    {"name": "Riya", "age": 24, "gender": "F", "description": "Younger sister of Arun. Stayed in the village."},
+    {"name": "Arun", "age": 31, "gender": "M", "description": "Elder brother. Left for the city 5 years ago after a family quarrel and has not called since."},
+    {"name": "Ama", "age": 58, "gender": "F", "description": "Mother of Riya and Arun."},
+    {"name": "Kabir", "age": 30, "gender": "M", "description": "Arun's childhood friend. Village joker."},
+    {"name": "Bhola", "age": 66, "gender": "M", "description": "Village headman. Respected, a bit stern."},
+    {"name": "Mr. Dass", "age": 50, "gender": "M", "description": "Arun's boss in the city. Only heard on the phone."}
+  ],
+  "scenes": [
+    {"scene": "SC1", "location": "Family house, doorway", "time": "day", "summary": "Arun arrives unannounced after 5 years. Riya is cold and hurt; they are still estranged."},
+    {"scene": "SC2", "location": "Family house, kitchen", "time": "day", "summary": "Arun faces his mother."},
+    {"scene": "SC3", "location": "Village market", "time": "afternoon", "summary": "Kabir teases Arun. The headman walks up."},
+    {"scene": "SC4", "location": "Market, phone call", "time": "evening", "summary": "Arun's boss calls. Work talk with English words."},
+    {"scene": "SC5", "location": "Family house, dinner", "time": "night", "summary": "After Arun apologised, the family has reconciled. The headman is a dinner guest."}
+  ],
+  "lines": [
+    {"id": "S001", "scene": "SC1", "start": "00:00:04,000", "end": "00:00:06,200", "speaker": "Riya", "addressee": "Arun", "text": "You came back, elder brother?", "notes": "Cold, hurt tone. Siblings still estranged."},
+    {"id": "S002", "scene": "SC1", "start": "00:00:06,600", "end": "00:00:08,400", "speaker": "Arun", "addressee": "Riya", "text": "Yes. I came back."},
+    {"id": "S003", "scene": "SC1", "start": "00:00:08,900", "end": "00:00:11,800", "speaker": "Riya", "addressee": "Arun", "text": "Five years, and not one phone call.", "notes": "Accusing."},
+    {"id": "S004", "scene": "SC1", "start": "00:00:12,200", "end": "00:00:13,600", "speaker": "Arun", "addressee": "Riya", "text": "I am sorry."},
+    {"id": "S005", "scene": "SC1", "start": "00:00:14,000", "end": "00:00:16,000", "speaker": "Ama", "addressee": "Riya", "text": "Riya, who is at the door?", "notes": "Off-screen, from inside the house."},
+    {"id": "S006", "scene": "SC2", "start": "00:00:20,000", "end": "00:00:22,500", "speaker": "Ama", "addressee": "Arun", "text": "My son... you came back.", "notes": "Emotional, quiet."},
+    {"id": "S007", "scene": "SC2", "start": "00:00:23,000", "end": "00:00:25,000", "speaker": "Arun", "addressee": "Ama", "text": "Mother, forgive me."},
+    {"id": "S008", "scene": "SC2", "start": "00:00:25,500", "end": "00:00:28,500", "speaker": "Ama", "addressee": "Arun", "text": "Eat first. We will talk tomorrow."},
+    {"id": "S009", "scene": "SC3", "start": "00:00:35,000", "end": "00:00:37,800", "speaker": "Kabir", "addressee": "Arun", "text": "Hey, friend! The city boy has come back!", "notes": "Teasing, warm."},
+    {"id": "S010", "scene": "SC3", "start": "00:00:38,200", "end": "00:00:40,500", "speaker": "Arun", "addressee": "Kabir", "text": "Kabir! You haven't changed at all."},
+    {"id": "S011", "scene": "SC3", "start": "00:00:40,700", "end": "00:00:41,500", "speaker": "Kabir", "addressee": "Arun", "text": "I changed. Now I eat twice as much, ask my mother!", "notes": "Joke. Quick delivery."},
+    {"id": "S012", "scene": "SC3", "start": "00:00:43,000", "end": "00:00:45,200", "speaker": "Kabir", "addressee": "Bhola", "text": "Welcome, friend! Come, sit with us.", "notes": "The headman has just walked up. Kabir is grinning. The headman's reaction is not shown."},
+    {"id": "S013", "scene": "SC3", "start": "00:00:46,000", "end": "00:00:48,600", "speaker": "Bhola", "addressee": "Arun", "text": "Arun, will you go back to the city?"},
+    {"id": "S014", "scene": "SC3", "start": "00:00:49,000", "end": "00:00:51,000", "speaker": "Arun", "addressee": "Bhola", "text": "I do not know, headman."},
+    {"id": "S015", "scene": "SC4", "start": "00:01:00,000", "end": "00:01:02,800", "speaker": "Mr. Dass", "addressee": "Arun", "text": "Arun, the meeting is tomorrow at ten.", "notes": "On the phone."},
+    {"id": "S016", "scene": "SC4", "start": "00:01:03,200", "end": "00:01:05,800", "speaker": "Arun", "addressee": "Mr. Dass", "text": "Sir, I will come to the office tomorrow."},
+    {"id": "S017", "scene": "SC4", "start": "00:01:06,000", "end": "00:01:07,400", "speaker": "Mr. Dass", "addressee": "Arun", "text": "Don't be late."},
+    {"id": "S018", "scene": "SC4", "start": "00:01:07,800", "end": "00:01:09,600", "speaker": "Arun", "addressee": "Mr. Dass", "text": "Yes, sir. Thank you."},
+    {"id": "S019", "scene": "SC5", "start": "00:01:20,000", "end": "00:01:22,800", "speaker": "Riya", "addressee": "Arun", "text": "Will you leave tomorrow, elder brother?", "notes": "Warm now. Siblings have reconciled."},
+    {"id": "S020", "scene": "SC5", "start": "00:01:23,200", "end": "00:01:25,000", "speaker": "Arun", "addressee": "Riya", "text": "No. I will not leave."},
+    {"id": "S021", "scene": "SC5", "start": "00:01:25,500", "end": "00:01:28,000", "speaker": "Arun", "addressee": "Ama", "text": "Mother, your food is very good."},
+    {"id": "S022", "scene": "SC5", "start": "00:01:28,500", "end": "00:01:30,500", "speaker": "Ama", "addressee": "Bhola", "text": "Headman, are you eating?", "notes": "Hostess checking on a guest."},
+    {"id": "S023", "scene": "SC5", "start": "00:01:31,000", "end": "00:01:34,500", "speaker": "Bhola", "addressee": "Arun", "text": "Yes. Arun, your mother waited for five years."},
+    {"id": "S024", "scene": "SC5", "start": "00:01:35,000", "end": "00:01:37,000", "speaker": "Kabir", "addressee": "everyone", "text": "And I waited for dessert!", "notes": "Joke to break the tension."},
+    {"id": "S025", "scene": "SC5", "start": "00:01:38,000", "end": "00:01:40,500", "speaker": "Riya", "addressee": "Arun", "text": "Welcome home, elder brother."}
+  ]
+}

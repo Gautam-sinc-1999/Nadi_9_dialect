@@ -1,0 +1,38 @@
+{
+  "_provenance": "Recorded from groq:openai/gpt-oss-120b on 2026-09-29 11:07 UTC. Real model output.",
+  "rules": [
+    {
+      "template": "word_order",
+      "params": {
+        "default": "SOV",
+        "time_adverb_position": "pre-subject",
+        "vocative_position": "pre-clause",
+        "question_particle_position": "sentence-final"
+      },
+      "note": "Most clauses follow Subject‑Object‑Verb; temporal adverbs (nesh, brem, osa) appear before the subject; vocatives (dovan, surat, hulmar, baro) precede the clause; the interrogative particle ko follows the verb."
+    },
+    {
+      "template": "particle_position",
+      "params": {
+        "negation": "pre-verb",
+        "question": "post-verb"
+      },
+      "note": "Negation particle na occurs immediately before the verb (e.g., mi so na deken, so chenn na loba); interrogative particle ko appears after the verb at the end of the sentence."
+    },
+    {
+      "template": "affix",
+      "params": {
+        "locative_suffix": "-ma",
+        "future_suffix": "-ru"
+      },
+      "note": "Locative meaning is expressed by attaching -ma to a noun (office‑ma, vessa‑ma = 'in'); verbs that denote future actions end in -ru (khaniru, khanirusa, koriru)."
+    },
+    {
+      "template": "agreement",
+      "params": {
+        "subject_verb_agreement": "none_detected"
+      },
+      "note": "No overt morphological agreement between subject pronouns and verbs is evident in the sample data."
+    }
+  ]
+}

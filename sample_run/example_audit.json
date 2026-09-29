@@ -1,0 +1,184 @@
+[
+  {
+    "example_ref": "examples:E01",
+    "suspicion": 0.0,
+    "suspect": false,
+    "weight": 1.0,
+    "violations": [],
+    "challenges": [],
+    "reason": "consistent with all supported rules"
+  },
+  {
+    "example_ref": "examples:E02",
+    "suspicion": 0.0,
+    "suspect": false,
+    "weight": 1.0,
+    "violations": [],
+    "challenges": [],
+    "reason": "consistent with all supported rules"
+  },
+  {
+    "example_ref": "examples:E03",
+    "suspicion": 0.0,
+    "suspect": false,
+    "weight": 1.0,
+    "violations": [],
+    "challenges": [],
+    "reason": "consistent with all supported rules"
+  },
+  {
+    "example_ref": "examples:E04",
+    "suspicion": 0.0,
+    "suspect": false,
+    "weight": 1.0,
+    "violations": [],
+    "challenges": [],
+    "reason": "consistent with all supported rules"
+  },
+  {
+    "example_ref": "examples:E05",
+    "suspicion": 0.0,
+    "suspect": false,
+    "weight": 1.0,
+    "violations": [],
+    "challenges": [],
+    "reason": "consistent with all supported rules"
+  },
+  {
+    "example_ref": "examples:E06",
+    "suspicion": 0.0,
+    "suspect": false,
+    "weight": 1.0,
+    "violations": [],
+    "challenges": [],
+    "reason": "consistent with all supported rules"
+  },
+  {
+    "example_ref": "examples:E07",
+    "suspicion": 0.0,
+    "suspect": false,
+    "weight": 1.0,
+    "violations": [],
+    "challenges": [],
+    "reason": "consistent with all supported rules"
+  },
+  {
+    "example_ref": "examples:E08",
+    "suspicion": 0.0,
+    "suspect": false,
+    "weight": 1.0,
+    "violations": [],
+    "challenges": [],
+    "reason": "consistent with all supported rules"
+  },
+  {
+    "example_ref": "examples:E09",
+    "suspicion": 0.5,
+    "suspect": false,
+    "weight": 1.0,
+    "violations": [],
+    "challenges": [
+      "expert_notes:KIR-1"
+    ],
+    "reason": "challenged by expert_notes:KIR-1"
+  },
+  {
+    "example_ref": "examples:E10",
+    "suspicion": 0.0,
+    "suspect": false,
+    "weight": 1.0,
+    "violations": [],
+    "challenges": [],
+    "reason": "consistent with all supported rules"
+  },
+  {
+    "example_ref": "examples:E11",
+    "suspicion": 0.0,
+    "suspect": false,
+    "weight": 1.0,
+    "violations": [],
+    "challenges": [],
+    "reason": "consistent with all supported rules"
+  },
+  {
+    "example_ref": "examples:E12",
+    "suspicion": 0.0,
+    "suspect": false,
+    "weight": 1.0,
+    "violations": [],
+    "challenges": [],
+    "reason": "consistent with all supported rules"
+  },
+  {
+    "example_ref": "examples:E13",
+    "suspicion": 0.0,
+    "suspect": false,
+    "weight": 1.0,
+    "violations": [],
+    "challenges": [],
+    "reason": "consistent with all supported rules"
+  },
+  {
+    "example_ref": "examples:E14",
+    "suspicion": 0.0,
+    "suspect": false,
+    "weight": 1.0,
+    "violations": [],
+    "challenges": [],
+    "reason": "consistent with all supported rules"
+  },
+  {
+    "example_ref": "examples:E15",
+    "suspicion": 0.0,
+    "suspect": false,
+    "weight": 1.0,
+    "violations": [],
+    "challenges": [],
+    "reason": "consistent with all supported rules"
+  },
+  {
+    "example_ref": "examples:E16",
+    "suspicion": 0.0,
+    "suspect": false,
+    "weight": 1.0,
+    "violations": [],
+    "challenges": [],
+    "reason": "consistent with all supported rules"
+  },
+  {
+    "example_ref": "examples:E17",
+    "suspicion": 0.0,
+    "suspect": false,
+    "weight": 1.0,
+    "violations": [],
+    "challenges": [],
+    "reason": "consistent with all supported rules"
+  },
+  {
+    "example_ref": "examples:E18",
+    "suspicion": 0.0,
+    "suspect": false,
+    "weight": 1.0,
+    "violations": [],
+    "challenges": [],
+    "reason": "consistent with all supported rules"
+  },
+  {
+    "example_ref": "examples:E19",
+    "suspicion": 0.0,
+    "suspect": false,
+    "weight": 1.0,
+    "violations": [],
+    "challenges": [],
+    "reason": "consistent with all supported rules"
+  },
+  {
+    "example_ref": "examples:E20",
+    "suspicion": 0.0,
+    "suspect": false,
+    "weight": 1.0,
+    "violations": [],
+    "challenges": [],
+    "reason": "consistent with all supported rules"
+  }
+]

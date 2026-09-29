@@ -1,0 +1,597 @@
+{
+  "version": 3,
+  "reason": "EV01 applied: grammar:respect-2: present ending -sa -> -si",
+  "time": "2026-09-29T15:07:17+00:00",
+  "rules": {
+    "grammar:order-1#1": {
+      "status": "supported",
+      "params": {
+        "verb_position": "final"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "grammar:tense-1#1": {
+      "status": "supported",
+      "params": {
+        "kind": "suffix",
+        "form": "a",
+        "feature": "tense=present",
+        "attaches_to": "verb"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "grammar:tense-1#2": {
+      "status": "supported",
+      "params": {
+        "kind": "suffix",
+        "form": "en",
+        "feature": "tense=past",
+        "attaches_to": "verb"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "grammar:tense-1#3": {
+      "status": "supported",
+      "params": {
+        "kind": "suffix",
+        "form": "iru",
+        "feature": "tense=future",
+        "attaches_to": "verb"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "grammar:neg-1#1": {
+      "status": "supported",
+      "params": {
+        "particle": "na",
+        "relative_to": "verb",
+        "position": "before",
+        "feature": "negation"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "grammar:q-1#1": {
+      "status": "supported",
+      "params": {
+        "particle": "ko",
+        "relative_to": "clause_end",
+        "position": "at",
+        "feature": "yes_no_question"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "grammar:respect-2#1": {
+      "status": "supported",
+      "params": {
+        "if_word": "tavo",
+        "then_affix": "sa",
+        "on": "verb",
+        "tenses": [
+          "present",
+          "past",
+          "future"
+        ],
+        "affix_by_tense": {
+          "present": "si"
+        }
+      },
+      "version": 2,
+      "by_feature": {
+        "past": {
+          "support": 2.56,
+          "counter": 0.0
+        },
+        "future": {
+          "support": 2.0,
+          "counter": 0.0
+        },
+        "present": {
+          "support": 1.0,
+          "counter": 0.0
+        }
+      }
+    },
+    "grammar:respect-1#1": {
+      "status": "supported",
+      "params": {
+        "term": "tu",
+        "condition": "condition: None; allowed status: ['equal', 'lower']",
+        "allowed_status": [
+          "equal",
+          "lower"
+        ]
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "grammar:respect-1#2": {
+      "status": "supported",
+      "params": {
+        "term": "tavo",
+        "condition": "condition: None; allowed status: ['higher']",
+        "allowed_status": [
+          "higher"
+        ]
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "grammar:respect-3#1": {
+      "status": "unsupported",
+      "params": {
+        "term": "tavora",
+        "condition": "condition: None; allowed status: ['higher']",
+        "allowed_status": [
+          "higher"
+        ]
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "grammar:plural-1#1": {
+      "status": "weak",
+      "params": {
+        "kind": "suffix",
+        "form": "li",
+        "feature": "number=plural",
+        "attaches_to": "noun"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "grammar:loc-1#1": {
+      "status": "weak",
+      "params": {
+        "kind": "suffix",
+        "form": "ma",
+        "feature": "case=locative",
+        "attaches_to": "noun"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "grammar:neg-1#2": {
+      "status": "untested",
+      "params": {
+        "topic": "negation of future forms, and negative commands"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "grammar:q-2#1": {
+      "status": "untested",
+      "params": {
+        "topic": "whether `ko` is also used with question words"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "grammar:kin-1#1": {
+      "status": "untested",
+      "params": {
+        "topic": "use of dovanor"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "grammar:plural-1#2": {
+      "status": "untested",
+      "params": {
+        "topic": "whether English loanwords take `-li`"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "grammar:num-1#1": {
+      "status": "untested",
+      "params": {
+        "topic": "numbers 6\u20139 and above 10"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "grammar:respect-1#3": {
+      "status": "untested",
+      "params": {
+        "topic": "address to elder siblings"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "induced:verb_position": {
+      "status": "supported",
+      "params": {
+        "verb_position": "final"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "induced:code_switching": {
+      "status": "supported",
+      "params": {
+        "seen": [
+          "meeting",
+          "office",
+          "phone",
+          "report"
+        ]
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "induced:particle:na:before_verb": {
+      "status": "supported",
+      "params": {
+        "particle": "na",
+        "relative_to": "verb",
+        "position": "before"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "induced:particle:ko:after_verb": {
+      "status": "supported",
+      "params": {
+        "particle": "ko",
+        "relative_to": "verb",
+        "position": "after"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "induced:particle:ko:clause_end": {
+      "status": "supported",
+      "params": {
+        "particle": "ko",
+        "relative_to": "clause_end",
+        "position": "at"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "expert_notes:VAR-1#1": {
+      "status": "weak",
+      "params": {
+        "term": "dovanor",
+        "allowed_status": [
+          "elder_sibling"
+        ],
+        "requires_tag": "estranged",
+        "condition": "allowed status: ['elder_sibling']; requires tag: estranged"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "expert_notes:REH-1#1": {
+      "status": "unsupported",
+      "params": {
+        "term": "dovanor",
+        "allowed_status": [
+          "elder_sibling"
+        ],
+        "always": true,
+        "condition": "allowed status: ['elder_sibling']; always: True"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "expert_notes:REH-3#1": {
+      "status": "refuted",
+      "params": {
+        "term": "sorai",
+        "allowed_status": [
+          "higher"
+        ],
+        "condition": "allowed status: ['higher']"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "expert_notes:KIR-4#1": {
+      "status": "weak",
+      "params": {
+        "term": "sorai",
+        "allowed_status": [
+          "equal"
+        ],
+        "forbidden_status": [
+          "higher"
+        ],
+        "condition": "allowed status: ['equal']; forbidden status: ['higher']"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "expert_notes:KIR-1#1": {
+      "status": "supported",
+      "params": {
+        "term": "tu",
+        "forbidden_status": [
+          "higher"
+        ],
+        "condition": "forbidden status: ['higher']"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "dictionary_b:B-028#1": {
+      "status": "weak",
+      "params": {
+        "term": "sorai",
+        "allowed_status": [
+          "equal"
+        ],
+        "forbidden_status": [
+          "higher"
+        ],
+        "condition": "allowed status: ['equal']; forbidden status: ['higher']"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "dictionary_b:B-002#1": {
+      "status": "supported",
+      "params": {
+        "term": "tu",
+        "allowed_status": [
+          "equal",
+          "lower"
+        ],
+        "condition": "allowed status: ['equal', 'lower']"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "dictionary_b:B-003#1": {
+      "status": "supported",
+      "params": {
+        "term": "tavo",
+        "allowed_status": [
+          "higher"
+        ],
+        "condition": "allowed status: ['higher']"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "dictionary_b:B-009#1": {
+      "status": "unsupported",
+      "params": {
+        "term": "tavora",
+        "allowed_status": [
+          "higher"
+        ],
+        "condition": "allowed status: ['higher']"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "dictionary_b:B-022#1": {
+      "status": "unsupported",
+      "params": {
+        "term": "dovanor",
+        "allowed_status": [
+          "elder_sibling"
+        ],
+        "condition": "allowed status: ['elder_sibling']"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "expert_notes:VAR-3#1": {
+      "status": "untested",
+      "params": {
+        "topic": "pluralization of English nouns with -li"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "expert_notes:KIR-3#1": {
+      "status": "untested",
+      "params": {
+        "topic": "future negation forms (na veliru vs velnai)"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "model:proposal1": {
+      "status": "supported",
+      "params": {
+        "verb_position": "final"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "model:proposal2": {
+      "status": "refuted",
+      "params": {
+        "kind": "suffix",
+        "form": "ru",
+        "feature": "tense=future",
+        "attaches_to": "verb"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "model:proposal3": {
+      "status": "supported",
+      "params": {
+        "kind": "suffix",
+        "form": "en",
+        "feature": "tense=past",
+        "attaches_to": "verb"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "model:proposal4": {
+      "status": "refuted",
+      "params": {
+        "particle": "na",
+        "relative_to": "verb",
+        "position": "after",
+        "feature": "negation"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "model:proposal5": {
+      "status": "supported",
+      "params": {
+        "particle": "ko",
+        "relative_to": "clause_end",
+        "position": "at",
+        "feature": "yes_no_question"
+      },
+      "version": 1,
+      "by_feature": {}
+    },
+    "model:proposal6": {
+      "status": "supported",
+      "params": {
+        "if_word": "tavo",
+        "then_affix": "sa",
+        "on": "verb",
+        "tenses": [
+          "present",
+          "past",
+          "future"
+        ]
+      },
+      "version": 1,
+      "by_feature": {
+        "past": {
+          "support": 2.56,
+          "counter": 0.0
+        },
+        "future": {
+          "support": 2.0,
+          "counter": 0.0
+        },
+        "present": {
+          "support": 0.0,
+          "counter": 0.0
+        }
+      }
+    }
+  },
+  "suspect_examples": [
+    "examples:E14"
+  ],
+  "decisions": {
+    "S001": {
+      "decision": "HUMAN_REVIEW",
+      "text": "tavo rovensa dovanor ko",
+      "confidence": 0.21,
+      "state_version": 2
+    },
+    "S002": {
+      "decision": "APPROVE",
+      "text": "ha mi roven",
+      "confidence": 0.85,
+      "state_version": 2
+    },
+    "S003": {
+      "decision": "HUMAN_REVIEW",
+      "text": "pavo yoru [?and] na yem phone pal",
+      "confidence": 0.0,
+      "state_version": 2
+    },
+    "S004": {
+      "decision": "HUMAN_REVIEW",
+      "text": "mi esha tovar",
+      "confidence": 0.35,
+      "state_version": 2
+    },
+    "S005": {
+      "decision": "HUMAN_REVIEW",
+      "text": "riya kiro dovar-ma esha ko",
+      "confidence": 0.47,
+      "state_version": 2
+    },
+    "S009": {
+      "decision": "HUMAN_REVIEW",
+      "text": "salo sorai vessa [?boy] roven",
+      "confidence": 0.0,
+      "state_version": 1
+    },
+    "S010": {
+      "decision": "HUMAN_REVIEW",
+      "text": "kabir tu na morven sabu",
+      "confidence": 0.17,
+      "state_version": 1
+    },
+    "S011": {
+      "decision": "HUMAN_REVIEW",
+      "text": "mi morven eno mi khana tosh-guna mira ama [?ask]",
+      "confidence": 0.0,
+      "state_version": 1
+    },
+    "S012": {
+      "decision": "HUMAN_REVIEW",
+      "text": "salo [?friend] tam bes sath mas",
+      "confidence": 0.0,
+      "state_version": 1
+    },
+    "S013": {
+      "decision": "HUMAN_REVIEW",
+      "text": "arun tu veliru vessa-ma ko",
+      "confidence": 0.28,
+      "state_version": 1
+    },
+    "S014": {
+      "decision": "APPROVE",
+      "text": "hulmar mi na jana",
+      "confidence": 0.85,
+      "state_version": 1
+    },
+    "S019": {
+      "decision": "HUMAN_REVIEW",
+      "text": "tavo nasirusa brem dovan ko",
+      "confidence": 0.28,
+      "state_version": 1
+    },
+    "S020": {
+      "decision": "HUMAN_REVIEW",
+      "text": "nu mi na nasiru",
+      "confidence": 0.47,
+      "state_version": 1
+    },
+    "S021": {
+      "decision": "APPROVE",
+      "text": "ama tavora manu gura suma esha",
+      "confidence": 1.0,
+      "state_version": 1
+    },
+    "S022": {
+      "decision": "APPROVE",
+      "text": "hulmar tavo khanasi ko",
+      "confidence": 0.9,
+      "state_version": 3
+    },
+    "S023": {
+      "decision": "HUMAN_REVIEW",
+      "text": "ha arun tavora ama pavo yoru raken",
+      "confidence": 0.19,
+      "state_version": 1
+    },
+    "S024": {
+      "decision": "HUMAN_REVIEW",
+      "text": "[?and] mi raken meethu",
+      "confidence": 0.0,
+      "state_version": 1
+    },
+    "S025": {
+      "decision": "HUMAN_REVIEW",
+      "text": "salo gedo dovan",
+      "confidence": 0.77,
+      "state_version": 1
+    }
+  }
+}
