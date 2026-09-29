@@ -275,12 +275,18 @@ def cmd_decide(a: argparse.Namespace) -> int:
 
 
 def cmd_run(a: argparse.Namespace) -> int:
+    from .operate import RunConfig, rel, save_config
     from .run import Run
     pack, out = Path(a.pack), Path(a.out)
+    if a.provider == "groq" and not a.record:
+        a.record = str(out / "answers")  # so the run can be reopened in the UI without new model calls
     budget = Budget(a.max_model_calls, a.max_tool_calls)
     r = Run(pack, _provider(a, pack), _transcriber(a), budget)
     st = r.execute()
     verdict = r.write(out)
+    fixtures = None if a.provider == "mock" else rel(a.record if a.provider == "groq" else (a.fixtures or FIXTURES))
+    save_config(out, RunConfig(pack=rel(pack), provider="replay" if a.provider == "groq" else a.provider,
+                               fixtures=fixtures, max_model_calls=a.max_model_calls, max_tool_calls=a.max_tool_calls))
     print(f"provider {r.provider.name}  model calls {budget.usage.model_calls}/{budget.usage.max_model_calls}  "
           f"tool calls {budget.usage.tool_calls}/{budget.usage.max_tool_calls}  final state v{st.version}\n")
     for line in st.order_log:

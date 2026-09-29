@@ -1,7 +1,7 @@
 {
   "version": 4,
   "reason": "EV02 applied: example E14: 'sol hulm nasiru.' -> 'sol hulm nasen.' (already flagged suspect by the example audit before this event)",
-  "time": "2026-09-29T15:07:18+00:00",
+  "time": "2026-09-29T15:43:35+00:00",
   "rules": {
     "grammar:order-1#1": {
       "status": "supported",

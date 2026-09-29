@@ -1,7 +1,7 @@
 {
   "version": 3,
   "reason": "EV01 applied: grammar:respect-2: present ending -sa -> -si",
-  "time": "2026-09-29T15:07:17+00:00",
+  "time": "2026-09-29T15:43:35+00:00",
   "rules": {
     "grammar:order-1#1": {
       "status": "supported",

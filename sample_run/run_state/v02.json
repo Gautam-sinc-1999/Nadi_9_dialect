@@ -1,7 +1,7 @@
 {
   "version": 2,
   "reason": "EV03 applied: example E09: 'surat, brem tu tamiru ko?' -> 'surat, brem tavo tamirusa ko?' (already flagged suspect by the example audit before this event)",
-  "time": "2026-09-29T15:07:17+00:00",
+  "time": "2026-09-29T15:43:35+00:00",
   "rules": {
     "grammar:order-1#1": {
       "status": "supported",

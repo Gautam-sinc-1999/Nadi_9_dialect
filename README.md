@@ -28,10 +28,28 @@ PYTHONPATH=src python3 -m nadi9 run --pack packs/synthetic --out runs/demo
 PYTHONPATH=src python3 -m nadi9 run --pack packs/synthetic --out runs/demo_real \
     --provider replay --fixtures fixtures/recorded_full
 
-python3 -m pytest -q            # 162 tests, about 2 s, no network
+python3 -m pytest -q            # 220 tests, about 30 s, no network (UI tests skip without streamlit)
 ```
 
 Open `runs/demo/final_report.md` first.
+
+## Operate it in the browser (Streamlit)
+
+```bash
+pip install streamlit           # pandas comes with it
+streamlit run ui/app.py         # opens http://localhost:8501
+```
+
+| Screen | What you do |
+|---|---|
+| **New run** | pick a pack in the project or **upload one** (files or a .zip), pick the model (recorded answers, Groq with a key from `.env` or typed in for the session, or no model), set the budget, start, and watch the progress |
+| **Review** | go through the lines (filter by open / approved / rejected / needs re-review, by priority, or search); for each: the proposal, the agent's question, the evidence and checks; then **approve, edit and approve, or reject** |
+| **Corrections** | submit a linguist's correction (a rule's ending, an approved example, or a free-text message read by the model). It is validated, applied, and only affected lines are redone; your reviews of changed lines are flagged for re-review |
+| **Export** | the final subtitles (your decisions merged with the agent's), a working file with open lines marked, decisions with reviews, the review log and the agent's report |
+
+Everything the UI does goes through `src/nadi9/operate.py`, the same code the tests use. A run folder is
+self-contained (`run_config.json`, recorded model answers, `corrections.json`, `human_reviews.json`), so a run can be
+reopened later, including after moving the project, without new model calls.
 
 ## With a real model (Groq)
 
@@ -107,7 +125,8 @@ src/nadi9/
 packs/           synthetic/ (Nadi-9), variant_veshti/ (second pack), synthetic_answer_key.json (tests only)
 fixtures/        replay/ (hand-written, with planted mistakes), recorded/ and recorded_full/ (real Groq output),
                  recorded_run1_before_schema_fix/ (kept as evidence, see AI_COLLABORATION.md)
-tests/           162 tests, one file per stage, plus the Groq provider and audio
+tests/           220 tests: one file per stage, the Groq provider, audio, operations, the UI and its mapping to the backend
+ui/app.py        Streamlit operator UI (src/nadi9/operate.py underneath)
 sample_run/      the required sample run
 plan.md          the design, stage by stage, with results and every decision made while building
 ```

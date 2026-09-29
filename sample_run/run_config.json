@@ -1,0 +1,9 @@
+{
+  "pack": "packs/synthetic",
+  "provider": "replay",
+  "fixtures": "fixtures/recorded_full",
+  "model": null,
+  "max_model_calls": 25,
+  "max_tool_calls": 50,
+  "created": "2026-09-29 21:13:35"
+}

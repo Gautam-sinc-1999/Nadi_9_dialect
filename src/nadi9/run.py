@@ -135,7 +135,9 @@ class Run:
         self._snapshot("learned the pack and planned the episode")
 
     # ---- main loop ----
-    def execute(self) -> RunState:
+    def execute(self, progress=None) -> RunState:
+        """`progress(message)` is called as scenes and events are processed (used by the UI)."""
+        say = progress or (lambda _m: None)
         done: set[str] = set()
         pending_scenes = [sc.scene for sc in self.plan.order]
         fired: set[str] = set()
@@ -143,11 +145,13 @@ class Run:
             scene = pending_scenes.pop(0)
             sc = next(s for s in self.plan.order if s.scene == scene)
             self.state.order_log.append(f"v{self.state.version}: scene {scene} ({sc.rationale[:80]})")
+            say(f"scene {scene}: translating {len(sc.lines)} line(s), verifying, deciding")
             self._process_lines(sc, None, "")
             done |= set(sc.lines)
             for ev in self.events:
                 if ev.event_id not in fired and ev.trigger_after in sc.lines:
                     fired.add(ev.event_id)
+                    say(f"correction {ev.event_id} arrived: applying and replanning")
                     self._apply(ev, done)
                     # remaining scenes follow the new risk order
                     new_order = [s.scene for s in self.plan.order if s.scene in pending_scenes]
@@ -181,6 +185,21 @@ class Run:
         return [p.line_id for p in props]
 
     # ---- events ----
+    def apply_event(self, event: dict[str, Any]) -> dict[str, Any]:
+        """Apply one correction after the run (e.g. submitted in the UI) exactly like a mid-run event:
+        validate, version, diff, redo only affected lines. Returns the replan-log entry (or the refusal)."""
+        eid = str(event.get("event_id") or f"UI-{len(self.state.replan_log) + len(self.state.event_items) + 1}")
+        raw = RawEvent(ref=f"{eid}:event", source_id=eid, native_id="event", text=json.dumps(event),
+                       raw={**event, "event_id": eid} if event.get("type") else {})
+        if not event.get("type"):
+            raw.text = str(event.get("message", ""))
+        n_items = len(self.state.event_items)
+        ev = self._parse(raw)
+        if ev is None:  # free text the model could not (or was not available to) read
+            return {"event": eid, "applied": False, **(self.state.event_items[n_items] if len(self.state.event_items) > n_items else {})}
+        self._apply(ev, set(self.state.decisions))
+        return self.state.replan_log[-1]
+
     def _parse_events(self) -> list[ParsedEvent]:
         out = []
         for raw in self.L.canon.events:
@@ -305,6 +324,8 @@ class Run:
             raise ValueError(f"stale challenge: {eid} currently reads {ex.target_text!r}")
         if not ch.get("new_nadi_9"):
             raise ValueError("challenge gives no corrected text")
+        if normalise(ch["new_nadi_9"]) == normalise(ex.target_text):
+            raise ValueError(f"nothing to change: {eid} already reads {ex.target_text!r}")
         audit = next((a for a in self.L.audit if a.example_ref == ex.ref), None)
         already = bool(audit and audit.suspect)
         ex.raw = {**ex.raw, "history": ex.raw.get("history", []) + [{"text": ex.target_text, "changed_by": ev.event_id}]}
@@ -347,6 +368,8 @@ class Run:
         (out / "proposals.json").write_text(dump([self.state.proposals[k] for k in sorted(self.state.proposals)]))
         (out / "verification.json").write_text(dump([self.state.verifications[k] for k in sorted(self.state.verifications)]))
         (out / "plan.json").write_text(self.plan.model_dump_json(indent=2))
+        (out / "pack_profile.json").write_text(self.L.profile.model_dump_json(indent=2))
+        (out / "canonical_pack.json").write_text(self.L.canon.model_dump_json(indent=2))  # the text behind every ref
         (out / "learned_lexicon.json").write_text(dump(self.L.claims))
         (out / "source_trust.json").write_text(dump(self.L.trust))
         (out / "example_audit.json").write_text(dump(self.L.audit))

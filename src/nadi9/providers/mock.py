@@ -43,6 +43,17 @@ class MockProvider(LLMProvider):
         self._calls: dict[str, int] = {}
         self.name = "replay" if self.fixtures else "mock"
 
+    KEYED = {"classify_role": "source_id", "map_fields": "source_id", "extract_rules": "source_id",
+             "translate_scene": "scene", "parse_event": "source_id"}
+
+    def has(self, task: str, payload: dict[str, Any]) -> bool:
+        """Is there a recorded answer for exactly this request?"""
+        fx = self.fixtures.get(task)
+        if fx is None:
+            return False
+        key = self.KEYED.get(task)
+        return key is None or str(payload.get(key)) in fx
+
     def complete_json(self, task: str, system: str, payload: dict[str, Any]) -> dict[str, Any]:
         n = self._calls.get(task, 0) + 1
         self._calls[task] = n
